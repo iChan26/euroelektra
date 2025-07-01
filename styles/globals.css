@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap');
+
+
+/* styles/globals.css */
+@font-face {
+  font-family: 'Termina';
+  src: url('/fonts/Termina-Regular.woff2') format('woff2'); /* Adjust path and formats */
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Termina', 'Inter', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+/* tailwind text stroke utility */
+.stroke-text {
+  -webkit-text-stroke: 0.6px white;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.6);
+}
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  80% {
+    width: 100%;
+  }
+  93% {
+    width: 100%; /* Hold the full text for ~3s */
+  }
+  100% {
+    width: 0;
+  }
+}
+
+.animate-typewriter {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid black;
+  animation: typewriter 6s steps(60, end) infinite;
+}
+@layer utilities {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-out forwards;
+  }
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
