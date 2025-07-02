@@ -6,6 +6,14 @@ import Link from 'next/link';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import { HiOutlineMenu, HiOutlineX, HiOutlineSearch } from 'react-icons/hi';
 import { usePathname } from 'next/navigation'; // if not already in your file
+import { motion } from "framer-motion";
+import {
+  FaNetworkWired,
+  FaBriefcase,
+  FaGlobe,
+  FaCube,
+  FaSolarPanel,
+} from "react-icons/fa";
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,6 +61,34 @@ useEffect(() => {
 
   return () => clearTimeout(timeout);
 }, [charIndex, deleting, wordIndex, words]);
+
+const items = [
+  {
+    icon: <FaNetworkWired />,
+    title: "Official distributor",
+    subtitle: "of professional electrical brands",
+  },
+  {
+    icon: <FaBriefcase />,
+    title: "8+",
+    subtitle: "years of experience",
+  },
+  {
+    icon: <FaGlobe />,
+    title: "40+",
+    subtitle: "international partners",
+  },
+  {
+    icon: <FaCube />,
+    title: "8000+",
+    subtitle: "products",
+  },
+  {
+    icon: <FaSolarPanel />,
+    title: "Designing",
+    subtitle: "Technical assistance of photovoltaic plants",
+  },
+];
 
 
   useEffect(() => {
@@ -549,13 +585,102 @@ useEffect(() => {
   </div>
 </section>
 
-<section className="bg-[#282828] w-full h-[15vh] md:h-[40vh]">
- <div
-  className="w-full h-full bg-contain bg-no-repeat bg-center"
-  style={{ backgroundImage: "url('/img/english1.jpg')" }}
-></div>
+<section className="bg-[#111] text-white py-20 relative overflow-hidden">
+  <div className="relative max-w-7xl mx-auto px-4">
+    {/* Timeline line - hidden on mobile, horizontal on desktop */}
+    <div className="hidden sm:block absolute sm:top-1/2 sm:left-0 sm:w-full sm:h-1 bg-blue-600 z-0" />
+
+    <div className="flex flex-col sm:flex-row justify-between items-center sm:gap-6 gap-20 relative z-10">
+      {items.map((item, index) => {
+        const isEven = index % 2 === 0;
+
+        return (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: index * 0.2 }}
+            viewport={{ once: true }}
+            className={`
+              relative flex flex-col
+              w-full sm:w-1/5
+              items-center text-center
+            `}
+          >
+            {/* Timeline node - visible only on desktop */}
+            <div className="hidden sm:block absolute sm:top-1/2 sm:left-auto sm:-translate-y-1/2 sm:translate-x-0 w-6 h-6 rounded-full bg-gray-900 border-4 border-blue-600 z-10" />
+
+            {/* Layout: mobile (stacked), desktop (alternating) */}
+            <div className="flex flex-col items-center z-20 sm:hidden">
+              <motion.div
+                whileHover={{
+                  scale: 1.15,
+                  rotate: [0, -5, 5, 0],
+                }}
+                transition={{
+                  type: "tween",
+                  duration: 0.4,
+                  ease: "easeInOut",
+                }}
+                className="text-blue-500 text-4xl mb-4 transition duration-300 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.9)]"
+              >
+                {item.icon}
+              </motion.div>
+              <h3 className="text-base font-semibold">{item.title}</h3>
+              <p className="text-sm mt-1">{item.subtitle}</p>
+            </div>
+
+            {/* Desktop layout */}
+            <div className="hidden sm:flex flex-col items-center text-center z-20">
+              {isEven ? (
+                <>
+                  <motion.div
+                    whileHover={{
+                      scale: 1.15,
+                      rotate: [0, -5, 5, 0],
+                    }}
+                    transition={{
+                      type: "tween",
+                      duration: 0.4,
+                      ease: "easeInOut",
+                    }}
+                    className="text-blue-500 text-4xl mb-4 transition duration-300 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.9)]"
+                  >
+                    {item.icon}
+                  </motion.div>
+                  <h3 className="text-lg mt-20 font-semibold">{item.title}</h3>
+                  <p className="text-sm mt-1">{item.subtitle}</p>
+                </>
+              ) : (
+                <>
+                  <h3 className="text-lg mb-2 font-semibold">{item.title}</h3>
+                  <p className="text-sm mb-20">{item.subtitle}</p>
+                  <motion.div
+                    whileHover={{
+                      scale: 1.15,
+                      rotate: [0, -5, 5, 0],
+                    }}
+                    transition={{
+                      type: "tween",
+                      duration: 0.4,
+                      ease: "easeInOut",
+                    }}
+                    className="text-blue-500 text-4xl transition duration-300 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.9)]"
+                  >
+                    {item.icon}
+                  </motion.div>
+                </>
+              )}
+            </div>
+          </motion.div>
+        );
+      })}
+    </div>
+  </div>
 </section>
 
+
+    
 <section className="bg-[#000] py-16 px-6 md:px-16">
   <div className="max-w-7xl mx-auto">
     <h2 className="text-3xl font-bold text-white mb-12">
@@ -603,7 +728,7 @@ useEffect(() => {
   <div className="relative">
     <div className="marquee flex whitespace-nowrap animate-marquee">
       {Array.from({ length: 2 }).map((_, i) => (
-        <div key={i} className="flex items-center gap-12 px-6">
+        <div key={i} className="flex items-center gap-12 px-6 min-w-full">
           {[
             'brand01.jpg', 'brand02.png', 'brand03.png', 'brand04.png',
             'brand05.png', 'brand06.png', 'brand07.png', 'brand08.png',
@@ -624,7 +749,6 @@ useEffect(() => {
     </div>
   </div>
 </section>
-
 
 
 
