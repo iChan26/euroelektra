@@ -16,6 +16,8 @@ import {
 } from "react-icons/fa";
 
 export default function Home() {
+
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showHeader, setShowHeader] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);

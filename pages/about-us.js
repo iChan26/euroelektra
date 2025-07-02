@@ -169,74 +169,74 @@ useEffect(() => {
   }`}
 >
   {["Home", "About Us", "Sectors", "Projects", "Events"].map((item, i) => {
-    const href = `/${item.toLowerCase().replace(/ /g, "-")}`;
-    const isActive = pathname === href || (item === "Home" && pathname === "/");
+  const href = item === "Home" ? "/" : `/${item.toLowerCase().replace(/ /g, "-")}`;
+  const isActive = pathname === href || (item === "Home" && pathname === "/");
 
-    if (item === "Sectors") {
-      return (
-        <div key={i} className="relative group">
-          <span
-            className={`relative pb-1 cursor-pointer flex items-center gap-1 transition-all duration-300
-              before:content-[''] before:absolute before:left-0 before:-bottom-0.5
-              before:h-[2px] before:bg-current before:transition-all before:duration-300
-              ${isActive ? "font-bold before:w-full" : "hover:font-bold before:w-0 group-hover:before:w-full"}
-            `}
-          >
-            {item}
-            <svg
-              className={`w-3 h-3 transition-transform duration-300 group-hover:rotate-90 ${
-                atTop ? "text-white" : "text-black"
-              }`}
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-          </span>
-
-          {/* Submenu */}
-          <div
-            className={`absolute top-full mt-2 bg-white shadow-md rounded-md py-2 px-4 space-y-2 z-50 hidden group-hover:block text-black text-xs tracking-wide`}
-          >
-            {[
-              "Electrical Products",
-              "Security Automation",
-              "Lighting ShowRoom",
-              "Energy Efficiency",
-              "Renewable Energy",
-              "Smart Building",
-            ].map((sub, idx) => (
-              <Link
-                key={idx}
-                href={`/sectors/${sub.toLowerCase().replace(/ /g, "-")}`}
-                className="block hover:font-semibold whitespace-nowrap transition-colors duration-200"
-              >
-                {sub}
-              </Link>
-            ))}
-          </div>
-        </div>
-      );
-    }
-
+  if (item === "Sectors") {
     return (
-      <Link
-        key={i}
-        href={href}
-        className={`relative pb-1 transition-all duration-300
-          before:content-[''] before:absolute before:left-0 before:-bottom-0.5
-          before:h-[2px] before:bg-current before:transition-all before:duration-300
-          ${isActive
-            ? "font-bold before:w-full"
-            : "hover:font-bold before:w-0 hover:before:w-full"
-          }`}
-      >
-        {item}
-      </Link>
+      <div key={i} className="relative group">
+        <span
+          className={`relative pb-1 cursor-pointer flex items-center gap-1 transition-all duration-300
+            before:content-[''] before:absolute before:left-0 before:-bottom-0.5
+            before:h-[2px] before:bg-current before:transition-all before:duration-300
+            ${isActive ? "font-bold before:w-full" : "hover:font-bold before:w-0 group-hover:before:w-full"}`}
+        >
+          {item}
+          <svg
+            className={`w-3 h-3 transition-transform duration-300 group-hover:rotate-90 ${
+              atTop ? "text-white" : "text-black"
+            }`}
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </span>
+
+        {/* Submenu */}
+        <div
+          className="absolute top-full mt-2 bg-white shadow-md rounded-md py-2 px-4 space-y-2 z-50 hidden group-hover:block text-black text-xs tracking-wide"
+        >
+          {[
+            "Electrical Products",
+            "Security Automation",
+            "Lighting ShowRoom",
+            "Energy Efficiency",
+            "Renewable Energy",
+            "Smart Building",
+          ].map((sub, idx) => (
+            <Link
+              key={idx}
+              href={`/sectors/${sub.toLowerCase().replace(/ /g, "-")}`}
+              className="block hover:font-semibold whitespace-nowrap transition-colors duration-200"
+            >
+              {sub}
+            </Link>
+          ))}
+        </div>
+      </div>
     );
-  })}
+  }
+
+  return (
+    <Link
+      key={i}
+      href={href}
+      className={`relative pb-1 transition-all duration-300
+        before:content-[''] before:absolute before:left-0 before:-bottom-0.5
+        before:h-[2px] before:bg-current before:transition-all before:duration-300
+        ${isActive
+          ? "font-bold before:w-full"
+          : "hover:font-bold before:w-0 hover:before:w-full"
+        }`}
+    >
+      {item}
+    </Link>
+  );
+})}
+
 
   {/* Search Icon */}
   <button className="focus:outline-none">
