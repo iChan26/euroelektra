@@ -334,19 +334,13 @@ useEffect(() => {
   />
 </Head>
 
-
 {/* HEADER */}
 <header
   className={`fixed top-0 left-0 w-full z-50 transition-all duration-300
-    ${
-      atTop
-        ? "bg-transparent h-full"
-        : isScrollingDown
-        ? "bg-white h-auto shadow-md"
-        : "bg-black h-auto"
-    }
+    ${atTop ? "bg-transparent h-full" : "bg-white h-auto shadow-md"}
     pointer-events-none`}
 >
+
   <div className="relative flex justify-between items-start md:items-center px-6 pt-6 md:pt-4 md:py-4 pointer-events-auto">
     {/* Logo */}
     <Link href="/">
@@ -367,85 +361,85 @@ useEffect(() => {
   className={`hidden md:flex transition-all duration-300 uppercase text-sm tracking-[0.25em] ${
     atTop
       ? "flex-col absolute top-10 right-10 space-y-2 text-white items-start text-left"
-      : "flex-row relative space-x-8 text-black items-center"
+      : "flex-row relative space-x-8 text-blue-400 items-center"
   }`}
 >
   {["Home", "About Us", "Sectors", "Projects", "Events"].map((item, i) => {
-  const href = item === "Home" ? "/" : `/${item.toLowerCase().replace(/ /g, "-")}`;
-  const isActive = pathname === href || (item === "Home" && pathname === "/");
+    const href = `/${item.toLowerCase().replace(/ /g, "-")}`;
+    const isActive = pathname === href || (item === "Home" && pathname === "/");
 
-  if (item === "Sectors") {
-    return (
-      <div key={i} className="relative group">
-        <span
-          className={`relative pb-1 cursor-pointer flex items-center gap-1 transition-all duration-300
-            before:content-[''] before:absolute before:left-0 before:-bottom-0.5
-            before:h-[2px] before:bg-current before:transition-all before:duration-300
-            ${isActive ? "font-bold before:w-full" : "hover:font-bold before:w-0 group-hover:before:w-full"}`}
-        >
-          {item}
-          <svg
-            className={`w-3 h-3 transition-transform duration-300 group-hover:rotate-90 ${
-              atTop ? "text-white" : "text-black"
-            }`}
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            viewBox="0 0 24 24"
+    if (item === "Sectors") {
+      return (
+        <div key={i} className="relative group">
+          <span
+            className={`relative pb-1 cursor-pointer flex items-center gap-1 transition-all duration-300
+              before:content-[''] before:absolute before:left-0 before:-bottom-0.5
+              before:h-[2px] before:bg-current before:transition-all before:duration-300
+              ${isActive ? "font-bold before:w-full" : "hover:font-bold before:w-0 group-hover:before:w-full"}
+            `}
           >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-          </svg>
-        </span>
-
-        {/* Submenu */}
-        <div
-          className="absolute top-full mt-2 bg-white shadow-md rounded-md py-2 px-4 space-y-2 z-50 hidden group-hover:block text-black text-xs tracking-wide"
-        >
-          {[
-            "Electrical Products",
-            "Security Automation",
-            "Lighting ShowRoom",
-            "Energy Efficiency",
-            "Renewable Energy",
-            "Smart Building",
-          ].map((sub, idx) => (
-            <Link
-              key={idx}
-              href={`/sectors/${sub.toLowerCase().replace(/ /g, "-")}`}
-              className="block hover:font-semibold whitespace-nowrap transition-colors duration-200"
+            {item}
+            <svg
+              className={`w-3 h-3 transition-transform duration-300 group-hover:rotate-90 ${
+                atTop ? "text-white" : "text-blue-400"
+              }`}
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
             >
-              {sub}
-            </Link>
-          ))}
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </span>
+
+          {/* Submenu */}
+          <div
+            className={`absolute top-full mt-2 bg-white shadow-md rounded-md py-2 px-4 space-y-2 z-50 hidden group-hover:block text-black text-xs tracking-wide`}
+          >
+            {[
+              "Electrical Products",
+              "Security Automation",
+              "Lighting ShowRoom",
+              "Energy Efficiency",
+              "Renewable Energy",
+              "Smart Building",
+            ].map((sub, idx) => (
+              <Link
+                key={idx}
+                href={`/sectors/${sub.toLowerCase().replace(/ /g, "-")}`}
+                className="block hover:font-semibold whitespace-nowrap transition-colors duration-200"
+              >
+                {sub}
+              </Link>
+            ))}
+          </div>
         </div>
-      </div>
+      );
+    }
+
+    return (
+      <Link
+        key={i}
+        href={href}
+        className={`relative pb-1 transition-all duration-300
+          before:content-[''] before:absolute before:left-0 before:-bottom-0.5
+          before:h-[2px] before:bg-current before:transition-all before:duration-300
+          ${isActive
+            ? "font-bold before:w-full"
+            : "hover:font-bold before:w-0 hover:before:w-full"
+          }`}
+      >
+        {item}
+      </Link>
     );
-  }
-
-  return (
-    <Link
-      key={i}
-      href={href}
-      className={`relative pb-1 transition-all duration-300
-        before:content-[''] before:absolute before:left-0 before:-bottom-0.5
-        before:h-[2px] before:bg-current before:transition-all before:duration-300
-        ${isActive
-          ? "font-bold before:w-full"
-          : "hover:font-bold before:w-0 hover:before:w-full"
-        }`}
-    >
-      {item}
-    </Link>
-  );
-})}
-
+  })}
 
   {/* Search Icon */}
   <button className="focus:outline-none">
     <HiOutlineSearch
       size={20}
       className={`transition-colors duration-300 ${
-        atTop ? "text-white" : "text-black"
+        atTop ? "text-white" : "text-blue-400"
       }`}
     />
   </button>
@@ -533,77 +527,89 @@ useEffect(() => {
 
 
 
-  <section className="bg-black text-white px-6 py-16">
-      <div className="max-w-7xl mx-auto">
-        {/* Category Filters */}
-        <div className="flex flex-wrap justify-center gap-6 mb-12 text-gray-400 text-sm">
-          {categories.map((cat) => (
-            <span
-              key={cat.name}
-              onClick={() => setActiveCategory(cat.name)}
-              className={`cursor-pointer transition-colors duration-200 ${
-                activeCategory === cat.name ? "text-white font-semibold" : ""
-              }`}
-            >
-              {cat.name} <sup>{cat.count}</sup>
-            </span>
-          ))}
-        </div>
+  <section className="bg-[#F5F7FA] text-[#1C1C1C] px-6 py-16">
+  <div className="max-w-7xl mx-auto">
+    
+    {/* Category Filters */}
+    <div className="flex flex-wrap justify-center gap-6 mb-12 text-[#4F4F4F] text-sm">
+      {categories.map((cat) => (
+        <span
+          key={cat.name}
+          onClick={() => setActiveCategory(cat.name)}
+          className={`cursor-pointer transition-colors duration-200 ${
+            activeCategory === cat.name ? "text-[#003B5C] font-semibold" : "hover:text-[#005E9E]"
+          }`}
+        >
+          {cat.name} <sup>{cat.count}</sup>
+        </span>
+      ))}
+    </div>
 
-        {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 gap-10">
-          {filteredProjects.map((item, index) => (
-            <div key={index}>
-              <div className="overflow-hidden rounded-lg">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-64 object-cover rounded-lg hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <h3 className="text-xl font-bold mt-4">{item.title}</h3>
-              <p className="text-gray-400 text-sm">{item.category}</p>
-            </div>
-          ))}
+    {/* Projects Grid */}
+    <div className="grid md:grid-cols-2 gap-10">
+      {filteredProjects.map((item, index) => (
+        <div key={index}>
+          <div className="overflow-hidden rounded-lg">
+            <img
+              src={item.image}
+              alt={item.title}
+              className="w-full h-64 object-cover rounded-lg hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+          <h3 className="text-xl font-bold mt-4 text-[#1C1C1C]">{item.title}</h3>
+          <p className="text-[#4F4F4F] text-sm">{item.category}</p>
         </div>
+      ))}
+    </div>
+    
+  </div>
+</section>
+
+
+
+
+
+       {/* FOOTER */}
+<footer className="bg-[#003B5C] text-[#F5F7FA] py-12 px-4 text-sm">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
+    
+    {/* Logo & Copyright */}
+    <div>
+      <Image src="/img/logo.png" alt="EuroElektra Logo" width={120} height={40} className="mb-4" />
+      <p className="text-[#F5F7FA]">© {new Date().getFullYear()} EuroElektra. All Rights Reserved.</p>
+    </div>
+
+    {/* Contact */}
+    <div>
+      <h4 className="text-lg font-semibold mb-4 text-white">Contact</h4>
+      <p className="text-[#F5F7FA]">info@euroelektra.com</p>
+      <p className="mt-2 text-[#F5F7FA]">Street Nikolla Jorga, Godina 18, 1001, Tiranë, Albania</p>
+    </div>
+
+    {/* Explore Links */}
+    <div>
+      <h4 className="text-lg font-semibold mb-4 text-white">Explore</h4>
+      <ul className="space-y-2">
+        <li><Link href="/" className="hover:text-[#005E9E]">Home</Link></li>
+        <li><Link href="/about" className="hover:text-[#005E9E]">About Us</Link></li>
+        <li><Link href="/projects" className="hover:text-[#005E9E]">Projects</Link></li>
+        <li><Link href="/events" className="hover:text-[#005E9E]">Events</Link></li>
+      </ul>
+    </div>
+
+    {/* Social Icons */}
+    <div>
+      <h4 className="text-lg font-semibold mb-4 text-white">Follow Us</h4>
+      <div className="flex gap-4 text-white">
+        <a href="#" className="hover:text-[#005E9E]"><FaInstagram size={20} /></a>
+        <a href="#" className="hover:text-[#005E9E]"><FaFacebookF size={20} /></a>
+        <a href="#" className="hover:text-[#005E9E]"><FaLinkedinIn size={20} /></a>
+        <a href="#" className="hover:text-[#005E9E]"><FaYoutube size={20} /></a>
       </div>
-    </section>
+    </div>
 
-
-
-
-      {/* FOOTER */}
-      <footer className="bg-[#090909] text-white py-12 px-4 text-sm">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
-          <div>
-            <Image src="/img/logo.png" alt="EuroElektra Logo" width={120} height={40} className="mb-4" />
-            <p>© {new Date().getFullYear()} EuroElektra. All Rights Reserved.</p>
-          </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Contact</h4>
-            <p>info@euroelektra.com</p>
-            <p className="mt-2">Street Nikolla Jorga, Godina 18, 1001, Tiranë, Albania</p>
-          </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Explore</h4>
-            <ul className="space-y-2">
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/about">About Us</Link></li>
-              <li><Link href="/projects">Projects</Link></li>
-              <li><Link href="/events">Events</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
-            <div className="flex gap-4">
-              <a href="#"><FaInstagram size={20} /></a>
-              <a href="#"><FaFacebookF size={20} /></a>
-              <a href="#"><FaLinkedinIn size={20} /></a>
-              <a href="#"><FaYoutube size={20} /></a>
-            </div>
-          </div>
-        </div>
-      </footer>
+  </div>
+</footer>
     </>
   );
 }

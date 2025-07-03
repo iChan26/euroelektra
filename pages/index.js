@@ -743,75 +743,49 @@ useEffect(() => {
 
       {/* FOOTER */}
     {/* FOOTER */}
+ {/* FOOTER */}
+     {/* FOOTER */}
 <footer className="bg-[#003B5C] text-[#F5F7FA] py-12 px-4 text-sm">
   <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
     
-    {/* Logo + Copyright */}
+    {/* Logo & Copyright */}
     <div>
-      <Image
-        src="/img/logo.png"
-        alt="EuroElektra Logo"
-        width={120}
-        height={40}
-        className="mb-4"
-      />
-      <p className="text-[#F5F7FA]">
-        © {new Date().getFullYear()} EuroElektra. All Rights Reserved.
-      </p>
+      <Image src="/img/logo.png" alt="EuroElektra Logo" width={120} height={40} className="mb-4" />
+      <p className="text-[#F5F7FA]">© {new Date().getFullYear()} EuroElektra. All Rights Reserved.</p>
     </div>
 
     {/* Contact */}
     <div>
-      <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
+      <h4 className="text-lg font-semibold mb-4 text-white">Contact</h4>
       <p className="text-[#F5F7FA]">info@euroelektra.com</p>
-      <p className="mt-2 text-[#F5F7FA]">
-        Street Nikolla Jorga, Godina 18, 1001, Tiranë, Albania
-      </p>
+      <p className="mt-2 text-[#F5F7FA]">Street Nikolla Jorga, Godina 18, 1001, Tiranë, Albania</p>
     </div>
 
     {/* Explore Links */}
     <div>
-      <h4 className="text-lg font-semibold text-white mb-4">Explore</h4>
+      <h4 className="text-lg font-semibold mb-4 text-white">Explore</h4>
       <ul className="space-y-2">
-        {[
-          { name: 'Home', href: '/' },
-          { name: 'About Us', href: '/about' },
-          { name: 'Projects', href: '/projects' },
-          { name: 'Events', href: '/events' },
-        ].map(({ name, href }, i) => (
-          <li key={i}>
-            <Link
-              href={href}
-              className="text-[#F5F7FA] hover:text-[#005E9E] transition-colors duration-200"
-            >
-              {name}
-            </Link>
-          </li>
-        ))}
+        <li><Link href="/" className="hover:text-[#005E9E]">Home</Link></li>
+        <li><Link href="/about" className="hover:text-[#005E9E]">About Us</Link></li>
+        <li><Link href="/projects" className="hover:text-[#005E9E]">Projects</Link></li>
+        <li><Link href="/events" className="hover:text-[#005E9E]">Events</Link></li>
       </ul>
     </div>
 
-    {/* Social Media */}
+    {/* Social Icons */}
     <div>
-      <h4 className="text-lg font-semibold text-white mb-4">Follow Us</h4>
+      <h4 className="text-lg font-semibold mb-4 text-white">Follow Us</h4>
       <div className="flex gap-4 text-white">
-        <a href="#" className="hover:text-[#0077C8] transition-colors duration-200">
-          <FaInstagram size={20} />
-        </a>
-        <a href="#" className="hover:text-[#0077C8] transition-colors duration-200">
-          <FaFacebookF size={20} />
-        </a>
-        <a href="#" className="hover:text-[#0077C8] transition-colors duration-200">
-          <FaLinkedinIn size={20} />
-        </a>
-        <a href="#" className="hover:text-[#0077C8] transition-colors duration-200">
-          <FaYoutube size={20} />
-        </a>
+        <a href="#" className="hover:text-[#005E9E]"><FaInstagram size={20} /></a>
+        <a href="#" className="hover:text-[#005E9E]"><FaFacebookF size={20} /></a>
+        <a href="#" className="hover:text-[#005E9E]"><FaLinkedinIn size={20} /></a>
+        <a href="#" className="hover:text-[#005E9E]"><FaYoutube size={20} /></a>
       </div>
     </div>
+
   </div>
 </footer>
-
     </>
   );
 }
+
