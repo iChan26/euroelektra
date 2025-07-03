@@ -144,15 +144,10 @@ useEffect(() => {
 {/* HEADER */}
 <header
   className={`fixed top-0 left-0 w-full z-50 transition-all duration-300
-    ${
-      atTop
-        ? "bg-transparent h-full"
-        : isScrollingDown
-        ? "bg-white h-auto shadow-md"
-        : "bg-black h-auto"
-    }
+    ${atTop ? "bg-transparent h-full" : "bg-white h-auto shadow-md"}
     pointer-events-none`}
 >
+
   <div className="relative flex justify-between items-start md:items-center px-6 pt-6 md:pt-4 md:py-4 pointer-events-auto">
     {/* Logo */}
     <Link href="/">
@@ -173,7 +168,7 @@ useEffect(() => {
   className={`hidden md:flex transition-all duration-300 uppercase text-sm tracking-[0.25em] ${
     atTop
       ? "flex-col absolute top-10 right-10 space-y-2 text-white items-start text-left"
-      : "flex-row relative space-x-8 text-black items-center"
+      : "flex-row relative space-x-8 text-blue-400 items-center"
   }`}
 >
   {["Home", "About Us", "Sectors", "Projects", "Events"].map((item, i) => {
@@ -193,7 +188,7 @@ useEffect(() => {
             {item}
             <svg
               className={`w-3 h-3 transition-transform duration-300 group-hover:rotate-90 ${
-                atTop ? "text-white" : "text-black"
+                atTop ? "text-white" : "text-blue-400"
               }`}
               fill="none"
               stroke="currentColor"
@@ -251,7 +246,7 @@ useEffect(() => {
     <HiOutlineSearch
       size={20}
       className={`transition-colors duration-300 ${
-        atTop ? "text-white" : "text-black"
+        atTop ? "text-white" : "text-blue-400"
       }`}
     />
   </button>
@@ -367,63 +362,50 @@ useEffect(() => {
 </section>
 
 
-<section className="bg-black text-white py-20">
+<section className="bg-[#F5F7FA] text-[#1C1C1C] py-20">
   <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-16">
-    {/* 01 - Electrical Products */}
-    <div>
-      <div className="text-[10rem] font-bold text-white/10 leading-none">01</div>
-      <h3 className="text-xl font-semibold mt-[-2rem]">Electrical Products</h3>
-      <p className="mt-4 text-gray-300">
-        EuroElektra offers selected products by the best international suppliers, assuring the market the most advanced and intelligent solution technology.
-      </p>
-    </div>
-
-    {/* 02 - Security Automation */}
-    <div>
-      <div className="text-[10rem] font-bold text-white/10 leading-none">02</div>
-      <h3 className="text-xl font-semibold mt-[-2rem]">Security Automation</h3>
-      <p className="mt-4 text-gray-300">
-        Your building is safer thanks to smart monitoring systems with cameras and commanded by automated systems enabling total control of your premises.
-      </p>
-    </div>
-
-    {/* 03 - Lighting Show Room */}
-    <div>
-      <div className="text-[10rem] font-bold text-white/10 leading-none">03</div>
-      <h3 className="text-xl font-semibold mt-[-2rem]">Lighting Show Room</h3>
-      <p className="mt-4 text-gray-300">
-        In EuroElektra the lights are a combination through the art, architecture and scenography by assuring to your space the right system of lightening.
-      </p>
-    </div>
-
-    {/* 04 - Energy Efficiency */}
-    <div>
-      <div className="text-[10rem] font-bold text-white/10 leading-none">04</div>
-      <h3 className="text-xl font-semibold mt-[-2rem]">Energy Efficiency</h3>
-      <p className="mt-4 text-gray-300">
-        Efficient air conditioning is one of the services that EuroElektra provides for management and energy savings in office buildings, apartments, and profile items.
-      </p>
-    </div>
-
-    {/* 05 - Renewable Energy */}
-    <div>
-      <div className="text-[10rem] font-bold text-white/10 leading-none">05</div>
-      <h3 className="text-xl font-semibold mt-[-2rem]">Renewable Energy</h3>
-      <p className="mt-4 text-gray-300">
-        EuroElektra, through the best global brands in green energy, enables the use of potential solar energy focusing on renewable energy.
-      </p>
-    </div>
-
-    {/* 06 - Smart Building */}
-    <div>
-      <div className="text-[10rem] font-bold text-white/10 leading-none">06</div>
-      <h3 className="text-xl font-semibold mt-[-2rem]">Smart Building</h3>
-      <p className="mt-4 text-gray-300">
-        Contemporary buildings are complex structures that not only provide comfort, lighting, and security but link all these services into one integrated system.
-      </p>
-    </div>
+    {/* Section Items */}
+    {[
+      {
+        number: "01",
+        title: "Electrical Products",
+        desc: "EuroElektra offers selected products by the best international suppliers, assuring the market the most advanced and intelligent solution technology.",
+      },
+      {
+        number: "02",
+        title: "Security Automation",
+        desc: "Your building is safer thanks to smart monitoring systems with cameras and commanded by automated systems enabling total control of your premises.",
+      },
+      {
+        number: "03",
+        title: "Lighting Show Room",
+        desc: "In EuroElektra the lights are a combination through the art, architecture and scenography by assuring to your space the right system of lightening.",
+      },
+      {
+        number: "04",
+        title: "Energy Efficiency",
+        desc: "Efficient air conditioning is one of the services that EuroElektra provides for management and energy savings in office buildings, apartments, and profile items.",
+      },
+      {
+        number: "05",
+        title: "Renewable Energy",
+        desc: "EuroElektra, through the best global brands in green energy, enables the use of potential solar energy focusing on renewable energy.",
+      },
+      {
+        number: "06",
+        title: "Smart Building",
+        desc: "Contemporary buildings are complex structures that not only provide comfort, lighting, and security but link all these services into one integrated system.",
+      },
+    ].map((item, idx) => (
+      <div key={idx}>
+        <div className="text-[10rem] font-bold text-[#003B5C]/10 leading-none">{item.number}</div>
+        <h3 className="text-xl font-semibold mt-[-2rem] text-[#1C1C1C]">{item.title}</h3>
+        <p className="mt-4 text-[#4F4F4F]">{item.desc}</p>
+      </div>
+    ))}
   </div>
 </section>
+
 
 <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
   {[
@@ -454,7 +436,7 @@ useEffect(() => {
   ].map((item, index) => (
     <div
       key={index}
-      className="relative group h-[400px] overflow-hidden cursor-pointer"
+      className="relative group h-[400px] overflow-hidden cursor-pointer bg-[#F5F7FA]"
     >
       {/* Background Image */}
       <div
@@ -462,20 +444,20 @@ useEffect(() => {
         style={{ backgroundImage: `url(${item.image})` }}
       />
 
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/40 group-hover:bg-black/70 transition-colors duration-500" />
+      {/* Light Gray Overlay on hover */}
+      <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors duration-500" />
 
-      {/* Title (shown by default) */}
+      {/* Title */}
       <div className="absolute bottom-4 left-4 right-4 text-white z-10">
         <h3 className="font-semibold text-lg leading-tight">{item.title}</h3>
       </div>
 
-      {/* Slide-Up Content */}
-      <div className="absolute bottom-0 left-0 right-0 bg-[#fff] p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 z-20">
-        <p className="text-sm mb-4 text-black">{item.description}</p>
+      {/* Slide-Up Panel */}
+      <div className="absolute bottom-0 left-0 right-0 bg-[#F5F7FA] p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 z-20">
+        <p className="text-sm mb-4 text-[#4F4F4F]">{item.description}</p>
         <a
           href="#"
-          className="text-sm font-medium inline-flex items-center gap-1 text-white hover:underline"
+          className="text-sm font-medium inline-flex items-center gap-1 text-[#0077C8] hover:text-[#005E9E] hover:underline"
         >
           Read more <span>→</span>
         </a>
@@ -484,113 +466,115 @@ useEffect(() => {
   ))}
 </section>
 
-<section className="bg-black py-16">
+
+<section className="bg-[#F5F7FA] py-16">
   <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-start gap-12">
     {/* Left side: Text */}
-    <div className="lg:w-1/3 text-white">
-      <p className="text-yellow-500 uppercase text-sm mb-2">Our Projects</p>
+    <div className="lg:w-1/3 text-[#1C1C1C]">
+      <p className="text-[#0077C8] uppercase text-sm mb-2">Our Projects</p>
       <h2 className="text-4xl font-serif font-bold mb-4 leading-tight">
         We count a number of projects implemented in each of the sectors we operate.
       </h2>
-      <p className="text-gray-300">
+      <p className="text-[#4F4F4F]">
         Explore our portfolio to see how we deliver high-quality photovoltaic plants that reflect
         your style and needs.
       </p>
     </div>
 
     {/* Right side: Auto-scrolling Projects Slider */}
-<div className="lg:w-2/3 w-full overflow-hidden relative">
-  <div className="flex w-max animate-scroll space-x-6">
-    {[
-      {
-        title: "Photovoltaic Plant 600 kWp",
-        location: "2AT Chemicals, Korce",
-        image: "/img/korce1.jpg",
-      },
-      {
-        title: "Photovoltaic Plant 126 kWp",
-        location: "Coca-Cola Bottling Albania",
-        image: "/img/ccbs1.jpg",
-      },
-      {
-        title: "Photovoltaic Plant 100 kWp",
-        location: 'Hotel "Villa Pascucci"',
-        image: "/img/villa1.jpg",
-      },
-      {
-        title: "Photovoltaic Plant 11 kWp",
-        location: "Devoll HydroPower",
-        image: "/img/devoll1.jpg",
-      },
-      // Optional: Repeat to loop more smoothly
-    ].concat([
-      {
-        title: "Photovoltaic Plant 600 kWp",
-        location: "2AT Chemicals, Korce",
-        image: "/img/korce1.jpg",
-      },
-      {
-        title: "Photovoltaic Plant 126 kWp",
-        location: "Coca-Cola Bottling Albania",
-        image: "/img/ccbs1.jpg",
-      },
-      {
-        title: "Photovoltaic Plant 100 kWp",
-        location: 'Hotel "Villa Pascucci"',
-        image: "/img/villa1.jpg",
-      },
-      {
-        title: "Photovoltaic Plant 11 kWp",
-        location: "Devoll HydroPower",
-        image: "/img/devoll1.jpg",
-      },
-    ]).map((project, index) => (
-      <div
-        key={index}
-        className="flex-shrink-0 w-72 bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow duration-300"
-      >
-        <div
-          className="h-48 bg-cover bg-center hover:scale-105 transition-transform duration-500"
-          style={{ backgroundImage: `url(${project.image})` }}
-        ></div>
-        <div className="p-5">
-          <h3 className="text-lg font-semibold mb-2 text-gray-800">
-            {project.title}
-          </h3>
-          <p className="flex items-center text-sm text-gray-600">
-            <svg
-              className="w-4 h-4 mr-2 text-yellow-500"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
+    <div className="lg:w-2/3 w-full overflow-hidden relative">
+      <div className="flex w-max animate-scroll space-x-6">
+        {[
+          {
+            title: "Photovoltaic Plant 600 kWp",
+            location: "2AT Chemicals, Korce",
+            image: "/img/korce1.jpg",
+          },
+          {
+            title: "Photovoltaic Plant 126 kWp",
+            location: "Coca-Cola Bottling Albania",
+            image: "/img/ccbs1.jpg",
+          },
+          {
+            title: "Photovoltaic Plant 100 kWp",
+            location: 'Hotel "Villa Pascucci"',
+            image: "/img/villa1.jpg",
+          },
+          {
+            title: "Photovoltaic Plant 11 kWp",
+            location: "Devoll HydroPower",
+            image: "/img/devoll1.jpg",
+          },
+        ]
+          .concat([
+            {
+              title: "Photovoltaic Plant 600 kWp",
+              location: "2AT Chemicals, Korce",
+              image: "/img/korce1.jpg",
+            },
+            {
+              title: "Photovoltaic Plant 126 kWp",
+              location: "Coca-Cola Bottling Albania",
+              image: "/img/ccbs1.jpg",
+            },
+            {
+              title: "Photovoltaic Plant 100 kWp",
+              location: 'Hotel "Villa Pascucci"',
+              image: "/img/villa1.jpg",
+            },
+            {
+              title: "Photovoltaic Plant 11 kWp",
+              location: "Devoll HydroPower",
+              image: "/img/devoll1.jpg",
+            },
+          ])
+          .map((project, index) => (
+            <div
+              key={index}
+              className="flex-shrink-0 w-72 bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition-shadow duration-300"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.657 16.657L13 21.314l-4.657-4.657A8 8 0 1117.657 16.657z"
-              />
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-              />
-            </svg>
-            {project.location}
-          </p>
-        </div>
+              <div
+                className="h-48 bg-cover bg-center hover:scale-105 transition-transform duration-500"
+                style={{ backgroundImage: `url(${project.image})` }}
+              ></div>
+              <div className="p-5">
+                <h3 className="text-lg font-semibold mb-2 text-[#1C1C1C]">
+                  {project.title}
+                </h3>
+                <p className="flex items-center text-sm text-[#4F4F4F]">
+                  <svg
+                    className="w-4 h-4 mr-2 text-[#0077C8]"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17.657 16.657L13 21.314l-4.657-4.657A8 8 0 1117.657 16.657z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  {project.location}
+                </p>
+              </div>
+            </div>
+          ))}
       </div>
-    ))}
-  </div>
-</div>
-
+    </div>
   </div>
 </section>
 
-<section className="bg-[#111] text-white py-20 relative overflow-hidden">
+
+<section className="bg-[#F1F3FA] text-[#1C1C1C] py-20 relative overflow-hidden">
   <div className="relative max-w-7xl mx-auto px-4">
     {/* Timeline line - hidden on mobile, horizontal on desktop */}
-    <div className="hidden sm:block absolute sm:top-1/2 sm:left-0 sm:w-full sm:h-1 bg-blue-600 z-0" />
+    <div className="hidden sm:block absolute sm:top-1/2 sm:left-0 sm:w-full sm:h-1 bg-[#003B5C] z-0" />
 
     <div className="flex flex-col sm:flex-row justify-between items-center sm:gap-6 gap-20 relative z-10">
       {items.map((item, index) => {
@@ -603,16 +587,12 @@ useEffect(() => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
             viewport={{ once: true }}
-            className={`
-              relative flex flex-col
-              w-full sm:w-1/5
-              items-center text-center
-            `}
+            className="relative flex flex-col w-full sm:w-1/5 items-center text-center"
           >
             {/* Timeline node - visible only on desktop */}
-            <div className="hidden sm:block absolute sm:top-1/2 sm:left-auto sm:-translate-y-1/2 sm:translate-x-0 w-6 h-6 rounded-full bg-gray-900 border-4 border-blue-600 z-10" />
+            <div className="hidden sm:block absolute sm:top-1/2 sm:left-auto sm:-translate-y-1/2 w-6 h-6 rounded-full bg-white border-4 border-[#003B5C] z-10" />
 
-            {/* Layout: mobile (stacked), desktop (alternating) */}
+            {/* Mobile Layout */}
             <div className="flex flex-col items-center z-20 sm:hidden">
               <motion.div
                 whileHover={{
@@ -624,15 +604,15 @@ useEffect(() => {
                   duration: 0.4,
                   ease: "easeInOut",
                 }}
-                className="text-blue-500 text-4xl mb-4 transition duration-300 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.9)]"
+                className="text-[#003B5C] text-4xl mb-4 transition duration-300 hover:drop-shadow-[0_0_12px_rgba(0,59,92,0.8)]"
               >
                 {item.icon}
               </motion.div>
               <h3 className="text-base font-semibold">{item.title}</h3>
-              <p className="text-sm mt-1">{item.subtitle}</p>
+              <p className="text-sm mt-1 text-[#4F4F4F]">{item.subtitle}</p>
             </div>
 
-            {/* Desktop layout */}
+            {/* Desktop Layout */}
             <div className="hidden sm:flex flex-col items-center text-center z-20">
               {isEven ? (
                 <>
@@ -646,17 +626,17 @@ useEffect(() => {
                       duration: 0.4,
                       ease: "easeInOut",
                     }}
-                    className="text-blue-500 text-4xl mb-4 transition duration-300 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.9)]"
+                    className="text-[#003B5C] text-4xl mb-4 transition duration-300 hover:drop-shadow-[0_0_12px_rgba(0,59,92,0.8)]"
                   >
                     {item.icon}
                   </motion.div>
                   <h3 className="text-lg mt-20 font-semibold">{item.title}</h3>
-                  <p className="text-sm mt-1">{item.subtitle}</p>
+                  <p className="text-sm mt-1 text-[#4F4F4F]">{item.subtitle}</p>
                 </>
               ) : (
                 <>
                   <h3 className="text-lg mb-2 font-semibold">{item.title}</h3>
-                  <p className="text-sm mb-20">{item.subtitle}</p>
+                  <p className="text-sm mb-20 text-[#4F4F4F]">{item.subtitle}</p>
                   <motion.div
                     whileHover={{
                       scale: 1.15,
@@ -667,7 +647,7 @@ useEffect(() => {
                       duration: 0.4,
                       ease: "easeInOut",
                     }}
-                    className="text-blue-500 text-4xl transition duration-300 hover:drop-shadow-[0_0_12px_rgba(59,130,246,0.9)]"
+                    className="text-[#003B5C] text-4xl transition duration-300 hover:drop-shadow-[0_0_12px_rgba(0,59,92,0.8)]"
                   >
                     {item.icon}
                   </motion.div>
@@ -682,110 +662,156 @@ useEffect(() => {
 </section>
 
 
+
     
-<section className="bg-[#000] py-16 px-6 md:px-16">
+<section className="bg-[#F5F7FA] py-16 px-6 md:px-16">
   <div className="max-w-7xl mx-auto">
-    <h2 className="text-3xl font-bold text-white mb-12">
-      <span className="border-l-4 border-white pl-3">BLOG</span>
+    <h2 className="text-3xl font-bold text-[#1C1C1C] mb-12">
+      <span className="border-l-4 border-[#003B5C] pl-3">BLOG</span>
     </h2>
 
     <div className="grid gap-12 md:grid-cols-3">
       {/* Card 1 */}
-      <div className="bg-white shadow-md">
+      <div className="bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
         <img src="/img/b-img_870311.jpg" alt="Business Benefits" className="w-full h-64 object-cover" />
         <div className="p-6">
-          <h3 className="text-lg font-semibold text-gray-800 mb-2 leading-snug">
+          <h3 className="text-lg font-semibold text-[#1C1C1C] mb-2 leading-snug">
             Business Benefits from the implementation of Photovoltaic Technologies.
           </h3>
-          <p className="text-sm text-gray-500">In : <span className="text-black">Renewable Energy</span></p>
+          <p className="text-sm text-[#4F4F4F]">
+            In : <span className="text-[#003B5C] font-medium">Renewable Energy</span>
+          </p>
         </div>
       </div>
 
       {/* Card 2 */}
-      <div className="bg-white shadow-md">
+      <div className="bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
         <img src="/img/b-rapsodia.jpg" alt="Rapsodia Restaurant Solar" className="w-full h-64 object-cover" />
         <div className="p-6">
-          <h3 className="text-lg font-semibold text-gray-800 mb-2 leading-snug">
+          <h3 className="text-lg font-semibold text-[#1C1C1C] mb-2 leading-snug">
             When the taste of “Rapsodia Restaurant” touches on solar technology innovations!
           </h3>
-          <p className="text-sm text-gray-500">In : <span className="text-black">Renewable Energy</span></p>
+          <p className="text-sm text-[#4F4F4F]">
+            In : <span className="text-[#003B5C] font-medium">Renewable Energy</span>
+          </p>
         </div>
       </div>
 
       {/* Card 3 */}
-      <div className="bg-white shadow-md">
+      <div className="bg-white shadow-md hover:shadow-lg transition-shadow duration-300">
         <img src="/img/b-download.jpg" alt="SunPower Solar" className="w-full h-64 object-cover" />
         <div className="p-6">
-          <h3 className="text-lg font-semibold text-gray-800 mb-2 leading-snug">
+          <h3 className="text-lg font-semibold text-[#1C1C1C] mb-2 leading-snug">
             The technology that ensures the highest efficiency of photovoltaic panels comes to the Albanian ...
           </h3>
-          <p className="text-sm text-gray-500">In : <span className="text-black">Renewable Energy</span></p>
+          <p className="text-sm text-[#4F4F4F]">
+            In : <span className="text-[#003B5C] font-medium">Renewable Energy</span>
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section className="bg-black py-10 overflow-hidden">
-  <div className="relative">
-    <div className="marquee flex whitespace-nowrap animate-marquee">
-      {Array.from({ length: 2 }).map((_, i) => (
-        <div key={i} className="flex items-center gap-12 px-6 min-w-full">
-          {[
-            'brand01.jpg', 'brand02.png', 'brand03.png', 'brand04.png',
-            'brand05.png', 'brand06.png', 'brand07.png', 'brand08.png',
-            'brand09.png', 'brand10.png', 'brand11.png', 'brand12.png',
-            'brand13.png', 'brand14.png', 'brand15.png', 'brand16.png',
-            'brand17.png', 'brand18.png', 'brand20.png', 'brand21.png',
-            'brand22.png', 'brand23.png', 'Cabur copy.png',
-          ].map((img, idx) => (
-            <img
-              key={`${i}-${idx}`}
-              src={`/img/brands/${img}`}
-              alt={`brand-${idx}`}
-              className="h-24 grayscale invert hover:invert-0 hover:grayscale-0 transition duration-300"
-            />
-          ))}
-        </div>
-      ))}
+  <section className="bg-[#F1F3FA] py-10 overflow-hidden">
+    <div className="relative">
+      <div className="marquee flex whitespace-nowrap animate-marquee">
+        {Array.from({ length: 2 }).map((_, i) => (
+          <div key={i} className="flex items-center gap-12 px-6 min-w-full">
+            {[
+              'brand01.jpg', 'brand02.png', 'brand03.png', 'brand04.png',
+              'brand05.png', 'brand06.png', 'brand07.png', 'brand08.png',
+              'brand09.png', 'brand10.png', 'brand11.png', 'brand12.png',
+              'brand13.png', 'brand14.png', 'brand15.png', 'brand16.png',
+              'brand17.png', 'brand18.png', 'brand20.png', 'brand21.png',
+              'brand22.png', 'brand23.png', 'Cabur copy.png',
+            ].map((img, idx) => (
+              <img
+                key={`${i}-${idx}`}
+                src={`/img/brands/${img}`}
+                alt={`brand-${idx}`}
+                className="h-24 grayscale invert hover:invert-0 hover:grayscale-0 transition duration-300"
+              />
+            ))}
+          </div>
+        ))}
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
 
       {/* FOOTER */}
-      <footer className="bg-[#090909] text-white py-12 px-4 text-sm">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
-          <div>
-            <Image src="/img/logo.png" alt="EuroElektra Logo" width={120} height={40} className="mb-4" />
-            <p>© {new Date().getFullYear()} EuroElektra. All Rights Reserved.</p>
-          </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Contact</h4>
-            <p>info@euroelektra.com</p>
-            <p className="mt-2">Street Nikolla Jorga, Godina 18, 1001, Tiranë, Albania</p>
-          </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Explore</h4>
-            <ul className="space-y-2">
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/about">About Us</Link></li>
-              <li><Link href="/projects">Projects</Link></li>
-              <li><Link href="/events">Events</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
-            <div className="flex gap-4">
-              <a href="#"><FaInstagram size={20} /></a>
-              <a href="#"><FaFacebookF size={20} /></a>
-              <a href="#"><FaLinkedinIn size={20} /></a>
-              <a href="#"><FaYoutube size={20} /></a>
-            </div>
-          </div>
-        </div>
-      </footer>
+    {/* FOOTER */}
+<footer className="bg-[#003B5C] text-[#F5F7FA] py-12 px-4 text-sm">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
+    
+    {/* Logo + Copyright */}
+    <div>
+      <Image
+        src="/img/logo.png"
+        alt="EuroElektra Logo"
+        width={120}
+        height={40}
+        className="mb-4"
+      />
+      <p className="text-[#F5F7FA]">
+        © {new Date().getFullYear()} EuroElektra. All Rights Reserved.
+      </p>
+    </div>
+
+    {/* Contact */}
+    <div>
+      <h4 className="text-lg font-semibold text-white mb-4">Contact</h4>
+      <p className="text-[#F5F7FA]">info@euroelektra.com</p>
+      <p className="mt-2 text-[#F5F7FA]">
+        Street Nikolla Jorga, Godina 18, 1001, Tiranë, Albania
+      </p>
+    </div>
+
+    {/* Explore Links */}
+    <div>
+      <h4 className="text-lg font-semibold text-white mb-4">Explore</h4>
+      <ul className="space-y-2">
+        {[
+          { name: 'Home', href: '/' },
+          { name: 'About Us', href: '/about' },
+          { name: 'Projects', href: '/projects' },
+          { name: 'Events', href: '/events' },
+        ].map(({ name, href }, i) => (
+          <li key={i}>
+            <Link
+              href={href}
+              className="text-[#F5F7FA] hover:text-[#005E9E] transition-colors duration-200"
+            >
+              {name}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    {/* Social Media */}
+    <div>
+      <h4 className="text-lg font-semibold text-white mb-4">Follow Us</h4>
+      <div className="flex gap-4 text-white">
+        <a href="#" className="hover:text-[#0077C8] transition-colors duration-200">
+          <FaInstagram size={20} />
+        </a>
+        <a href="#" className="hover:text-[#0077C8] transition-colors duration-200">
+          <FaFacebookF size={20} />
+        </a>
+        <a href="#" className="hover:text-[#0077C8] transition-colors duration-200">
+          <FaLinkedinIn size={20} />
+        </a>
+        <a href="#" className="hover:text-[#0077C8] transition-colors duration-200">
+          <FaYoutube size={20} />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
     </>
   );
 }
