@@ -345,12 +345,12 @@ useEffect(() => {
     {/* Logo */}
     <Link href="/">
       <Image
-        src="/img/logo.png"
+        src="/img/logo-blue.png"
         alt="EuroElektra Logo"
         width={160}
         height={50}
         className={`transition-all duration-300 ${
-          showHeader ? "" : "filter invert"
+          showHeader ? "" : ""
         }`}
       />
     </Link>
