@@ -238,7 +238,7 @@ useEffect(() => {
           key={i}
           href={
             item === "Home"
-              ? "/index.js"
+              ? "/"
               : item === "Sectors"
               ? "/sectors"
               : `/${item.toLowerCase().replace(/ /g, "-")}`
