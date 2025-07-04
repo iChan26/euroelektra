@@ -150,7 +150,7 @@ useEffect(() => {
   <div className="relative flex justify-between items-start md:items-center px-6 pt-6 md:pt-4 md:py-4 pointer-events-auto">
     
     {/* Logo */}
-    <Link href="/">
+    <Link href="/index.js">
       <Image
         src="/img/logo-blue.png"
         alt="EuroElektra Logo"
@@ -169,9 +169,12 @@ useEffect(() => {
       }`}
     >
       {["Home", "About Us", "Sectors", "Projects", "Events"].map((item, i) => {
-        const href = item === "Sectors"
-          ? "/sectors"
-          : `/${item.toLowerCase().replace(/ /g, "-")}`;
+        const href = item === "Home"
+          ? "/"
+          : item === "Sectors"
+            ? "/sectors"
+            : `/${item.toLowerCase().replace(/ /g, "-")}`;
+
         const isActive = pathname === href || (item === "Home" && pathname === "/");
 
         return (
@@ -204,7 +207,6 @@ useEffect(() => {
 
     {/* Mobile Menu Toggle */}
     <div className="md:hidden flex items-center space-x-4">
-      {/* Search Icon */}
       <button>
         <HiOutlineSearch
           size={22}
@@ -213,7 +215,6 @@ useEffect(() => {
           }`}
         />
       </button>
-      {/* Burger Menu Toggle */}
       <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
         {isMenuOpen ? (
           <HiOutlineX
@@ -240,9 +241,13 @@ useEffect(() => {
       {["Home", "About Us", "Sectors", "Projects", "Contact Us", "AL"].map((item, i) => (
         <Link
           key={i}
-          href={item === "Sectors"
-            ? "/sectors"
-            : `/${item.toLowerCase().replace(/ /g, "-")}`}
+          href={
+            item === "Home"
+              ? "/"
+              : item === "Sectors"
+              ? "/sectors"
+              : `/${item.toLowerCase().replace(/ /g, "-")}`
+          }
           className="block uppercase tracking-widest text-sm"
           onClick={() => setIsMenuOpen(false)}
         >
@@ -252,7 +257,7 @@ useEffect(() => {
     </div>
   )}
 
-  {/* 
+ {/* 
   // Submenu kept disabled
   <div className="absolute top-full mt-2 bg-white shadow-md rounded-md py-2 px-4 space-y-2 z-50 hidden group-hover:block text-black text-xs tracking-wide">
     {[
