@@ -165,7 +165,7 @@ useEffect(() => {
     >
       {["Home", "About Us", "Sectors", "Projects", "Events"].map((item, i) => {
         const href = item === "Home"
-          ? "/index.js"
+          ? "/"
           : item === "Sectors"
             ? "/sectors"
             : `/${item.toLowerCase().replace(/ /g, "-")}`;
