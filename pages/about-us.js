@@ -28,10 +28,13 @@ const fadeInUp = {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
   const timelineData = [
-    { year: '2025 — New Digital Experience', text: 'Launch of our new website…' },
-    { year: '2015 — Exclusive Brand Partnerships', text: 'Secured exclusive selling rights…' },
-    { year: '2000s — Expansion Across Albania', text: 'Grew presence with multiple retail stores…' },
-    { year: '1991', text: 'I&A International was established…' },
+    { year: '2025 — Continued Innovation & Growth', text: 'Driving sustainable energy solutions and smart technologies for the Albanian market.' },
+    { year: '2020 — Excellence in Project Implementation', text: 'Qualified teams provided full-cycle project support from study, design, to installation under international IEC standards.' },
+    { year: '2018 — Strengthened Global Partnerships', text: 'Secured exclusive distribution rights for top international brands in key product sector' },
+    { year: '2016 — Pioneer in Photovoltaic Market', text: 'Became a leader in Albania’s photovoltaic sector with numerous residential and business projects.' },
+    { year: '2014 — Smart Building Solutions Launched', text: 'Started providing smart building technologies to modernize infrastructure across Albania.' },
+    { year: '2012 — New Product Sectors Introduced', text: 'Added automated security systems, professional LED lighting, and energy efficiency solutions.' },
+    { year: '2010 — Expanded operations to offer a full range of civil and industrial electrical materials.' },
   ];
     const containerVariants = {
     hidden: {},
