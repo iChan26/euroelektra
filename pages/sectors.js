@@ -401,12 +401,33 @@ useEffect(() => {
     </p>
   </div>
 </section>
-<section className="py-10 px-6 bg-white">
+<section className="py-12 px-6 bg-white">
   <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[250px_1fr] gap-10">
+    
     {/* Sidebar */}
     <aside>
-      <h2 className="text-lg font-semibold text-[#1C1C1C] mb-4">SECTORS</h2>
-      <ul className="space-y-4">
+      <div className="flex justify-between items-center mb-6">
+        <h2 className="text-lg font-semibold text-[#1C1C1C]">SECTORS</h2>
+        {/* Search Bar */}
+        <div className="relative w-full md:w-48">
+          <input
+            type="text"
+            placeholder="Search..."
+            className="w-full px-3 py-1.5 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#0077C8]"
+          />
+          <svg
+            className="w-4 h-4 absolute right-3 top-2.5 text-[#4F4F4F]"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18.5a7.5 7.5 0 006.15-3.85z" />
+          </svg>
+        </div>
+      </div>
+
+      <ul className="space-y-3">
         {[
           "Electrical Products",
           "Security Automation",
@@ -415,21 +436,21 @@ useEffect(() => {
           "Renewable Energy",
           "Smart Building",
         ].map((item, idx) => (
-          <li key={idx} className="flex justify-between items-center text-sm text-[#1C1C1C]">
+          <li key={idx} className="flex justify-between items-center text-sm text-[#1C1C1C] hover:text-[#005E9E] transition-colors">
             <div className="flex items-center gap-2">
-              <span className="text-lg">&rsaquo;</span>
+              <span className="text-lg text-[#0077C8]">&rsaquo;</span>
               <span>{item}</span>
             </div>
-            <div className="flex items-center gap-1 text-white text-xs bg-[#888] rounded-full px-2 py-0.5">
+            <div className="flex items-center gap-1 text-white bg-[#888] rounded-full px-2 py-0.5 text-xs">
               <span>0</span>
-              <button className="text-xs font-bold leading-none">+</button>
+              <button className="font-bold leading-none">+</button>
             </div>
           </li>
         ))}
       </ul>
     </aside>
 
-    {/* Grid with Images */}
+    {/* Grid of Sector Cards */}
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
       {[
         {
@@ -459,19 +480,22 @@ useEffect(() => {
       ].map((sector, idx) => (
         <div
           key={idx}
-          className="border border-gray-300 p-4 flex flex-col items-center justify-center text-center"
+          className="border border-gray-200 bg-[#F5F7FA] hover:shadow-md transition-shadow rounded-lg p-5 flex flex-col items-center text-center group"
         >
           <img
             src={sector.image}
             alt={sector.title}
-            className="w-24 h-24 object-cover mb-4 rounded"
+            className="w-24 h-24 object-cover mb-4 rounded-full group-hover:scale-105 transition-transform"
           />
-          <p className="text-sm font-medium text-[#4F4F4F]">{sector.title}</p>
+          <p className="text-sm font-semibold text-[#4F4F4F] group-hover:text-[#005E9E] transition-colors">
+            {sector.title}
+          </p>
         </div>
       ))}
     </div>
   </div>
 </section>
+
 
 
  
