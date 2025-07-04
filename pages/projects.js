@@ -392,7 +392,7 @@ useEffect(() => {
             </svg>
           </span>
 
-          {/* Submenu */}
+          {/* Submenu 
           <div
             className={`absolute top-full mt-2 bg-white shadow-md rounded-md py-2 px-4 space-y-2 z-50 hidden group-hover:block text-black text-xs tracking-wide`}
           >
@@ -412,7 +412,7 @@ useEffect(() => {
                 {sub}
               </Link>
             ))}
-          </div>
+          </div>*/}
         </div>
       );
     }
