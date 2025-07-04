@@ -475,7 +475,7 @@ useEffect(() => {
 
 
 {/* HERO */}
-<section className="relative min-h-screen flex items-center justify-center px-6 text-white bg-black overflow-hidden">
+<section className="relative min-h-screen flex items-center px-6 text-white bg-black overflow-hidden">
   {/* Video Background */}
   <video
     autoPlay
@@ -489,16 +489,18 @@ useEffect(() => {
   </video>
 
   {/* Dark Overlay */}
-  <div className="absolute inset-0 bg-black/70 z-10" />
+  <div className="absolute inset-0 bg-black/60 z-10" />
 
   {/* Hero Content */}
-  <div className="relative z-20 max-w-4xl text-center">
-    <h1 className="text-5xl sm:text-6xl font-extrabold uppercase mb-8">
+  <div className="relative z-20 max-w-5xl ml-8">
+    <h1 className="text-5xl sm:text-6xl font-bold uppercase leading-tight mb-4">
       Projects
     </h1>
-    <p className="text-lg sm:text-xl font-medium text-white max-w-3xl mx-auto">
-      Our projects provide high quality, sustainability, energy efficiency, and environmentally friendly solutions — aligning with EuroElektra's mission to power the future through innovation and smart energy systems.
-    </p>
+    <div className="w-24 h-1 bg-white mb-4" />
+   <p className="flex items-center gap-2">
+  <FaHome className="text-[#ffffff]" />
+  / <span className="font-semibold text-[#58a3ff]">Projects</span>
+</p>
   </div>
 </section>
 
