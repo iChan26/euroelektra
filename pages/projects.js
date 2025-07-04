@@ -494,12 +494,12 @@ useEffect(() => {
   {/* Hero Content */}
   <div className="relative z-20 max-w-5xl ml-8">
     <h1 className="text-5xl sm:text-6xl font-bold uppercase leading-tight mb-4">
-      Projects
+      PROJECTS
     </h1>
     <div className="w-24 h-1 bg-white mb-4" />
    <p className="flex items-center gap-2">
   <FaHome className="text-[#ffffff]" />
-  / <span className="font-semibold text-[#58a3ff]">Projects</span>
+  / <span className="font-semibold text-[#58a3ff]">PROJECTS</span>
 </p>
   </div>
 </section>
