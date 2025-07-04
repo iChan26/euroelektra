@@ -147,8 +147,8 @@ useEffect(() => {
     ${atTop ? "bg-transparent h-full" : "bg-white h-auto shadow-md"}
     pointer-events-none`}
 >
-
   <div className="relative flex justify-between items-start md:items-center px-6 pt-6 md:pt-4 md:py-4 pointer-events-auto">
+    
     {/* Logo */}
     <Link href="/">
       <Image
@@ -156,107 +156,55 @@ useEffect(() => {
         alt="EuroElektra Logo"
         width={160}
         height={50}
-        className={`transition-all duration-300 ${
-          showHeader ? "" : ""
-        }`}
+        className="transition-all duration-300"
       />
     </Link>
 
     {/* Desktop Nav */}
-   {/* Desktop Nav – Conditional Layout */}
-<nav
-  className={`hidden md:flex transition-all duration-300 uppercase text-sm tracking-[0.25em] ${
-    atTop
-      ? "flex-col absolute top-10 right-10 space-y-2 text-white items-start text-left"
-      : "flex-row relative space-x-8 text-blue-400 items-center"
-  }`}
->
-  {["Home", "About Us", "Sectors", "Projects", "Events"].map((item, i) => {
-    const href = `/${item.toLowerCase().replace(/ /g, "-")}`;
-    const isActive = pathname === href || (item === "Home" && pathname === "/");
+    <nav
+      className={`hidden md:flex transition-all duration-300 uppercase text-sm tracking-[0.25em] ${
+        atTop
+          ? "flex-col absolute top-10 right-10 space-y-2 text-white items-start text-left"
+          : "flex-row relative space-x-8 text-blue-400 items-center"
+      }`}
+    >
+      {["Home", "About Us", "Sectors", "Projects", "Events"].map((item, i) => {
+        const href = item === "Sectors"
+          ? "/sectors"
+          : `/${item.toLowerCase().replace(/ /g, "-")}`;
+        const isActive = pathname === href || (item === "Home" && pathname === "/");
 
-    if (item === "Sectors") {
-      return (
-        <div key={i} className="relative group">
-          <span
-            className={`relative pb-1 cursor-pointer flex items-center gap-1 transition-all duration-300
+        return (
+          <Link
+            key={i}
+            href={href}
+            className={`relative pb-1 transition-all duration-300
               before:content-[''] before:absolute before:left-0 before:-bottom-0.5
               before:h-[2px] before:bg-current before:transition-all before:duration-300
-              ${isActive ? "font-bold before:w-full" : "hover:font-bold before:w-0 group-hover:before:w-full"}
-            `}
+              ${isActive
+                ? "font-bold before:w-full"
+                : "hover:font-bold before:w-0 hover:before:w-full"
+              }`}
           >
             {item}
-            <svg
-              className={`w-3 h-3 transition-transform duration-300 group-hover:rotate-90 ${
-                atTop ? "text-white" : "text-blue-400"
-              }`}
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-          </span>
+          </Link>
+        );
+      })}
 
-          {/* Submenu 
-          <div
-            className={`absolute top-full mt-2 bg-white shadow-md rounded-md py-2 px-4 space-y-2 z-50 hidden group-hover:block text-black text-xs tracking-wide`}
-          >
-            {[
-              "Electrical Products",
-              "Security Automation",
-              "Lighting ShowRoom",
-              "Energy Efficiency",
-              "Renewable Energy",
-              "Smart Building",
-            ].map((sub, idx) => (
-              <Link
-                key={idx}
-                href={`/sectors/${sub.toLowerCase().replace(/ /g, "-")}`}
-                className="block hover:font-semibold whitespace-nowrap transition-colors duration-200"
-              >
-                {sub}
-              </Link>
-            ))}
-          </div>*/}
-        </div>
-      );
-    }
-
-    return (
-      <Link
-        key={i}
-        href={href}
-        className={`relative pb-1 transition-all duration-300
-          before:content-[''] before:absolute before:left-0 before:-bottom-0.5
-          before:h-[2px] before:bg-current before:transition-all before:duration-300
-          ${isActive
-            ? "font-bold before:w-full"
-            : "hover:font-bold before:w-0 hover:before:w-full"
+      {/* Search Icon */}
+      <button className="focus:outline-none">
+        <HiOutlineSearch
+          size={20}
+          className={`transition-colors duration-300 ${
+            atTop ? "text-white" : "text-blue-400"
           }`}
-      >
-        {item}
-      </Link>
-    );
-  })}
+        />
+      </button>
+    </nav>
 
-  {/* Search Icon */}
-  <button className="focus:outline-none">
-    <HiOutlineSearch
-      size={20}
-      className={`transition-colors duration-300 ${
-        atTop ? "text-white" : "text-blue-400"
-      }`}
-    />
-  </button>
-</nav>
-
-
-
-    {/* Mobile Menu Toggle – Always visible */}
+    {/* Mobile Menu Toggle */}
     <div className="md:hidden flex items-center space-x-4">
-      {/* Search icon (mobile) */}
+      {/* Search Icon */}
       <button>
         <HiOutlineSearch
           size={22}
@@ -265,7 +213,7 @@ useEffect(() => {
           }`}
         />
       </button>
-      {/* Burger / Close icon */}
+      {/* Burger Menu Toggle */}
       <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
         {isMenuOpen ? (
           <HiOutlineX
@@ -289,10 +237,12 @@ useEffect(() => {
   {/* Mobile Nav */}
   {isMenuOpen && (
     <div className="md:hidden bg-white text-black px-6 py-4 space-y-4 transition-all duration-300">
-      {["Home", "About Us", "Projects", "Contact Us", "AL"].map((item, i) => (
+      {["Home", "About Us", "Sectors", "Projects", "Contact Us", "AL"].map((item, i) => (
         <Link
           key={i}
-          href={`/${item.toLowerCase().replace(/ /g, "-")}`}
+          href={item === "Sectors"
+            ? "/sectors"
+            : `/${item.toLowerCase().replace(/ /g, "-")}`}
           className="block uppercase tracking-widest text-sm"
           onClick={() => setIsMenuOpen(false)}
         >
@@ -301,7 +251,30 @@ useEffect(() => {
       ))}
     </div>
   )}
+
+  {/* 
+  // Submenu kept disabled
+  <div className="absolute top-full mt-2 bg-white shadow-md rounded-md py-2 px-4 space-y-2 z-50 hidden group-hover:block text-black text-xs tracking-wide">
+    {[
+      "Electrical Products",
+      "Security Automation",
+      "Lighting ShowRoom",
+      "Energy Efficiency",
+      "Renewable Energy",
+      "Smart Building",
+    ].map((sub, idx) => (
+      <Link
+        key={idx}
+        href={`/sectors/${sub.toLowerCase().replace(/ /g, "-")}`}
+        className="block hover:font-semibold whitespace-nowrap transition-colors duration-200"
+      >
+        {sub}
+      </Link>
+    ))}
+  </div>
+  */}
 </header>
+
 
 
 {/* HERO */}
