@@ -1,0 +1,987 @@
+{
+
+  "nav": ["Home", "Chi Siamo", "Settori", "Progetti", "Eventi"],
+"sectors": {
+  "electrical_products": "Prodotti Elettrici",
+  "energy_efficiency": "Efficienza Energetica",
+  "lighting_showroom": "Showroom Illuminazione",
+  "renewable_energy": "Energia Rinnovabile",
+  "security_automation": "Sicurezza e Automazione",
+  "smart_building": "Edificio Intelligente"
+},
+  "languageLabel": "Lingua",
+  "searchPlaceholder": "Cerca...",
+  "hero": {
+  "title": "Leader",
+  "intro": "Dal 2010, \"EuroElektra\" è specializzata nel mercato all'ingrosso offrendo una gamma completa di materiali elettrici: civili e industriali. Il nostro portafoglio copre anche settori importanti come:",
+"sectors": [
+  "Materiali Elettrici",
+  "Sicurezza Automatizzata",
+  "Illuminazione LED Professionale",
+  "Efficienza Energetica",
+  "Edificio Intelligente",
+  "Energia Rinnovabile"
+],
+  "animatedWords": [
+  "Innovazione!",
+  "Efficienza!",
+  "Connessioni!",
+  "Energia!",
+  "Sostenibilità!"
+]
+  },
+"features": [
+  {
+    "number": "01",
+    "title": "Prodotti Elettrici",
+    "desc": "EuroElektra offre prodotti selezionati dai migliori fornitori internazionali, garantendo soluzioni tecnologiche intelligenti e all'avanguardia."
+  },
+  {
+    "number": "02",
+    "title": "Automazione della Sicurezza",
+    "desc": "Il tuo edificio è più sicuro grazie a sistemi di monitoraggio intelligenti con telecamere e comandi automatizzati per un controllo totale."
+  },
+  {
+    "number": "03",
+    "title": "Showroom Illuminazione",
+    "desc": "Da EuroElektra, la luce è una combinazione di arte, architettura e scenografia per garantire la giusta illuminazione ai tuoi spazi."
+  },
+  {
+    "number": "04",
+    "title": "Efficienza Energetica",
+    "desc": "La climatizzazione efficiente è uno dei servizi offerti da EuroElektra per la gestione e il risparmio energetico in edifici, appartamenti e spazi professionali."
+  },
+  {
+    "number": "05",
+    "title": "Energia Rinnovabile",
+    "desc": "EuroElektra, attraverso i migliori marchi globali in energia verde, consente l'utilizzo dell'energia solare concentrandosi sulle fonti rinnovabili."
+  },
+  {
+    "number": "06",
+    "title": "Edificio Intelligente",
+    "desc": "Gli edifici moderni offrono non solo comfort, illuminazione e sicurezza, ma integrano tutti questi servizi in un unico sistema intelligente."
+  }
+],
+ "projectsTitle": "| Eventi",
+  "projectsDescription": "EuroElektra organizza regolarmente eventi focalizzati sugli sviluppi del settore elettrico e fotovoltaico nel paese.",
+  "projects1": [
+    {
+      "title": "Inaugurazione dell’impianto fotovoltaico da 600 kWp a Korça!",
+      "headline": "Inaugurazione dell’impianto fotovoltaico da 600 kWp a Korça!",
+      "description": "La Ministra delle Infrastrutture e dell’Energia, Sig.ra Belinda Balluku, ha visitato l’impianto fotovoltaico a Korça, realizzato da EuroElektra Sh.pk, presso l’azienda \"2 AT Chemicals\".",
+      "image": "/img/inagurimi1.jpg"
+    },
+    {
+      "title": "\"Energy & Expo 2019\"",
+      "headline": "\"Energy & Expo 2019\"",
+      "description": "La terza fiera \"Energy & Expo 2019\", dedicata all’energia.",
+      "image": "/img/expo2019-11.jpg"
+    },
+    {
+      "title": "Giornata di Formazione - Istituto Austriaco di Eccellenza",
+      "headline": "Giornata di Formazione - Istituto Austriaco di Eccellenza",
+      "description": "Giornata di formazione con l'Istituto Austriaco, dove sono stati discussi gli ultimi sviluppi e innovazioni dei Sistemi Fotovoltaici.",
+      "image": "/img/instituti1.jpg"
+    },
+    {
+      "title": "Tocca le energie rinnovabili con EuroElektra",
+      "headline": "Tocca le energie rinnovabili con EuroElektra",
+      "description": "IRENA ha visitato le strutture di EuroElektra per conoscere da vicino l'attività nel settore fotovoltaico.",
+      "image": "/img/event4.png"
+    },
+    {
+      "title": "Istituto Austriaco di Eccellenza",
+      "headline": "Istituto Austriaco di Eccellenza",
+      "description": "Momenti di formazione con l’Istituto Austriaco presso la nostra sede aziendale, dove si è discusso degli ultimi sviluppi e innovazioni nel campo degli impianti fotovoltaici.",
+      "image": "/img/austrian3.jpg"
+    },
+    {
+      "title": "Visita dei rappresentanti dell'Assemblea d'Albania a EuroElektra.",
+      "headline": "Visita dei rappresentanti dell'Assemblea d'Albania a EuroElektra.",
+      "description": "I rappresentanti di GIZ Albania e del Parlamento Albanese si sono mostrati interessati a conoscere meglio la situazione attuale del mercato fotovoltaico e la performance della nostra azienda in merito.",
+      "image": "/img/visit2.jpeg"
+    },
+    {
+      "title": "Visita dell'Agenzia Internazionale per l'Energia Rinnovabile (IRENA)",
+      "headline": "Visita dell'Agenzia Internazionale per l'Energia Rinnovabile (IRENA)",
+      "description": "Nel contesto del monitoraggio delle condizioni di mercato nel Sud-Ovest Europa, IRENA ha visitato la sede di EuroElektra per approfondire la conoscenza del suo settore fotovoltaico, essendo l’unica azienda sul mercato albanese ad aver implementato diversi impianti.",
+      "image": "/img/irena3.jpg"
+    },
+    {
+      "title": "Energy Expo & Forum 2017 - 1ª Edizione",
+      "headline": "Energy Expo & Forum 2017 - 1ª Edizione",
+      "description": "Il 14 e 16 novembre si è tenuta la prima edizione dell'Expo-Forum dedicato al settore energetico in Albania. L'evento si è focalizzato sulle Energie Rinnovabili e l’Efficienza Energetica.",
+      "image": "/img/forum2017_3.jpg"
+    }
+  ],
+  
+ "projects": {
+     "all": "Tutti",
+    "categories": {
+      "photovoltaic": "Impianto Fotovoltaico",
+      "ev_chargers": "Caricatori per Veicoli Elettrici",
+      "automation": "Automazione",
+      "el_photovoltaic": "Impianto ElFotovoltaico",
+      "project": "Progetto",
+      "others": "Edificio Intelligente"
+    },
+    "ehw": {
+        "title": "Impianto Fotovoltaico: 'EHW'",
+        "installed_power": "Potenza totale installata: 582 kWp",
+        "location": "Posizione: Autostrada Tirana-Durazzo, Albania"
+      },
+      "HAKO": {
+        "title": "Impianto Fotovoltaico: 'HAKO'",
+        "installed_power": "Potenza totale installata: 266.8 kWp",
+        "location": "Posizione: Autostrada Tirana-Durazzo, Albania"
+      },
+      "Algrafika": {
+        "title": "Impianto Fotovoltaico: 'Algrafika'",
+        "installed_power": "Potenza totale installata: 98.4 kWp",
+        "location": "Posizione: Autostrada Tirana-Durazzo, Albania"
+      },
+      "InfoSoft Office": {
+    "title": "Impianto Fotovoltaico: 'InfoSoft Office'",
+    "installed_power": "Potenza Totale Installata: 85.28 kWp",
+    "location": "Posizione: Autostrada Tirana-Durazzo, Albania"
+  },
+  "Villa Alba Medical Center": {
+  "title": "Impianto Fotovoltaico: 'Villa Alba Medical Center'",
+  "installed_power": "Potenza Totale Installata: 20.04 kWp",
+  "location": "Posizione: Durazzo, Albania"
+},
+  "Coca-Cola Bottling Albania": {
+    "title": "Impianto Fotovoltaico: 'Villa Alba Medical Center'",
+    "location": "Posizione: Autostrada Tirana-Durazzo, Albania"
+  },
+  "Statkraft": {
+  "title": "Impianti Fotovoltaik: 'Devoll HydroPower, Statkraft'",
+  "installed_power": "Fuqia e instaluar: 38 kWp",
+  "location": "Vendndodhja: Elbasan"
+},
+"2AT Chemicals": {
+  "title": "Impianto Fotovoltaico: '2AT Chemicals'",
+  "installed_power": "Potenza Installata: 600 kWp",
+  "location": "Posizione: Dishnice, Coriza"
+},
+ "Coca-Cola Bottling Albania1": {
+    "title": "Impianto Fotovoltaico: 'Coca-Cola Bottling Albania'",
+    "installed_power": "Potenza Installata: 126 kWp",
+    "location": "Posizione: Autostrada Tirana-Durazzo, km 5, Tirana"
+  },
+  "Photovoltaic Plants in Permet City": {
+    "title": "10 Impianti Fotovoltaici nella Città di Permet",
+    "installed_power": "Potenza Totale Installata: 28.35 kWp",
+    "location": "Posizione: Permet, Albania"
+  },
+  "SARP & LAB": {
+  "title": "Impianto Fotovoltaico: 'SARP & LAB'",
+  "installed_power": "Potenza Totale Installata: 28.35 kWp",
+  "location": "Posizione: Autostrada Tirana-Durazzo"
+},
+"Banese Private": {
+  "title": "Impianto Fotovoltaico: 'Banese Private'",
+  "installed_power": "Potenza Installata: 5,9 kWp",
+  "location": "Posizione: Scutari"
+},
+ "Godina EuroElektra": {
+    "title": "Impianto Fotovoltaico: Godina EuroElektra",
+    "installed_power": "Potenza Installata: 24,17 kWp",
+    "location": "Posizione: Prush, Vaqarr"
+  },
+  "ProCredit": {
+    "title": "Impianto Fotovoltaico: Banca 'ProCredit'",
+    "installed_power": "Potenza Installata: 17.55 kWp",
+    "location": "Posizione: Via 'Dritan Hoxha', Tirana"
+  },
+  "Rapsodia": {
+  "title": "Impianto Fotovoltaico: Baxho 'Rapsodia'",
+  "installed_power": "Potenza Installata: 50 kWp",
+  "location": "Posizione: Krajne, Lezhe"
+},
+"Qendra Vizitoreve Divjake-Karavasta": {
+  "title": "Impianto Fotovoltaico: 'Centro Visitatori Divjake-Karavasta'",
+  "installed_power": "Potenza installata: 5 kWp",
+  "location": "Posizione: Divjake"
+},
+"Qendra Vizitoreve Llogara": {
+  "title": "Impianti Fotovoltaik: 'Qendra Vizitoreve Llogara'",
+  "installed_power": "Fuqia e Instaluar: 3.16 kWp",
+  "location": "Vendndodhja: Parku Kombëtar Llogara"
+},
+"Qendra Vizitoreve Theth": {
+  "title": "Impianto Fotovoltaico: 'Centro Visitatori Theth'",
+  "installed_power": "Potenza Installata: 3.16 kWp",
+  "location": "Posizione: Parco Nazionale Theth"
+},
+"Observatori": {
+    "title": "Impianti Fotovoltaik: Observatori",
+    "installed_power": "Fuqia e instaluar: 5.8 kWp",
+    "location": "Vendndodhja: Rr. e Saraceve, Tiranë"
+  },
+  "Automation for Sliding Doors": {
+  "title": "Automazione per Porte Scorrevoli",
+  "location": "Posizione: Complesso 'Rolling Hills'"
+},
+"Mounting of lighting systems": {
+  "title": "Installazione dei sistemi di illuminazione",
+  "location": "Posizione: Complesso 'Rolling Hills'"
+},
+"Tamaco sh.p.k": {
+  "title": "Impianto Fotovoltaico: Tamaco s.r.l.",
+  "installed_power": "Potenza installata: 6.18 kWp",
+  "location": "Posizione: Kombinat, Tirana"
+},
+"Almoso sh.p.k": {
+  "title": "Impianto Fotovoltaico: Fabbrica di scarpe \"Almoso s.r.l.\"",
+  "installed_power": "Potenza Installata: 100 kWp",
+  "location": "Posizione: Lezhe"
+},
+"Villa Pascucci": {
+  "title": "Sistema di Automazione dell'Edificio: Hotel \"Villa Pascucci\"",
+  "installed_power": "Il sistema BY-ME di Vimar consente la gestione di audio, VOIP, illuminazione e climatizzazione in un unico software!",
+  "location": "Posizione: Hotel “Villa Pascucci”"
+},
+"Villa Pascucci1": {
+  "title": "Impianto Fotovoltaico: Hotel \"Villa Pascucci\"",
+  "installed_power": "Potenza installata: 100 kWp",
+  "location": "Posizione: Shkallnur, Durazzo"
+},
+"Kisha Troshan": {
+  "title": "Impianto Fotovoltaico: \"Kisha Troshan\"",
+  "installed_power": "Potenza Installata: 4 kWp",
+  "location": "Posizione: Troshan, Lezhe"
+},
+"ICE Tirana": {
+  "title": "Impianto Fotovoltaico: \"ICE Tirana\"",
+  "installed_power": "Potenza Installata: 4 kWp",
+  "location": "Posizione: Troshan, Lezha"
+},
+"CCTV Camera System with 360 ° view": {
+  "title": "Sistema di Telecamere CCTV con vista a 360°",
+  "location": "Posizione: Scuola Internazionale di Tirana"
+},
+"F&M REKLAMA": {
+  "title": "Progetto: F&M REKLAMA",
+  "installed_power": "Progettazione e realizzazione degli impianti elettrici",
+  "location": "Località: Via Prush, Vaqarr, Tirana"
+},
+"Project: QTU": {
+  "title": "Progetto: QTU",
+  "installed_power": "- Installazione dei sistemi di illuminazione\n- Automazione del cancello",
+  "location": "Posizione: Autostrada Tirana-Durazzo, km 6"
+}
+
+
+
+
+
+
+  },
+"projectsSlider": {
+  "sectionLabel": "I Nostri Progetti",
+  "sectionTitle": "Contiamo numerosi progetti realizzati in ciascuno dei settori in cui operiamo.",
+  "sectionDescription": "Esplora il nostro portfolio per vedere come forniamo impianti fotovoltaici di alta qualità che riflettono il tuo stile e le tue esigenze.",
+  "sectionButton":"Visualizza di più",
+  "slides": [
+    {
+      "title": "Impianto Fotovoltaico 600 kWp",
+      "location": "2AT Chemicals, Korça",
+      "image": "/img/korce1.jpg"
+    },
+    {
+      "title": "Impianto Fotovoltaico 126 kWp",
+      "location": "Coca-Cola Bottling Albania",
+      "image": "/img/ccbs1.jpg"
+    },
+    {
+      "title": "Impianto Fotovoltaico 100 kWp",
+      "location": "Hotel \"Villa Pascucci\"",
+      "image": "/img/villa1.jpg"
+    },
+    {
+      "title": "Impianto Fotovoltaico 11 kWp",
+      "location": "Devoll HydroPower",
+      "image": "/img/devoll1.jpg"
+    }
+  ]
+},
+"timeline": [
+  {
+    "title": "Distributore ufficiale",
+    "subtitle": "di marchi elettrici professionali"
+  },
+  {
+    "title": "8+",
+    "subtitle": "anni di esperienza"
+  },
+  {
+    "title": "40+",
+    "subtitle": "partner internazionali"
+  },
+  {
+    "title": "8000+",
+    "subtitle": "prodotti"
+  },
+  {
+    "title": "Progettazione",
+    "subtitle": "Assistenza tecnica per impianti fotovoltaici"
+  }
+],
+"blogTitle": "BLOG",
+"blog": [
+  {
+    "title": "I benefici per le aziende dall’implementazione delle tecnologie fotovoltaiche.",
+    "category": "Energia Rinnovabile",
+    "image": "/img/b-img_870311.jpg"
+  },
+  {
+    "title": "Quando il gusto del “Ristorante Rapsodia” incontra l’innovazione della tecnologia solare!",
+    "category": "Energia Rinnovabile",
+    "image": "/img/b-rapsodia.jpg"
+  },
+  {
+    "title": "La tecnologia che garantisce la massima efficienza dei pannelli fotovoltaici arriva in Albania ...",
+    "category": "Energia Rinnovabile",
+    "image": "/img/b-download.jpg"
+  }
+],
+"footer": {
+  "rights":"Tutti i diritti riservati.",
+  "contact": "Contatto",
+  "email": "info@euroelektra.al",
+  "address": "Rruga Prush 1041 Vaqarr, Tirana, Albania",
+  "explore": "Esplora",
+  "follow": "Seguici",
+  "links": ["Home", "Chi Siamo", "Progetti", "Eventi", "Blog"],
+  "sectorsTitle":"Settori",
+    "sectors": [
+      "Prodotti Elettrici",
+      "Efficienza Energetica",
+      "Showroom Illuminazione",
+      "Energia Rinnovabile",
+      "Sicurezza e Automazione",
+      "Edificio Intelligente"
+    ]
+},
+"aboutHero": {
+  "heading": "Chi siamo",
+  "breadcrumb": "CHI SIAMO"
+},
+"about": {
+  "missionTitle": "La nostra missione",
+  "missionDesc": "La missione di EuroElektra è fornire soluzioni energetiche intelligenti e sostenibili, aiutando aziende e comunità a operare in modo più efficiente, pulito e sicuro. Il nostro lavoro è guidato dalla tecnologia moderna, ma anche da un profondo impegno per la qualità, la responsabilità e l'impatto a lungo termine. Siamo motivati non solo dallo sviluppo delle infrastrutture energetiche, ma anche dalla differenza positiva che apportiamo nella vita quotidiana delle persone. Con un team appassionato e qualificato, supportiamo i nostri client dall'ideazione alla piena implementazione. Il nostro obiettivo è essere sempre un partner affidabile e vicino in ogni fase del percorso. Per noi, l'energia è più di una semplice tecnologia: è un'opportunità per migliorare la società. Crediamo nella costruzione di un futuro più verde e sostenibile per tutti. Una parte fondamentale della nostra missione è creare opportunità di lavoro significative e sviluppare competenze professionali, non solo a livello locale, ma in tutto il mercato del lavoro globale. Ci impegniamo a contribuire non solo ai progetti, ma anche alla crescita delle persone che li rendono possibili. Perché per noi il successo si misura dall'impatto che lasciamo dietro di noi.",
+  "goalTitle": "La Nostra Visione",
+  "goalPoints": [
+    "In EuroElektra, la nostra visione è guidare la trasformazione verso soluzioni energetiche più intelligenti, pulite e sostenibili, sia in Albania che altrove. Aspiriamo a essere un partner affidabile per le aziende moderne, offrendo costantemente soluzioni innovative, efficienti e su misura che favoriscano la crescita e il successo a lungo termine. Immaginiamo un mondo in cui tecnologia e passione umana lavorano di pari passo per plasmare un futuro migliore. Attraverso il nostro impegno per l'eccellenza, l'adattabilità e le partnership significative, ci impegniamo a ridefinire il significato di costruire: non solo progetti, ma un impatto duraturo. A ogni traguardo raggiunto, la nostra visione rimane chiara: crescere insieme ai nostri clienti, creare valore duraturo ed essere un catalizzatore del progresso in ogni mercato in cui operiamo."
+  ],
+  "standardsTitle": "I nostri standard",
+  "standardsPoints": [
+    "Dal 2010, EuroElektra è specializzata nella distribuzione all'ingrosso di materiali elettrici.",
+    "Immaginiamo un mondo in cui la tecnologia e la passione umana collaborano per costruire un futuro migliore. Attraverso il nostro impegno per l'eccellenza, l'adattabilità e le partnership significative, ci sforziamo di ridefinire cosa significa costruire — non solo progetti, ma un impatto duraturo.",
+    "Con ogni traguardo raggiunto, la nostra visione rimane chiara: crescere insieme ai nostri clienti, creare valore che duri nel tempo e diventare un catalizzatore per il progresso in ogni mercato in cui operiamo."
+  ]
+},
+"philosophy": {
+  "heading": "Filosofia aziendale identificata con il professionalismo…",
+  "paragraph1": "I motori elettrici ad alta potenza richiedono molta energia all’avvio per iniziare a muoversi. Inizialmente, questi motori sono collegati in modalità Stella (Y) e, una volta raggiunto il regime normale, la connessione si trasforma in Triangolo (Δ). Ogni elemento metallico deve essere Protetto (⏚), per garantire la messa a terra in sicurezza.",
+  "paragraph2": "Trasformare una configurazione da \"stella\" a \"triangolo\" significa eguagliare i valori di resistenza. Questa unificazione ha ispirato la creazione del logo EuroElektra."
+},
+"timeline1": {
+  "title": "Il Nostro Percorso",
+  "events": [
+    { "year": "2025", "text": "EuroElektra è diventata distributore ufficiale di TCL e BYD in Albania. Il nostro viaggio è ufficialmente globale." },
+    { "year": "2023", "text": "Completato con successo il primo progetto fotovoltaico fuori dall'Albania, a Catania, Italia — segnando l'inizio dell'espansione internazionale nel settore delle energie rinnovabili." },
+    { "year": "2022", "text": "Leader nel mercato fotovoltaico con oltre 40 MW realizzati tra installazioni residenziali, industriali e commerciali." },
+    { "year": "2021", "text": "Vincitori del più grande progetto statale di energia solare in Albania: la diga solare di Vau i Dejës." },
+    { "year": "2020", "text": "Installazioni industriali fotovoltaiche oltre 1 MW realizzate per la prima volta." },
+    { "year": "2019", "text": "Creato un gruppo d’interesse per i produttori autonomi di energia solare per favorire l’adozione della rete di scambio Net Metering." },
+    { "year": "2018", "text": "Distributore autorizzato per Albania, Kosovo, Montenegro e Macedonia del Nord per il produttore mondiale SUNPOWER." },
+    { "year": "2017", "text": "Approvata la prima legge che consente lo scambio energetico tramite Net Metering. Partecipazione anche alla prima fiera sull'energia solare." },
+    { "year": "2016", "text": "Realizzato il primo progetto industriale per autoconsumo senza iniezione nella rete di Almoso Fush-Kruje." },
+    { "year": "2015", "text": "Diventati distributori esclusivi per marchi noti come Fronius, SMA, LG Solar, PEIMAR, ecc." },
+    { "year": "2010", "text": "Registrata come società a responsabilità limitata, ispirata al modello di successo 'RemaTarlazzi' del 'Gruppo Comet'." }
+  ]
+},
+"sectionIntro": {
+  "intro": "Dal 2010, \"EuroElektra\" si è specializzata nel mercato all'ingrosso offrendo l'intera gamma di materiali elettrici: civili e industriali. Il nostro portafoglio prodotti copre anche settori importanti come:",
+  "points": [
+    "Materiali elettrici",
+    "Sicurezza automatizzata",
+    "Illuminazione professionale a LED",
+    "Efficienza energetica",
+    "Edificio intelligente",
+    "Energia rinnovabile"
+  ]
+},
+
+"events": {
+  "project_1": {
+    "title": "Inaugurazione - Impianto Fotovoltaico 600 kWp",
+    "date": "18 Ottobre 2019",
+    "description": "Il Ministro delle Infrastrutture ed Energia, Belinda Balluku, visita l’impianto fotovoltaico a Korça..."
+  },
+  "project_2": {
+  "title": "Energy Expo & Forum 2019 - 3ª Edizione",
+  "date": "4–5 Ottobre 2019",
+  "description": "Momenti durante la terza edizione di Energy Expo & Forum 2019, dove gli ospiti del nostro stand erano rappresentanti delle più prestigiose aziende fotovoltaiche come SunPower, Alussystem. Durante i due giorni della fiera, lo stand di EuroElektra è stato visitato dal Sig. Eduard Shalsi, Ministro di Stato per la Protezione delle Imprese, dalla Ministra delle Infrastrutture e dell'Energia, Sig.ra Belinda Balluku, nonché da rappresentanti dell'Ambasciata degli Stati Uniti, tra cui l'addetto economico e commerciale Sig. Alex MacFarlane."
+},
+"project_3": {
+  "title": "Istituto Austriaco di Eccellenza",
+  "date": "15 Aprile 2019",
+  "description": "Momenti durante la formazione con l'Istituto Austriaco, tenutasi presso la nostra sede, dove sono stati discussi gli ultimi sviluppi e innovazioni sugli impianti fotovoltaici."
+},
+"project_4": {
+  "title": "Fiera ed Expo dell’Energia 2018 - 2ª Edizione",
+  "date": "5–6 Ottobre 2018",
+  "description": "Per il secondo anno consecutivo, EuroElektra partecipa alla fiera dell’energia 'Energy & Expo Forum 2018' come uno dei principali sostenitori dell’evento che riunisce tutti gli attori del mercato energetico in un ambiente interattivo. I partecipanti a questa edizione saranno rappresentanti di alcune delle aziende più prestigiose del mercato mondiale dell’energia solare come: SunPower, SolarEdge, Alusistemi, Zucchetti Centro System ecc., che condivideranno con il pubblico albanese le più recenti tecnologie fotovoltaiche."
+},
+"project_5": {
+  "title": "Tocca la rivoluzione delle energie rinnovabili con EuroElektra – Settimana delle Competenze Albanesi 2018",
+  "date": "10 Maggio 2018",
+  "description": "Nel quadro della “Settimana delle Competenze Albanesi 2018”, si sono svolte una serie di attività formative per studenti dell’istruzione professionale tecnica ed elettrica e studenti di ingegneria elettrica, riguardanti gli ultimi sviluppi nel settore fotovoltaico e i metodi di installazione di un impianto fotovoltaico. Durante l’evento, EuroElektra ha dimostrato le connessioni elettriche tra i componenti di un impianto fotovoltaico."
+},
+"project_6": {
+  "title": "Visita dei rappresentanti dell'Assemblea d'Albania a EuroElektra.",
+  "date": "Maggio 2018",
+  "description": "I rappresentanti di GIZ Albania e del Parlamento albanese sono interessati a conoscere meglio la situazione attuale del mercato fotovoltaico e le prestazioni dell'azienda in merito."
+},
+"project_7": {
+  "title": "Visita dell'Agenzia Internazionale per le Energie Rinnovabili (IRENA)",
+  "date": "7 Dicembre 2017",
+  "description": "Nel contesto del monitoraggio delle condizioni attuali del mercato per l'Europa sud-occidentale, l'Agenzia Internazionale per le Energie Rinnovabili ha visitato la sede di EuroElektra per conoscere meglio il suo settore fotovoltaico, essendo l'unica azienda nel mercato albanese ad aver implementato diversi impianti fotovoltaici con potenze diverse per aziende e famiglie."
+},
+"project_8": {
+  "title": "Expo & Forum sull'Energia 2017 - 1ª Edizione",
+  "date": "14–16 Novembre 2017",
+  "description": "Il 14 e 16 novembre si è svolta la prima edizione dell'Expo-Forum dedicato al settore energetico in Albania. L'evento si è concentrato principalmente sulle Energie Rinnovabili e sull'Efficienza Energetica. L'evento si è tenuto presso la sede di ExpoCity Albania in collaborazione con il Ministero delle Infrastrutture e dell'Energia e con il supporto di EuroElektra come sponsor ufficiale. Durante i tre giorni del forum sono state presentate idee di progetti su approvvigionamento, tecnologia, trasmissione, sistemi, attrezzature, servizi, consulenza, economia e finanziamenti energetici."
+}
+
+},
+"heroProjects": {
+  "title": "PROGETTI",
+  "breadcrumb": "PROGETTI"
+},
+"heroEvents": {
+  "title": "EVENTI",
+  "breadcrumb": "EVENTI"
+},
+"abouts": {
+  "title": "Chi Siamo",
+  "content": "EuroElektra Sh.p.k è una delle principali aziende albanesi specializzate in soluzioni energetiche, ingegneria elettrica e infrastrutture sostenibili. Rinomata per la sua professionalità ed eccellenza tecnica, EuroElektra realizza progetti di alta qualità—da impianti fotovoltaici su larga scala a complesse installazioni elettriche—sempre con un focus sulla sicurezza, la precisione e il valore a lungo termine.\n\nL’innovazione è al centro dell’approccio aziendale. Integrando tecnologie avanzate come impianti solari all’avanguardia e sistemi intelligenti di gestione dell’energia, EuroElektra garantisce efficienza, sostenibilità e adattabilità alle sfide future.\n\nLa forza dell’azienda risiede anche nel suo team. Ingegneri, progettisti e tecnici lavorano in un ambiente collaborativo basato sulla fiducia che stimola risultati e crescita.\n\nDa una forte presenza nazionale, EuroElektra sta ora espandendosi a livello globale, contribuendo alla transizione mondiale verso l’energia pulita e l’infrastruttura intelligente.\n\nGuidati dalle persone. Alimentati dall’innovazione. Costruiamo un futuro sostenibile."
+},
+"heroSectors": {
+  "title": "SETTORI",
+  "breadcrumb": "SETTORI"
+},
+"sidebarSectors": {
+  "title": "SETTORI"
+},
+"companyValues": {
+    "title": "I Valori dell'Azienda",
+    "values": [
+      {
+        "title": "Trasparenza",
+        "desc": "Forniamo informazioni complete e accurate per permettere decisioni autonome, riconoscendo gli interessi delle parti."
+      },
+      {
+        "title": "Responsabilità del Prodotto",
+        "desc": "Garantiamo che i nostri prodotti/servizi rispettino gli standard di sicurezza e siano certificati UE."
+      },
+      {
+        "title": "Rispetto per la Dignità e l'Integrità",
+        "desc": "Rispettiamo i diritti umani fondamentali e offriamo pari opportunità a tutti."
+      },
+      {
+        "title": "Responsabilità Sociale",
+        "desc": "Contribuiamo e collaboriamo con la comunità in cui viviamo e lavoriamo."
+      },
+      {
+        "title": "Diffusione della Conoscenza",
+        "desc": "Il nostro personale condivide conoscenze con i giovani per allinearli alle esigenze del mercato."
+      }
+    ]
+  },
+  "strategicObjectives": {
+    "title": "Obiettivi Strategici",
+    "points": [
+      "Espandere il nostro portafoglio con prodotti innovativi ed ecologici come distributori esclusivi in Albania e mercati internazionali.",
+      "Rafforzare le partnership con aziende europee e globali per migliorare la qualità dei servizi.",
+      "Sviluppare la rete di distribuzione per una copertura nazionale e regionale.",
+      "Promuovere l'uso di energie alternative attraverso sensibilizzazione e adozione a livello nazionale e internazionale."
+    ]
+  },
+  "electricalProducts": {
+  "title": "Prodotti Elettrici",
+  "description": "I nostri prodotti elettrici offrono alta qualità, sostenibilità, efficienza energetica e soluzioni ecocompatibili — in linea con la missione di EuroElektra di alimentare il futuro attraverso l’innovazione e sistemi energetici intelligenti."
+},
+"electrical": {
+  "title": "Prodotti Elettrici",
+  "categories": [
+    "Prodotti Elettrici",
+    "Automazione di Sicurezza",
+    "Showroom Illuminazione",
+    "Efficienza Energetica",
+    "Energia Rinnovabile",
+    "Edificio Intelligente"
+  ],
+  "sectors": [
+    { "title": "Residenziale", "image": "/img/rr1.jpg" },
+    { "title": "Industriale", "image": "/img/48366947_2077107672345759_7039099863660756992_o.JPG" },
+    { "title": "Infrastruttura IT", "image": "/img/Euroelektra_S7P-23.jpg" }
+  ]
+},
+"energyEfficiencyHero": {
+  "title": "Efficienza Energetica",
+  "description": "I nostri prodotti per l’efficienza energetica offrono alta qualità, sostenibilità, risparmio energetico e soluzioni ecologiche — in linea con la missione di EuroElektra di alimentare il futuro attraverso l’innovazione e sistemi energetici intelligenti."
+},
+
+  "sectorsSidebar": {
+    "title": "SETTORI",
+    "items": [
+      "Prodotti Elettrici",
+      "Automazione di Sicurezza",
+      "Showroom di Illuminazione",
+      "Efficienza Energetica",
+      "Energia Rinnovabile",
+      "Edificio Intelligente"
+    ]
+  },
+  "sectorsContent": {
+    "climateComfort": {
+      "title": "Comfort climatico",
+      "intro": "La temperatura che desideri, quando la desideri",
+      "paragraph1": "Gestione completa del clima per qualsiasi tipo di edificio, adatta a qualsiasi ambiente e controllabile localmente, centralmente da un unico punto o anche da remoto. Tante soluzioni possibili per il riscaldamento e il raffreddamento con sistemi a due o quattro tubi, riscaldamento a pavimento e radiatori, fan-coil e sistemi split/multisplit.",
+      "paragraph2": "La funzione Ecometer mostra i valori di consumo tramite un indicatore facile da usare con scala graduata e avvisa quando la temperatura di comfort viene superata, accendendo un’icona per promuovere una maggiore consapevolezza energetica."
+    },
+    "smartManagement": {
+      "title": "Gestione intelligente",
+      "intro": "Controllo climatico integrato nel sistema domotico By-me",
+      "paragraph1": "Poiché il sistema è integrato nei sistemi domotici, è ora possibile la gestione completa dell’energia: dal monitoraggio dei consumi al controllo dell’impianto fotovoltaico.",
+      "paragraph2": "L’energia e l’edificio vengono gestiti completamente tramite touch screen, che permettono il monitoraggio costante dei valori per periodi (orario, giornaliero, settimanale, ecc.) e per tipo di grandezza."
+    }
+  },
+  "lightingHero": {
+  "title": "Showroom di Illuminazione",
+  "description": "I nostri prodotti per lo showroom di illuminazione offrono alta qualità, sostenibilità, efficienza energetica e soluzioni ecologiche — in linea con la missione di EuroElektra di alimentare il futuro attraverso innovazione e sistemi energetici intelligenti."
+},
+  "sectorsPage": {
+    "title": "Prodotti Elettrici",
+    "categories": {
+      "electrical": "Prodotti Elettrici",
+      "security": "Automazione di Sicurezza",
+      "lighting": "Showroom di Illuminazione",
+      "efficiency": "Efficienza Energetica",
+      "renewable": "Energia Rinnovabile",
+      "smart": "Edificio Intelligente"
+    },
+    "grid": {
+      "interior": "Interno",
+      "exterior": "Esterno"
+    }
+  },
+  "heroRenewable": {
+    "title": "Energia Rinnovabile",
+    "description": "I nostri prodotti per l'Energia Rinnovabile offrono alta qualità, sostenibilità, efficienza energetica e soluzioni ecologiche — in linea con la missione di EuroElektra di alimentare il futuro attraverso l’innovazione e sistemi energetici intelligenti."
+  },
+  "sectorsPage": {
+    "sidebarTitle": "Prodotti Elettrici",
+    "categories": [
+      "Prodotti Elettrici",
+      "Automazione della Sicurezza",
+      "Showroom Illuminazione",
+      "Efficienza Energetica",
+      "Energia Rinnovabile",
+      "Edificio Intelligente"
+    ],
+    "items": [
+      { "title": "Pannelli fotovoltaici" },
+      { "title": "Inverter fotovoltaico" },
+      { "title": "Batteria" },
+      { "title": "Altri accessori" }
+    ]
+  },
+  "electricalProductsHero": {
+  "title": "Prodotti Elettrici",
+  "description": "I nostri prodotti elettrici offrono alta qualità, sostenibilità, efficienza energetica e soluzioni ecologiche — in linea con la missione di EuroElektra di alimentare il futuro attraverso innovazione e sistemi energetici intelligenti."
+},
+  "sectors": {
+    "sidebarTitle": "Prodotto Elettrico",
+    "categories": [
+      "Prodotti Elettrici",
+      "Automazione della Sicurezza",
+      "Showroom Illuminazione",
+      "Efficienza Energetica",
+      "Energia Rinnovabile",
+      "Edificio Intelligente"
+    ],
+    "products": [
+      { "title": "Automazione per porte", "image": "/img/IMG_8411 (1).jpg" },
+      { "title": "Sistema di Parcheggio", "image": "/img/ccbs1.JPG" },
+      { "title": "Sistema CCTV", "image": "/img/IMG_8380.jpg" },
+      { "title": "Sistema Allarme / Incendio", "image": "/img/FIRE-DETECTION.JPG" },
+      { "title": "Sistemi di Controllo Accessi", "image": "/img/IMG_2079.JPG" },
+      { "title": "Citofoni Audio e Video", "image": "/img/ccbc (2).JPG" }
+    ]
+  },
+  "smartBuildingHero": {
+    "title": "Edificio Intelligente",
+    "description": "Il nostro prodotto Smart Building offre soluzioni di alta qualità, sostenibili e rispettose dell’ambiente — in linea con la missione di EuroElektra di alimentare il futuro attraverso l’innovazione e i sistemi energetici intelligenti."
+  },
+  "sidebarTitle": "Settori",
+  "sidebarSectors": [
+    "Prodotti Elettrici",
+    "Automazione Sicurezza",
+    "Showroom Illuminazione",
+    "Efficienza Energetica",
+    "Energia Rinnovabile",
+    "Edificio Intelligente"
+  ],
+  "sections": [
+    {
+      "title": "Controllo della casa",
+      "paragraphs": [
+        "Con By-me ogni stanza risponde ai tuoi desideri: in qualsiasi momento, per ogni occasione o necessità.",
+        "Tocca semplicemente il display touch video multimediale e in pochi istanti, per ogni stanza della casa, puoi caricare una delle 32 combinazioni diverse di temperatura, illuminazione e comfort, configurate in base alle esigenze quotidiane o al puro piacere personale."
+      ],
+      "image": "/img/80006c2b-b6b9-4576-bfd7-f747909b6e60 (1).PNG"
+    },
+    {
+      "title": "Con l'app By-web puoi gestire e visualizzare le principali funzioni del sistema dal tuo smartphone.",
+      "paragraphs": [
+        "Con il controllo remoto della casa anche da smartphone, tablet o PC, puoi controllare la tua casa in ogni momento.",
+        "Da uno smartphone, puoi visualizzare e gestire le principali funzioni del sistema, inclusi automazione, scenari, controllo del calore, allarme antifurto e allarmi tecnici."
+      ],
+      "image": "/img/0fa7ef15-8e80-43bd-9988-79969ab636d2.PNG"
+    },
+    {
+      "title": "Nulla ti sfugge, l'intera casa è a portata di tocco semplice e intuitivo.",
+      "paragraphs": [
+        "Guarda le telecamere, rispondi al videocitofono, controlla le luci, i dispositivi automatizzati e i carichi, attiva gli scenari e gestisci il sistema audio.",
+        "Seleziona semplicemente le varie stanze della casa e controlla tutte le funzioni da un unico punto."
+      ],
+      "image": "/img/01143bdb-c9bf-441a-8500-f6f9e5954944.PNG"
+    }
+  ],
+   "sectors": {
+    "electrical_products": "Prodotti Elettrici",
+    "security_automation": "Sicurezza e Automazione",
+    "lighting_showroom": "Showroom Illuminazione",
+    "energy_efficiency": "Efficienza Energetica",
+    "renewable_energy": "Energia Rinnovabile",
+    "smart_building": "Edificio Intelligente"
+  },
+  "securityAutomation": {
+    "title": "Automazione della Sicurezza",
+    "description": "Le nostre soluzioni di Automazione della Sicurezza offrono sistemi di protezione intelligenti, affidabili e senza interruzioni che migliorano la sicurezza, ottimizzano il controllo e si integrano perfettamente con le infrastrutture smart — supportando la missione di EuroElektra di alimentare il futuro attraverso l’innovazione e i sistemi energetici intelligenti."
+  },
+  "sidebar": {
+    "title": "Prodotto Elettrico",
+    "items": [
+      "Prodotti Elettrici",
+      "Automazione della Sicurezza",
+      "Showroom Illuminazione",
+      "Efficienza Energetica",
+      "Energia Rinnovabile",
+      "Edificio Intelligente"
+    ]
+  },
+  "grid": {
+    "items": [
+      { "title": "Automazione per porte", "image": "/img/IMG_8411 (1).jpg" },
+      { "title": "Sistema di Parcheggio", "image": "/img/ccbs1.JPG" },
+      { "title": "Sistema CCTV", "image": "/img/IMG_8380.jpg" },
+      { "title": "Sistema Allarme / Antincendio", "image": "/img/FIRE-DETECTION.JPG" },
+      { "title": "Sistemi di Controllo Accessi", "image": "/img/IMG_2079.JPG" },
+      { "title": "Citofoni Audio e Video", "image": "/img/ccbc (2).JPG" }
+    ]
+  },
+  "chat": {
+  "bot_greeting": "Ciao, come possiamo aiutarti? Il nostro staff ti risponderà presto!",
+  "bot_reply": "Grazie per il messaggio. Il nostro team è offline 💤 Ti contatteremo appena possibile 🙂",
+  "placeholder": "Scrivi un messaggio...",
+  "powered_by": "Fornito da",
+  "company": "EuroElektra",
+  "send_us_msg": "Inviaci un messaggio",
+  "happy_to_answer": "Felici di risponderti più tardi"
+},
+"blogs": {
+  "project_1": {
+    "title": "I pannelli solari funzionano in inverno?",
+    "date": "28 Febbraio 2020 • Di EuroElektra Sh.p.k • 0 Commenti • 14.710 Visualizzazioni",
+    "description": "L’energia solare funziona catturando l’energia del sole e durante l’inverno, i pannelli continuano a generare elettricità.",
+    "readMore": "Leggi di più"
+  },
+  "project_2": {
+    "title": "L'Albania e lo sviluppo ritardato del mercato fotovoltaico",
+    "date": "09 Aprile 2019 • Di EuroElektra Sh.p.k • 0 Commenti • 10.837 Visualizzazioni"
+    
+  },
+   "project_3": {
+    "title": "La tecnologia che garantisce la massima efficienza dei pannelli fotovoltaici arriva sul mercato albanese!",
+    "date": "30 Gennaio 2019 • Di EuroElektra Sh.p.k • 0 Commenti • 10.319 Visualizzazioni",
+    "description": "Una nuova tecnologia fotovoltaica ad alta efficienza è ora disponibile in Albania, assicurando migliori prestazioni anche in condizioni difficili."
+  },
+  "project_4": {
+  "title": "Quando il gusto del “Ristorante Rapsodia” incontra le innovazioni nella tecnologia solare!",
+  "date": "30 Gennaio 2019 • Di EuroElektra Sh.p.k • 0 Commenti • 8.110 Visualizzazioni",
+  "description": "Quando il gusto del “Ristorante Rapsodia” incontra le innovazioni nella tecnologia solare…"
+},
+"project_5": {
+  "title": "Benefici aziendali derivanti dall'implementazione delle tecnologie fotovoltaiche.",
+  "date": "30 Gennaio 2019 • Di EuroElektra Sh.p.k • 0 Commenti • 11.044 Visualizzazioni",
+  "description": "Intervista con il Sig. Elton Çekrezi, CEO di EuroElektra Sh.p.k"
+}
+},
+  "blogCat": {
+    "title": "Categorie del Blog",
+     "categories": [
+    "Prodotti Elettrici",
+    "Automazione di Sicurezza",
+    "Showroom Illuminazione",
+    "Efficienza Energetica",
+    "Energia Rinnovabile",
+    "Edificio Intelligente"
+  ],
+  "sectors": [
+    { "title": "Residenziale", "image": "/img/rr1.jpg" },
+    { "title": "Industriale", "image": "/img/48366947_2077107672345759_7039099863660756992_o.JPG" },
+    { "title": "Infrastruttura IT", "image": "/img/Euroelektra_S7P-23.jpg" }
+  ]
+  },
+  "heroBlog": {
+    "title": "Blog",
+    "breadcrumb": "Blog",
+    "euroelektra":"Blog / Filtra i blog per tag: euroelektra",
+    "sunpower": "Blog / Filtra i blog per tag: sunpower",
+    "solarpanels": "Blog / Filtra i blog per etichetta: pannelli solari",
+    "solarenergy": "Blog / Filtra i blog per etichetta: energia solare",
+    "winter": "Blog / Filtra i blog per etichetta: inverno",
+    "renewableenergy": "Blog / Filtra i blog per etichetta: energia rinnovabile",
+    "solarcompany": "Blog / Filtra i blog per etichetta: azienda solare",
+    "photovoltaicsector": "Blog / Filtra articoli per tag: settore fotovoltaico",
+    "photovoltaicpanels": "Blog / Filtra articoli per tag: pannelli fotovoltaici",
+    "photovoltaicmarket": "Blog / Filtra articoli per tag: mercato fotovoltaico",
+    "albaniaenerygysector": "Blog / Filtra articoli per tag: settore energetico in Albania"
+  },
+  "heroBlog1": {
+  "title": "Blog",
+  "breadcrumb": "Blog / I pannelli solari funzionano in inverno?"
+},
+"heroBlog2": {
+  "title": "Blog",
+  "breadcrumb": "Blog / L'Albania e lo Sviluppo Ritardato del Mercato Fotovoltaico"
+},
+"heroBlog3": {
+  "title": "Blog",
+  "breadcrumb": "Blog / La tecnologia che garantisce la massima efficienza dei pannelli fotovoltaici arriva sul mercato albanese!"
+},
+"heroBlog4": {
+  "title": "Blog",
+  "breadcrumb": "Blog / Quando il gusto del “Ristorante Rapsodia” incontra le innovazioni della tecnologia solare!"
+},
+"heroBlog5": {
+  "title": "Blog",
+  "breadcrumb": "Blog / I Benefici per le Aziende dall'Implementazione delle Tecnologie Fotovoltaiche."
+},
+
+"blog1": {
+  "project_1": {
+    "title": "I pannelli solari funzionano in inverno?",
+    "title1": "L’energia solare funziona catturando l’energia del sole e durante l’inverno, i pannelli continuano a generare elettricità.",
+    "description1": "La produzione di energia nei mesi invernali non è altrettanto efficiente, poiché i pannelli producono meno del loro normale potenziale. Le giornate più corte, le temperature basse, la pioggia e la neve sono tutti fattori che riducono la produzione, ma l’energia generata è comunque sufficiente a coprire il fabbisogno.",
+    "description1_2": "I sistemi solari SunPower sono progettati per la massima efficienza, il che significa che possono produrre più energia anche in condizioni di scarsa illuminazione. Utilizzano vetro antiriflesso di alta qualità per catturare la luce da ogni angolazione, superando i pannelli convenzionali.",
+    "title2": "RIMOZIONE DELLA NEVE DAI PANNELLI SOLARI",
+    "description2": "Se la neve copre completamente i pannelli, questi non saranno in grado di produrre elettricità. È importante quindi rimuovere la neve per garantire il corretto funzionamento dell’impianto.",
+    "description2_2": "Inoltre, i pannelli sono generalmente installati verso sud o sud-ovest per massimizzare l’esposizione al sole, permettendo così alla neve di sciogliersi più rapidamente.",
+    "description2_3": "Se l’accumulo di neve è eccessivo, la rimozione manuale può essere la soluzione migliore.",
+    "description2_4": "In base all’altezza e all’inclinazione del tetto, assicurati che la pulizia dei pannelli sia sicura per te—altrimenti contatta dei professionisti per rimuovere la neve.",
+    "title3": "I PANNELLI SUNPOWER RESISTONO ALLE INTEMPERIE",
+    "description3": "Dai temporali alla neve, l’inverno può presentare condizioni estreme. SunPower ha oltre 30 anni di esperienza nel migliorare la tecnologia per resistere a queste sfide.",
+    "title4": "PERCHÉ SUNPOWER?",
+    "description4": "I pannelli SunPower sono stati testati per durabilità in condizioni difficili come neve, temperature estreme e venti fino a 145 km/h. Questi test mostrano il vantaggio rispetto ai pannelli convenzionali. Richiedono poca manutenzione e funzionano tutto l’anno.",
+    "description4_2": "Per questo motivo, la tecnologia SunPower è stata scelta per la missione GROVER della NASA in Groenlandia.",
+    "by": "Autore: EuroElektra sh.p.k",
+    "source": "Informazioni sulla fonte: SunPower"
+  }
+   
+},
+  "blog1Meta": {
+    "postedBy": "Pubblicato da:",
+    "company": "EuroElektra S.r.l.",
+    "category": "In:",
+    "categoryName": "Energia Rinnovabile",
+    "date": "Il:",
+    "published": "Venerdì, 28 Febbraio 2020",
+    "comment": "Commenti:",
+    "hit": "Visualizzazioni:",
+    "by":"di"
+  },
+"social": {
+  "likeThis": "Mi piace",
+  "post": "✗ Posta",
+  "like": "Mi piace",
+  "likesInfo": {
+    "text": "A 2 persone piace questo.",
+    "signup": "Iscriviti",
+    "see": "per vedere cosa piace ai tuoi amici."
+  }
+},
+"tags": {
+  "tagsLabel": "Tag:",
+  "tag_euroelektra": "euroelektra",
+  "tag_sunpower": "SunPower",
+  "tag_solar_panels": "Pannelli Solari",
+  "tag_solar_energy": "Energia Solare",
+  "tag_winter": "Inverno",
+  "tag_renewable_energy": "Energia Rinnovabile",
+  "tag_solar_company": "Azienda Solare"
+},
+ "related": {
+  "categoryTitle": "Nella stessa categoria",
+  "tagsTitle": "Articoli correlati per tag",
+  "albania": "L'Albania e lo sviluppo ritardato del mercato fotovoltaico",
+  "business": "I vantaggi per le aziende derivanti dall'implementazione delle tecnologie fotovoltaiche.",
+  "when": "Quando il gusto del 'Ristorante Rapsodia' incontra le innovazioni della tecnologia solare!",
+  "the": "La tecnologia che garantisce la massima efficienza dei pannelli fotovoltaici arriva nel mercato albanese!",
+  "do": "I pannelli solari funzionano in inverno?",
+  "albaniaover": "L'Albania e lo sviluppo ritardato del mercato fotovoltaico"
+},
+  "comments": {
+  "title": "Commenti",
+  "subtitle": "Lascia il tuo commento",
+  "name": "Nome completo",
+  "namePlaceholder": "Inserisci il tuo nome completo",
+  "email": "Email",
+  "emailPlaceholder": "Inserisci la tua email",
+  "comment": "Commento",
+  "commentPlaceholder": "Scrivi il tuo commento",
+  "captcha": "Codice CAPTCHA",
+  "submit": "Invia"
+},
+"blog2": {
+  "project_1": {
+    "title": "L'Albania e lo sviluppo ritardato del mercato fotovoltaico",
+    "title1": "Tirana, 08 Aprile 2019",
+    "description1": "Attualmente, l’impronta ecologica dell’Albania nello sviluppo della capacità di generazione di energia attraverso l’uso solare è quasi inesistente rispetto ai paesi vicini, che, nonostante differenti livelli di sviluppo economico, hanno lavorato per raggiungere l'obiettivo 2020 della Commissione Europea per aumentare la quota di energia da fonti rinnovabili. Anche se l'Albania ha fissato uno degli obiettivi più alti della regione, i passi compiuti finora non sono sufficienti. L'Albania è l'unico paese nei Balcani sudoccidentali a non aver approvato una tariffa Feed-In per l'energia fotovoltaica che consenta lo scambio di energia nella rete con il sistema net-metering.",
+    "description1_2": "Il settore energetico albanese ha un grande potenziale per uno sviluppo sostenibile, ma l'assenza di diversificazione delle fonti crea dipendenza dalle importazioni. Una pianificazione a medio e lungo termine e incentivi per nuove forme di produzione energetica creerebbero indipendenza e sviluppo sostenibile.",
+    "description1_3": "È significativo notare che la produzione di elettricità in Albania dipende esclusivamente dall’energia idroelettrica. Questa dipendenza da una sola fonte, vulnerabile ai cambiamenti climatici, mette a rischio la sicurezza interna del paese.",
+    "description2": "Considerando la quantità di radiazione solare e l’irradiamento annuo medio, l'Albania ha un potenziale molto elevato per la produzione di energia elettrica solare, riducendo la dipendenza da paesi vicini e dall’energia idroelettrica.",
+    "description2_2": "Il consumo energetico varia durante il giorno e la notte per famiglie e imprese. Nei periodi di basso consumo si crea un surplus energetico che può essere immesso nella rete e consumato da utenti vicini, evitando perdite. Il produttore sarà compensato tramite detrazioni sulla bolletta nei periodi di bassa produzione dovuta alle condizioni atmosferiche.",
+    "description2_3": "Dal 2017 è stato dichiarato che entro un anno dall’approvazione della legge sarebbe stata adottata la procedura facilitata per lo scambio di energia nella rete, ma ciò non è mai avvenuto, e senza spiegazioni valide.",
+    "description2_4": "Una delle motivazioni è la pretesa dell'Operatore di Distribuzione Elettrica (OSHEE) secondo cui la rete a bassa tensione attuale non è pronta per l’integrazione degli impianti fotovoltaici per autoconsumo.",
+    "description2_5": "Questo processo ritardato da due anni ha portato il Sig. Elton Çekrezi, Direttore Esecutivo di EuroElektra, a prendere l’iniziativa di raccogliere il Gruppo di Interesse per l’Energia Solare formato da tutte le aziende che operano nel mercato fotovoltaico albanese, con piena trasparenza.",
+    "description3": "Questo gruppo, rappresentato dall’avvocato Anduel Çekrezi di EuroElektra, ha formalmente richiesto un incontro con la Ministra delle Infrastrutture e dell’Energia, Sig.ra Belinda Balluku, per l’“Approvazione delle linee guida per piccoli progetti di energia rinnovabile”.",
+    "description3_2": "La richiesta è stata accolta dal Ministero e il 21 Marzo si è tenuta un’interpellanza con la Ministra Balluku e i dirigenti dell’OSHEE. Il gruppo ha presentato argomentazioni tecniche sufficienti a respingere le obiezioni dell’OSHEE e a dimostrare che i sistemi fotovoltaici possono essere pienamente integrati nella rete esistente.",
+    "description4": "Durante l’interpellanza, la Ministra Balluku ha emesso un ordine per la creazione di un gruppo di lavoro con membri del Ministero, OSHEE, ERE, OST e rappresentanti del gruppo di interesse.",
+    "description4_2": "Il 3 Aprile 2019, la Ministra ha firmato l’ordine per la costituzione del gruppo per la redazione della metodologia e delle linee guida secondo la legge 7/2017, articolo 15, sullo 'schema di misurazione netta'. Il gruppo avrà 9 membri: 2 dal Ministero, 2 da OSHEE, 1 da ERE, 1 da OST e 3 dal gruppo di interesse, rappresentati dall’avv. Anduel Çekrezi.",
+    "description4_3": "La prima riunione si terrà il 10 Aprile per discutere il progetto presentato dal Ministero, che dovrà essere completato entro il 1° Maggio 2019.",
+    "description4_4": "Il gruppo ha ricevuto il pieno sostegno dal Ministro Shalsi, dal Presidente della Camera di Commercio di Tirana Sig. Nikolin Jaka e da tutti i gruppi mediatici albanesi.",
+    "description4_5": "Il gruppo continuerà ad informare l’opinione pubblica sull’andamento del processo e dello sviluppo metodologico, con l’obiettivo principale dello sviluppo economico del settore dell’energia fotovoltaica in Albania.",
+    "source": "Informazioni Fonte: EuroElektra Sh.p.k"
+  }
+},
+"tags2": {
+  "tagsLabel": "Tag:",
+  "tag_euroelektra": "euroelektra",
+  "tag_sunpower": "settore fotovoltaico",
+  "tag_solar_panels": "pannelli fotovoltaici",
+  "tag_solarpanels": "pannelli solari",
+  "tag_solar_energy": "Energia Solare",
+  "tag_winter": "mercato fotovoltaico",
+  "tag_renewable_energy": "settore energetico albanese",
+  "tag_solar_company": "energia rinnovabile"
+},
+"related2": {
+  "categoryTitle": "NELLA STESSA CATEGORIA",
+  "tagsTitle": "CORRELATI PER TAG",
+  "doWinter": "I pannelli solari funzionano in inverno?",
+  "businessBenefits": "I vantaggi per le imprese dall'implementazione delle tecnologie fotovoltaiche.",
+  "rapsodia": "Quando il gusto del 'Rapsodia Restaurant' incontra le innovazioni della tecnologia solare!",
+  "highEfficiency": "La tecnologia che garantisce la massima efficienza dei pannelli fotovoltaici arriva nel mercato albanese!",
+  "dosolar": "I pannelli solari funzionano in inverno?",
+  "albaniaDelayed": "L'Albania e lo sviluppo ritardato del mercato fotovoltaico"
+},
+
+"blog3": {
+  "project_1": {
+    "title": "La tecnologia che garantisce la massima efficienza dei pannelli fotovoltaici arriva sul mercato albanese!",
+    "description1": "Riconosciuta come uno dei paesi con la migliore qualità per l’applicazione del settore fotovoltaico in Europa, l’Albania è destinata ad entrare nelle fasi concrete di realizzazione di progetti importanti come l’installazione di parchi fotovoltaici con capacità fino a 2MWp.",
+    "description1_2": "Le pratiche internazionali nel campo dell’installazione di parchi solari hanno dimostrato che l’uso di prodotti di qualità ha aumentato l’efficienza della produzione per pannello nel lungo termine e ha permesso l’utilizzo di meno spazio fisico per l’installazione dei pannelli fotovoltaici. I miglioramenti nei parametri tecnici dei pannelli solari sono stati direttamente proporzionali ai loro prezzi, che sono diminuiti drasticamente negli ultimi 8 anni.",
+    "description1_3": "Tecnologie che aumentano significativamente l’efficienza nella generazione di energia solare sono state introdotte per la prima volta in Albania grazie alla collaborazione tra EuroElektra e SunPower, il colosso americano nella produzione di pannelli fotovoltaici. I pannelli solari SunPower, rispetto ai sistemi disponibili, attualmente presentano le migliori prestazioni e la garanzia più lunga (25 anni).",
+    "description1_4": "“La conclusione dell’accordo di cooperazione con SunPower è davvero una notizia per il settore fotovoltaico nella regione, anche se il livello di consapevolezza pubblica su questo fatto è stato basso. Per gran parte degli ultimi 10 anni, l’elemento che ha fatto la differenza tra i produttori globali di tecnologie fotovoltaiche è stato la massimizzazione dell’efficienza produttiva in termini di costi. SunPower ha raggiunto un livello di efficienza del 19%, con ogni pannello che arriva a 390Wp. Questo aumento dell’efficienza produttiva per pannello consente a un parco fotovoltaico da 2MWp di essere installato con circa 2000 pannelli in meno rispetto allo standard precedente del 15-16%. I primi container di pannelli SunPower sono arrivati nei magazzini di EuroElektra per essere implementati in uno dei progetti che saranno presto avviati. Siamo certi che il pubblico albanese dirà \"Sì\" a un investimento che riduce i costi delle bollette energetiche, copre i bisogni di consumo e soprattutto ha un impatto ambientale.” – aggiunge il Sig. Elton Cekrezi, CEO di EuroElektra."
+  }
+},
+"related3": {
+  "categoryTitle": "NELLA STESSA CATEGORIA",
+  "tagsTitle": "CORRELATI PER TAG",
+  "do": "I pannelli solari funzionano in inverno?",
+  "albania": "L’Albania e lo sviluppo ritardato del mercato fotovoltaico",
+  "business": "Vantaggi aziendali derivanti dall’implementazione delle tecnologie fotovoltaiche.",
+  "when": "Quando il gusto del “Ristorante Rapsodia” incontra le innovazioni della tecnologia solare!"
+},
+"blog4": {
+  "project_1": {
+    "title": "Quando il gusto del “Ristorante Rapsodia” incontra le innovazioni della tecnologia solare!",
+    "description1": "Quando il gusto del “Ristorante Rapsodia” incontra le innovazioni della tecnologia solare…",
+    "description1_2": "Scegliere di ridurre i costi aziendali utilizzando fonti di energia alternative come l’energia solare è una soluzione valida per alleggerire il carico delle spese. Alfred Marku, proprietario e chef principale del ristorante Rapsodia a Lezha, condivide questa visione. Vicino al ristorante, Alfred ha costruito anche un caseificio per portare avanti la sua idea di \"cibo biologico a chilometro zero\". In condizioni normali, ciò avrebbe aumentato i costi delle bollette energetiche, ma non nel caso di Rapsodia. In collaborazione con EuroElektra, l’azienda specializzata nella progettazione e implementazione di impianti fotovoltaici, è stato realizzato il primo caseificio in Albania che utilizza energie rinnovabili per produrre i propri prodotti. L’area di 300 m² del caseificio è coperta da un “mantello” di tecnologia verde che genera circa 50 kWp di potenza e prevede un ritorno sull’investimento che non supera i 7 anni.",
+    "description1_3": "\"Ci sono sempre modi per interagire con la natura e uno di questi è l’intreccio tra ciò che abbiamo come 'dono', come: giornate di sole e terra prospera, con ciò che possiamo fare: produrre energia pulita e prodotti biologici. Sono felice che insieme a EuroElektra siamo riusciti a trasformare il caseificio Rapsodia nel primo spazio ricreativo in Albania che genera energia solare per produrre prodotti che arricchiranno il sapore dei piatti del nostro ristorante\", afferma il Sig. Marku.",
+    "description1_4": "La conclusione dell’accordo di collaborazione con SunPower è davvero una notizia importante per il settore fotovoltaico della regione, anche se il livello di consapevolezza pubblica su questo fatto è stato basso. Negli ultimi dieci anni, l’elemento che ha fatto la differenza tra i produttori globali di tecnologie fotovoltaiche è stato massimizzare l’efficienza di produzione in termini di costi. SunPower ha raggiunto un livello di efficienza del 19%, con ogni pannello che raggiunge i 390Wp. Questo aumento dell’efficienza produttiva consente a un parco fotovoltaico da 2MWp di essere installato con circa 2000 pannelli in meno rispetto allo standard precedente del 15-16%. I primi container di pannelli SunPower sono arrivati nei magazzini di EuroElektra per essere implementati in uno dei progetti che sarà presto avviato. Siamo fiduciosi che il pubblico albanese dirà \"Sì\" a un investimento che riduce i costi delle bollette, copre i bisogni di consumo e soprattutto ha un impatto ambientale positivo\", aggiunge il Sig. Elton Cekrezi, CEO di EuroElektra."
+  }
+},
+"related4": {
+  "categoryTitle": "NELLA STESSA CATEGORIA",
+  "tagsTitle": "CORRELATI PER TAG",
+  "do": "I pannelli solari funzionano in inverno?",
+  "albania": "L'Albania e lo sviluppo ritardato del mercato fotovoltaico",
+  "business": "Vantaggi aziendali dall'implementazione delle tecnologie fotovoltaiche.",
+  "the": "La tecnologia che garantisce la massima efficienza dei pannelli fotovoltaici arriva sul mercato albanese!"
+},
+"blog5": {
+  "project_1": {
+    "title": "I benefici aziendali derivanti dall'implementazione delle tecnologie fotovoltaiche.",
+    "title1": "Intervista con il Sig. Elton Cekrezi, CEO di EuroElektra Sh.p.k",
+    "description1": "Ogni azienda che oggi paga 14 lek/kWh per l’energia dall’Operatore della Distribuzione Elettrica può ridurre significativamente la bolletta se utilizza energia solare. Il CEO di EuroElektra, Elton Cekrezi, afferma che generalmente il costo si abbassa a 6-8 lek. Questo si tradurrebbe in una bolletta dell’energia molto più economica.",
+    "description1_2": "Secondo Cekrezi, il ritorno dell’investimento richiede 5-7 anni. Naturalmente, se l’energia è fornita a un prezzo inferiore, come i 9,5 lek per i consumatori domestici, l’impianto ha un ritorno più lungo, ma alla fine resta conveniente, considerando che la durata operativa supera i 25 anni.",
+    "title2": "A più di un anno dall’approvazione della legge sulle fonti rinnovabili, come vede la situazione del mercato, soprattutto per i fotovoltaici?",
+    "description2_2": "Dopo l’approvazione della legge, è stata superata la prima barriera dello scetticismo legata a ogni novità sul mercato. Il mercato fotovoltaico è ancora poco sviluppato in Albania e di difficile comprensione. Le aziende esprimono ancora dubbi sui benefici, ma cresce il desiderio di informazione, che per me è un segnale positivo.",
+    "description2_3": "Ho notato che subito dopo l’approvazione della legge c’è stato un flusso di domande agli enti pubblici, anche se molti documenti sono stati redatti individualmente e senza la dovuta competenza, perché l’esperienza in questo campo è ancora minima in Albania.",
+    "description2_4": "Desidero aggiungere che il quadro legale è aperto a tutti gli interessati: dai semplici consumatori alle imprese che vogliono ridurre le spese energetiche, fino agli investitori veri e propri.",
+    "description2_5": "La legge stabilisce che se qualcuno ottiene un’autorizzazione ma non rispetta le scadenze per motivi finanziari, tecnici o tecnologici, l’autorizzazione viene automaticamente sospesa. Questo favorisce gli investimenti reali, al contrario di quanto accadde con le centrali idroelettriche.",
+    "title3": "Quali categorie di aziende mostrano maggiore interesse per questo tipo di investimento?",
+    "description3_2": "Con l’aumento dell’informazione, il funzionamento di questo tipo di investimento è diventato più chiaro. Le prime aziende interessate sono quelle del settore tessile, calzaturiero, agroalimentare e turistico, che dispongono sia delle risorse finanziarie che delle analisi tecniche sui benefici economici.",
+    "description3_3": "Dall’altra parte, le aziende che vogliono produrre e vendere energia sono le grandi aziende con capitale sufficiente per coprire la garanzia del 20% dell’investimento. Questo tipo di interesse nasce spesso da consorzi tra imprese.",
+    "description3_4": "Oggi l’Albania è sempre più consapevole del potenziale dell’energia solare come equilibrio alla dipendenza dall’idroelettrico. Lo sviluppo combinato dei due ridurrebbe la necessità di importazioni, specialmente durante i periodi di siccità.",
+    "description3_5": "L’apertura della borsa dell’energia è un altro fattore che favorisce gli investitori, offrendo vantaggi competitivi.",
+    "description3_6": "Ritengo che la dinamica del settore cambierà una volta completati i passaggi come il 'net metering' e la definizione della metodologia. Se questi si realizzeranno, lo sviluppo sarà evidente a tutti.",
+    "description3_7": "I cittadini e gli investitori devono puntare su prodotti sicuri, certificati e con marchi affidabili, poiché si tratta di investimenti a lungo termine. Se si scelgono prodotti 'senza nome', il rischio di fallimento dell’investimento è elevato.",
+    "title4": "Quanto è vulnerabile il mercato albanese ai prodotti di scarsa qualità?",
+    "description4_2": "Come accennato, nel mercato europeo esistono prodotti di serie difettosi che rappresentano un rischio. La loro introduzione in Albania potrebbe portare a un fallimento simile a quello delle centrali idroelettriche. Il trend globale è verso prodotti più efficienti, e il ROI resta l’elemento chiave.",
+    "title5": "A quale tipo di azienda consiglierebbe l’investimento in impianti fotovoltaici?",
+    "description5_2": "Lo consiglierei a qualsiasi azienda che paga 14 lek (escl. IVA), perché il calcolo è semplice. Con una bolletta annua di 1,2 milioni lek, in 5 anni diventano 6 milioni. Con l’energia solare, la bolletta si riduce drasticamente e dopo 5-7 anni l’energia diventa “gratuita”.",
+    "title6": "È possibile installare pannelli in ogni azienda che paga 14 lek?",
+    "description6_2": "Ci sono benefici per ogni categoria, ma quella dei 14 lek è la più rappresentativa. L’uso dell’energia solare abbassa il costo a 6-8 lek/kWh. Per chi paga 9 lek, il ritorno dell’investimento è di 8-9 anni.",
+    "title7": "Cosa si potrebbe migliorare per stimolare il settore?",
+    "description7_2": "Con il quadro legale già definito, è necessario creare partnership tra le parti interessate: banche, società di consulenza, investitori e fornitori di prodotti.",
+    "description7_3": "Tali collaborazioni genererebbero un effetto a catena con progetti migliori, finanziamenti garantiti ed expertise internazionale. Questo sarebbe il passo più importante per il settore."
+  }
+},
+"related5": {
+  "categoryTitle": "NELLA STESSA CATEGORIA",
+  "tagsTitle": "CORRELATI PER TAG",
+  "doSolar": "I pannelli solari funzionano in inverno?",
+  "albaniaDelayed": "L'Albania e lo sviluppo ritardato del mercato fotovoltaico",
+  "rapsodiaTaste": "Quando il gusto del “Rapsodia Restaurant” incontra le innovazioni della tecnologia solare…",
+  "highEfficiency": "La tecnologia che garantisce la massima efficienza dei pannelli fotovoltaici arriva sul mercato albanese!"
+}
+
+
+
+
+
+
+
+
+}
+
+    

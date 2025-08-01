@@ -1,0 +1,980 @@
+{
+  "nav": ["Ballina", "Rreth Nesh", "Sektorët", "Projektet", "Eventet"],
+"sectors": {
+  "electrical_products": "Produkte Elektrike",
+  "energy_efficiency": "Efiçenca e Energjisë",
+  "lighting_showroom": "Salla e Ndriçimit",
+  "renewable_energy": "Energjia e Rinovueshme",
+  "security_automation": "Siguri & Automatizim",
+  "smart_building": "Ndërtesa Inteligjente"
+},
+  "languageLabel": "Gjuha",
+   "searchPlaceholder": "Kërko...",
+  "hero": {
+  "title": "Lider",
+  "intro": "Që nga viti 2010, \"EuroElektra\" është specializuar në tregtinë me shumicë të materialeve elektrike: civile dhe industriale. Portofoli ynë mbulon gjithashtu sektorë të rëndësishëm si:",
+ "sectors": [
+  "Materiale Elektrike",
+  "Siguri e Automatizuar",
+  "Ndriçim Profesional LED",
+  "Efiçienca e Energjisë",
+  "Ndërtesa Inteligjente",
+  "Energji e Rinovueshme"
+],
+  "animatedWords": [
+  "Inovacion!",
+  "Efiçiencë!",
+  "Lidhje!",
+  "Energjia!",
+  "Qëndrueshmëri!"
+]
+},
+"features": [
+  {
+    "number": "01",
+    "title": "Produkte Elektrike",
+    "desc": "EuroElektra ofron produkte të përzgjedhura nga furnizuesit më të mirë ndërkombëtarë, duke garantuar teknologji inteligjente dhe të avancuar."
+  },
+  {
+    "number": "02",
+    "title": "Automatizim Sigurie",
+    "desc": "Ndërtesa juaj është më e sigurt falë sistemeve të monitorimit inteligjent me kamera dhe komandimit përmes sistemeve të automatizuara."
+  },
+  {
+    "number": "03",
+    "title": "Showroom Ndriçimi",
+    "desc": "Në EuroElektra, ndriçimi është një kombinim i artit, arkitekturës dhe skenografisë duke garantuar ndriçimin e duhur për hapësirën tuaj."
+  },
+  {
+    "number": "04",
+    "title": "Efiçiencë Energjie",
+    "desc": "Kondicionimi efikas është një nga shërbimet që EuroElektra ofron për menaxhimin dhe kursimin e energjisë në godina, apartamente dhe objekte të tjera."
+  },
+  {
+    "number": "05",
+    "title": "Energjia e Rinovueshme",
+    "desc": "EuroElektra, përmes markave më të mira globale të energjisë së gjelbër, mundëson përdorimin e energjisë diellore."
+  },
+  {
+    "number": "06",
+    "title": "Ndërtesë Inteligjente",
+    "desc": "Ndërtesat moderne ofrojnë jo vetëm rehati, ndriçim dhe siguri, por i lidhin të gjitha në një sistem të integruar."
+  }
+],
+  "projectsTitle": "| Ngjarje",
+  "projectsDescription": "EuroElektra organizon vazhdimisht ngjarje të fokusuara në zhvillimet në sektorin elektrik dhe fotovoltaik në vend.",
+  "projects1": [
+    {
+      "title": "Inaugurimi i impiantit fotovoltaik prej 600 kWp në Korçë!",
+      "headline": "Inaugurimi i impiantit fotovoltaik prej 600 kWp në Korçë!",
+      "description": "Ministrja e Infrastrukturës dhe Energjisë, znj. Belinda Balluku vizitoi impiantin fotovoltaik në Korçë, të realizuar nga EuroElektra Sh.p.k., në kompaninë \"2 AT Chemicals\".",
+      "image": "/img/inagurimi1.jpg"
+    },
+    {
+      "title": "\"Energy & Expo 2019\"",
+      "headline": "\"Energy & Expo 2019\"",
+      "description": "Panairi i tretë \"Energy & Expo 2019\", i dedikuar energjisë.",
+      "image": "/img/expo2019-11.jpg"
+    },
+    {
+      "title": "Dita e Trajnimit - Instituti Austriak i Ekselencës",
+      "headline": "Dita e Trajnimit - Instituti Austriak i Ekselencës",
+      "description": "Dita e Trajnimit me Institutin Austriak, ku u diskutuan zhvillimet dhe inovacionet më të fundit të Sistemeve Fotovoltaike.",
+      "image": "/img/instituti1.jpg"
+    },
+    {
+      "title": "Prek të ripërtëritshmet me EuroElektra",
+      "headline": "Prek të ripërtëritshmet me EuroElektra",
+      "description": "IRENA ka vizituar ambientet e EuroElektra për të njohur më nga afër aktivitetin në sektorin fotovoltaik.",
+      "image": "/img/event4.png"
+    },
+    {
+      "title": "Instituti Austriak i Ekselencës",
+      "headline": "Instituti Austriak i Ekselencës",
+      "description": "Momente nga trajnimi me Institutin Austriak, i zhvilluar në ambientet tona, ku u diskutuan zhvillimet dhe risitë më të fundit në fushën e impianteve fotovoltaike.",
+      "image": "/img/austrian3.jpg"
+    },
+    {
+      "title": "Vizita e përfaqësuesve të Kuvendit të Shqipërisë në EuroElektra.",
+      "headline": "Vizita e përfaqësuesve të Kuvendit të Shqipërisë në EuroElektra.",
+      "description": "Përfaqësuesit e GIZ Shqipëri dhe Parlamentit Shqiptar janë të interesuar të njihen me situatën aktuale të tregut fotovoltaik dhe performancën e kompanisë në këtë drejtim.",
+      "image": "/img/visit2.jpeg"
+    },
+    {
+      "title": "Vizita e Agjencisë Ndërkombëtare për Energjinë e Rinovueshme (IRENA)",
+      "headline": "Vizita e Agjencisë Ndërkombëtare për Energjinë e Rinovueshme (IRENA)",
+      "description": "Në kuadër të monitorimit të kushteve aktuale të tregut për Evropën Jugperëndimore, IRENA vizitoi ambientet e EuroElektra për t'u njohur më nga afër me sektorin fotovoltaik të saj, si kompania e vetme në tregun shqiptar që ka implementuar disa impiante.",
+      "image": "/img/irena3.jpg"
+    },
+    {
+      "title": "Energy Expo & Forum 2017 - Edicioni i Parë",
+      "headline": "Energy Expo & Forum 2017 - Edicioni i Parë",
+      "description": "Më 14 dhe 16 nëntor u zhvillua edicioni i parë i Expo-Forumi i parë dedikuar sektorit të energjisë në Shqipëri. Fokusi kryesor i këtij eventi ishte Energjia e Rinovueshme dhe Efiçenca e Energjisë.",
+      "image": "/img/forum2017_3.jpg"
+    }
+  ],
+  "projects": {
+     "all": "Të gjitha",
+    "categories": {
+      "photovoltaic": "Impiant Fotovoltaik",
+      "ev_chargers": "Karikues të Automjeteve Elektrike",
+      "automation": "Automatizim",
+      "el_photovoltaic": "Impiant ElFotovoltaik",
+      "project": "Projekt",
+      "others": "Ndërtesë e mençur"
+    },
+    "ehw": {
+        "title": "Impianti Fotovoltaik: 'EHW'",
+        "installed_power": "Fuqia totale e instaluar: 582 kWp",
+        "location": "Vendndodhja: Autostrada Tiranë-Durrës, Shqipëri"
+      },
+      "HAKO": {
+        "title": "Impianti Fotovoltaik: 'HAKO'",
+        "installed_power": "Fuqia totale e instaluar: 266.8 kWp",
+        "location": "Vendndodhja: Autostrada Tiranë-Durrës, Shqipëri"
+      },
+      "Algrafika": {
+        "title": "Impianti Fotovoltaik: 'Algrafika'",
+        "installed_power": "Fuqia totale e instaluar: 98.4 kWp",
+        "location": "Vendndodhja: Autostrada Tiranë-Durrës, Shqipëri"
+      },
+      "InfoSoft Office": {
+    "title": "Impianti Fotovoltaik: 'InfoSoft Office'",
+    "installed_power": "Fuqia Totale e Instaluar: 85.28 kWp",
+    "location": "Vendndodhja: Autostrada Tiranë-Durrës, Shqipëri"
+  },
+  "Villa Alba Medical Center": {
+  "title": "Impianti Fotovoltaik: 'Villa Alba Medical Center'",
+  "installed_power": "Fuqia Totale e Instaluar: 20.04 kWp",
+  "location": "Vendndodhja: Durrës, Shqipëri"
+},
+"Coca-Cola Bottling Albania": {
+    "title": "Impianti Fotovoltaik: 'Villa Alba Medical Center'",
+    "location": "Vendndodhja: Autostrada Tiranë-Durrës, Shqipëri"
+  },
+  "Statkraft": {
+  "title": "Impianti Fotovoltaik: 'Devoll HydroPower, Statkraft'",
+  "installed_power": "Fuqia e instaluar: 38 kWp",
+  "location": "Vendndodhja: Elbasan"
+},
+"2AT Chemicals": {
+  "title": "Impianti Fotovoltaik: '2AT Chemicals'",
+  "installed_power": "Fuqia e instaluar: 600 kWp",
+  "location": "Vendndodhja: Dishnicë, Korçë"
+},
+  "Coca-Cola Bottling Albania1": {
+    "title": "Impianti Fotovoltaik: 'Coca-Cola Bottling Albania'",
+    "installed_power": "Fuqia e Instaluar: 126 kWp",
+    "location": "Vendndodhja: Autostrada Tiranë-Durrës, km 5, Tiranë"
+  },
+  "Photovoltaic Plants in Permet City": {
+    "title": "10 Impiante Fotovoltaike në Qytetin e Përmetit",
+    "installed_power": "Fuqia Totale e Instaluar: 28.35 kWp",
+    "location": "Vendndodhja: Përmet, Shqipëri"
+  },
+  "SARP & LAB": {
+  "title": "Impianti Fotovoltaik: 'SARP & LAB'",
+  "installed_power": "Fuqia Totale e Instaluar: 28.35 kWp",
+  "location": "Vendndodhja: Autostrada Tiranë-Durrës"
+},
+"Banese Private": {
+  "title": "Impianti Fotovoltaik: 'Banese Private'",
+  "installed_power": "Fuqia e Instaluar: 5.9 kWp",
+  "location": "Vendndodhja: Shkodër"
+},
+"Godina EuroElektra": {
+    "title": "Impianti Fotovoltaik: Godina EuroElektra",
+    "installed_power": "Fuqia e Instaluar: 24.17 kWp",
+    "location": "Vendndodhja: Prush, Vaqarr"
+  },
+  "ProCredit": {
+    "title": "Impianti Fotovoltaik: Banka 'ProCredit'",
+    "installed_power": "Fuqia e Instaluar: 17.55 kWp",
+    "location": "Vendndodhja: Rr. 'Dritan Hoxha', Tiranë"
+  },
+  "Rapsodia": {
+  "title": "Impianti Fotovoltaik: Baxho 'Rapsodia'",
+  "installed_power": "Fuqia e Instaluar: 50 kWp",
+  "location": "Vendndodhja: Krajne, Lezhë"
+},
+"Qendra Vizitoreve Divjake-Karavasta": {
+  "title": "Photovoltaic Plant: 'Qendra Vizitoreve Divjake-Karavasta'",
+  "installed_power": "Installed Power: 5 kWp",
+  "location": "Location: Divjake"
+},
+"Qendra Vizitoreve Llogara": {
+  "title": "Photovoltaic Plant: 'Qendra Vizitoreve Llogara'",
+  "installed_power": "Installed Power: 3.16 kWp",
+  "location": "Location: Parku Kombetar Llogara"
+},
+"Qendra Vizitoreve Theth": {
+  "title": "Impianti Fotovoltaik: 'Qendra Vizitorëve Theth'",
+  "installed_power": "Fuqia e Instaluar: 3.16 kWp",
+  "location": "Vendndodhja: Parku Kombëtar Theth"
+},
+
+"Observatori": {
+    "title": "Impianti Fotovoltaik: Observatori",
+    "installed_power": "Fuqia e instaluar: 5.8 kWp",
+    "location": "Vendndodhja: Rr. e Saraceve, Tiranë"
+  },
+  "Automation for Sliding Doors": {
+  "title": "Automatizimi për Dyert Rrëshqitëse",
+  "location": "Vendndodhja: Kompleksi 'Rolling Hills'"
+},
+"Mounting of lighting systems": {
+  "title": "Montimi i sistemeve të ndriçimit",
+  "location": "Vendndodhja: Kompleksi 'Rolling Hills'"
+},
+"Tamaco sh.p.k": {
+  "title": "Impianti Fotovoltaik: Tamaco sh.p.k",
+  "installed_power": "Fuqia e instaluar: 6.18 kWp",
+  "location": "Vendndodhja: Kombinat, Tiranë"
+},
+"Almoso sh.p.k": {
+  "title": "Impianti Fotovoltaik: Fabrika e këpucëve \"Almoso sh.p.k\"",
+  "installed_power": "Fuqia e Instaluar: 100 kWp",
+  "location": "Vendndodhja: Lezhë"
+},
+"Villa Pascucci": {
+  "title": "Sistemi i Automatizimit të Ndërtesës: Hotel \"Villa Pascucci\"",
+  "installed_power": "Sistemi BY-ME i Vimar mundëson menaxhimin e audios, VOIP, ndriçimit dhe kondicionimit të ajrit në një softuer të vetëm!",
+  "location": "Vendndodhja: Hotel “Villa Pascucci”"
+},
+"Villa Pascucci1": {
+  "title": "Impiant Fotovoltaik: Hotel \"Villa Pascucci\"",
+  "installed_power": "Fuqia e instaluar: 100 kWp",
+  "location": "Vendndodhja: Shkallnur, Durrës"
+},
+"Kisha Troshan": {
+  "title": "Impianti Fotovoltaik: \"Kisha Troshan\"",
+  "installed_power": "Fuqia e instaluar: 4 kWp",
+  "location": "Vendndodhja: Troshan, Lezhë"
+},
+"ICE Tirana": {
+  "title": "Impianti Fotovoltaik: \"ICE Tirana\"",
+  "installed_power": "Fuqia e Instaluar: 4 kWp",
+  "location": "Vendndodhja: Troshan, Lezhë"
+},
+"CCTV Camera System with 360 ° view": {
+  "title": "Sistem Kamerash CCTV me pamje 360 °",
+  "location": "Vendndodhja: Shkolla Ndërkombëtare e Tiranës"
+},
+"F&M REKLAMA": {
+  "title": "Projekti: F&M REKLAMA",
+  "installed_power": "Dizajnim dhe zbatim i instalimeve elektrike",
+  "location": "Vendndodhja: Rruga Prush, Vaqarr, Tiranë"
+},
+"Project: QTU": {
+  "title": "Projekti: QTU",
+  "installed_power": "- Montimi i sistemeve të ndriçimit\n- Automatizimi i portës",
+  "location": "Vendndodhja: Autostrada Tiranë-Durrës, km 6"
+}
+  },
+"projectsSlider": {
+  "sectionLabel": "Projektet Tona",
+  "sectionTitle": "Ne numërojmë një sërë projektesh të zbatuara në çdo sektor ku operojmë.",
+  "sectionDescription": "Shfletoni portofolin tonë për të parë si ofrojmë impiante fotovoltaike cilësore që pasqyrojnë stilin dhe nevojat tuaja.",
+  "sectionButton":"Shiko më shumë",
+  "slides": [
+    {
+      "title": "Impianti Fotovoltaik 600 kWp",
+      "location": "2AT Chemicals, Korçë",
+      "image": "/img/korce1.jpg"
+    },
+    {
+      "title": "Impianti Fotovoltaik 126 kWp",
+      "location": "Coca-Cola Bottling Albania",
+      "image": "/img/ccbs1.jpg"
+    },
+    {
+      "title": "Impianti Fotovoltaik 100 kWp",
+      "location": "Hotel \"Villa Pascucci\"",
+      "image": "/img/villa1.jpg"
+    },
+    {
+      "title": "Impianti Fotovoltaik 11 kWp",
+      "location": "Devoll HydroPower",
+      "image": "/img/devoll1.jpg"
+    }
+  ]
+},
+"timeline": [
+  {
+    "title": "Distributor zyrtar",
+    "subtitle": "i markave profesionale elektrike"
+  },
+  {
+    "title": "8+",
+    "subtitle": "vite eksperiencë"
+  },
+  {
+    "title": "40+",
+    "subtitle": "partnerë ndërkombëtarë"
+  },
+  {
+    "title": "8000+",
+    "subtitle": "produkte"
+  },
+  {
+    "title": "Dizenjim",
+    "subtitle": "Asistencë teknike për impiante fotovoltaike"
+  }
+],
+"blogTitle": "BLOGU",
+"blog": [
+  {
+    "title": "Përfitimet e bizneseve nga zbatimi i teknologjive fotovoltaike.",
+    "category": "Energjia e Rinovueshme",
+    "image": "/img/b-img_870311.jpg"
+  },
+  {
+    "title": "Kur shija e 'Rapsodia Restaurant' takohet me inovacionin e teknologjisë diellore!",
+    "category": "Energjia e Rinovueshme",
+    "image": "/img/b-rapsodia.jpg"
+  },
+  {
+    "title": "Teknologjia që garanton efikasitetin më të lartë të paneleve fotovoltaike vjen në Shqipëri ...",
+    "category": "Energjia e Rinovueshme",
+    "image": "/img/b-download.jpg"
+  }
+],
+"footer": {
+  "rights":"Të gjitha të drejtat e rezervuara.",
+  "contact": "Kontakti",
+  "email": "info@euroelektra.al",
+  "address": "Rruga Prush 1041 Vaqarr, Tirana, Albania",
+  "explore": "Eksploro",
+  "follow": "Na Ndiqni",
+  "links": ["Ballina", "Rreth Nesh", "Projektet", "Ngjarjet", "Blogu"],
+  "sectorsTitle":"Sektorët",
+    "sectors": [
+      "Produkte Elektrike",
+      "Efiçienca e Energjisë",
+      "Shfaqje Ndriçimi",
+      "Energjia e Rinovueshme",
+      "Siguri & Automatizim",
+      "Ndërtesa Inteligjente"
+    ]
+},
+"aboutHero": {
+  "heading": "Rreth nesh",
+  "breadcrumb": "RRETH NESH"
+},
+"about": {
+  "missionTitle": "Misioni ynë",
+  "missionDesc": "Misioni i EuroElektra është të ofrojë zgjidhje të zgjuara dhe të qëndrueshme të energjisë, duke i ndihmuar bizneset dhe komunitetet të operojnë në mënyrë më efikase, të pastër dhe të sigurt. Puna jonë drejtohet nga teknologjia moderne, por edhe nga një angazhim i thellë ndaj cilësisë, përgjegjësisë dhe ndikimit afatgjatë. Ne jemi të motivuar jo vetëm nga zhvillimi i infrastrukturës energjetike, por edhe nga ndryshimi pozitiv që bëjmë në jetën e përditshme të njerëzve. Me një ekip të apasionuar dhe të aftë, ne i mbështesim klientët tanë nga koncepti deri në zbatimin e plotë. Qëllimi ynë është të jemi gjithmonë një partner i besueshëm dhe i ngushtë në çdo hap të udhëtimit. Për ne, energjia është më shumë sesa thjesht teknologji - është një mundësi për të përmirësuar shoqërinë. Ne besojmë në ndërtimin e një të ardhmeje më të gjelbër dhe më të qëndrueshme për të gjithë. Një pjesë thelbësore e misionit tonë është të krijojmë mundësi kuptimplote punësimi dhe të zhvillojmë aftësi profesionale - jo vetëm në nivel lokal, por në të gjithë tregun global të punës. Ne përpiqemi të kontribuojmë jo vetëm në projekte, por edhe në rritjen e njerëzve që i bëjnë ato të mundura. Sepse për ne, suksesi matet nga ndikimi që lëmë pas.",
+  "goalTitle": "Vizioni Ynë",
+  "goalPoints": [
+    "Në EuroElektra, vizioni ynë është të udhëheqim transformimin drejt zgjidhjeve më të zgjuara, më të pastra dhe më të qëndrueshme të energjisë — si në Shqipëri ashtu edhe më gjerë. Ne aspirojmë të jemi një partner i besueshëm për bizneset moderne duke ofruar vazhdimisht zgjidhje inovative, efikase dhe të përshtatura sipas nevojave që fuqizojnë rritjen dhe suksesin afatgjatë. Ne parashikojmë një botë ku teknologjia dhe pasioni njerëzor punojnë krah për krah për të formësuar një të ardhme më të mirë. Përmes angazhimit tonë ndaj përsosmërisë, përshtatshmërisë dhe partneriteteve kuptimplote, ne përpiqemi të ripërcaktojmë se çfarë do të thotë të ndërtosh — jo vetëm projekte, por ndikim të qëndrueshëm.Me çdo moment historik që arrijmë, vizioni ynë mbetet i qartë: të rritemi së bashku me klientët tanë, të krijojmë vlerë që zgjat dhe të jemi një katalizator për progres në çdo treg që i shërbejmë."
+  ],
+  "standardsTitle": "I nostri standard",
+  "standardsPoints": [
+    "Dal 2010, EuroElektra è specializzata nella distribuzione all'ingrosso di materiali elettrici.",
+    "Forniamo soluzioni complete per esigenze elettriche civili e industriali.",
+    "La nostra gamma di prodotti, supporto tecnico e logistica garantiscono la soddisfazione del cliente.",
+    "Miriamo a stabilire alti standard in qualità, disponibilità ed efficienza del servizio."
+  ]
+},
+"philosophy": {
+  "heading": "Filozofia e biznesit e identifikuar me profesionalizëm…",
+  "paragraph1": "Motorët elektrikë me fuqi të lartë kërkojnë shumë energji në fillim për të filluar lëvizjen. Fillimisht këta motorë lidhen me formën Y (Yll), dhe kur arrijnë regjimin normal, lidhja transformohet në Δ (Trekëndësh). Çdo element metalik duhet të jetë i mbrojtur (⏚), për të siguruar tokëzimin e sigurt.",
+  "paragraph2": "Transformimi nga lidhja 'yll' në 'trekëndësh' nënkupton barazimin e rezistencës elektrike. Kjo barazi në vlera frymëzoi krijimin e logos së EuroElektra."
+},
+"timeline1": {
+  "title": "Rrugëtimi Ynë",
+  "events": [
+    { "year": "2025", "text": "EuroElektra u bë distributor zyrtar i TCL dhe BYD në Shqipëri. Rrugëtimi ynë zyrtarisht po bëhet global." },
+    { "year": "2023", "text": "Përfundoi me sukses projektin e parë fotovoltaik jashtë Shqipërisë, në Catania, Itali — duke shënuar fillimin e zgjerimit ndërkombëtar në sektorin e energjisë së rinovueshme." },
+    { "year": "2022", "text": "Kompania udhëheqëse në tregun fotovoltaik, duke realizuar mbi 40 MW kapacitet me instalime të larmishme rezidenciale dhe industriale." },
+    { "year": "2021", "text": "Fituam projektin më të madh shtetëror për energji diellore në Shqipëri — Diga Diellore e Vaut të Dejës." },
+    { "year": "2020", "text": "U realizuan instalimet e para industriale fotovoltaike me kapacitete mbi 1 MW." },
+    { "year": "2019", "text": "Krijuam grupin e interesit për vetëprodhuesit e energjisë diellore për të avancuar me rrjetin e matjes neto." },
+    { "year": "2018", "text": "U bë distributor zyrtar për Shqipërinë, Kosovën, Malin e Zi dhe Maqedoninë e Veriut për prodhuesin global SUNPOWER." },
+    { "year": "2017", "text": "U miratua ligji i parë për prodhuesit e energjisë që lejonte shkëmbimin me rrjetin e matjes neto dhe morëm pjesë në panairin e parë të energjisë diellore." },
+    { "year": "2016", "text": "Realizuam projektin e parë industrial për vetëkonsum pa injeksion në rrjetin Almoso Fushë-Krujë." },
+    { "year": "2015", "text": "U bë partner dhe distributor ekskluziv për markat Fronius, SMA, LG Solar, PEIMAR, etj." },
+    { "year": "2010", "text": "U regjistrua si shoqëri me përgjegjësi të kufizuar, duke ndjekur modelin italian të 'RemaTarlazzi' të 'Gruppo Comet'." }
+  ]
+},
+"sectionIntro": {
+  "intro": "Që nga viti 2010, \"EuroElektra\" është specializuar në tregun me shumicë duke ofruar gamën e plotë të materialeve elektrike: civile dhe industriale. Portofoli ynë i produkteve mbulon gjithashtu sektorë të rëndësishëm si:",
+  "points": [
+    "Materiale elektrike",
+    "Siguri e automatizuar",
+    "Ndriçim profesional LED",
+    "Efiçiencë energjie",
+    "Ndërtesë inteligjente",
+    "Energji e rinovueshme"
+  ]
+},
+
+"events": {
+  "project_1": {
+    "title": "Inaugurimi - Impianti Fotovoltaik 600 kWp",
+    "date": "18 Tetor 2019",
+    "description": "Ministrja e Infrastrukturës dhe Energjisë, znj. Belinda Balluku viziton impiantin fotovoltaik në Korçë..."
+  },
+  "project_2": {
+  "title": "Panairi dhe Forumi i Energjisë 2019 - Edicioni i 3-të",
+  "date": "4–5 Tetor 2019",
+  "description": "Momente nga edicioni i tretë i Energy Expo & Forum 2019, ku të ftuarit në stendën tonë ishin përfaqësues nga kompanitë më prestigjioze fotovoltaike si SunPower, Alussystem. Gjatë dy ditëve të panairit, stenda e EuroElektra u vizitua nga z. Eduard Shalsi, Ministër i Shtetit për Mbrojtjen e Sipërmarrjes, Ministrja e Infrastrukturës dhe Energjisë znj. Belinda Balluku, si dhe përfaqësues nga Ambasada Amerikane, Zyrtari Ekonomik dhe Tregtar z. Alex MacFarlane."
+},
+"project_3": {
+  "title": "Instituti Austriak i Ekselencës",
+  "date": "15 Prill 2019",
+  "description": "Momente gjatë trajnimit me Institutin Austriak, mbajtur në ambientet tona, ku u diskutuan zhvillimet dhe inovacionet më të fundit në impiantet fotovoltaike."
+},
+"project_4": {
+  "title": "Panairi dhe Forumi i Energjisë 2018 - Edicioni i 2-të",
+  "date": "5–6 Tetor 2018",
+  "description": "Për të dytin vit radhazi, EuroElektra merr pjesë në panairin e energjisë 'Energy & Expo Forum 2018' si një nga mbështetësit kryesorë të këtij eventi që bashkon të gjithë aktorët e tregut të energjisë në një ambient interaktiv. Pjesëmarrës në këtë edicion do të jenë përfaqësues të disa prej kompanive më prestigjioze në tregun botëror të energjisë diellore si: SunPower, SolarEdge, Alusistemi, Zucchetti Centro System etj., të cilët do të ndajnë me publikun shqiptar teknologjitë më të fundit fotovoltaike."
+},
+"project_5": {
+  "title": "Prek Revolucionin e Energjisë së Rinovueshme me EuroElektra – Java e Aftësive Shqiptare 2018",
+  "date": "10 Maj 2018",
+  "description": "Në kuadër të “Javës së Aftësive Shqiptare 2018”, u zhvilluan një sërë aktivitetesh trajnimi për nxënësit e arsimit profesional teknik dhe elektrik, si dhe për studentët e inxhinierisë elektrike mbi zhvillimet më të fundit në sektorin fotovoltaik dhe mënyrat e instalimit të një sistemi fotovoltaik. Gjatë eventit, EuroElektra demonstroi lidhjet elektrike ndërmjet komponentëve të një sistemi fotovoltaik."
+},
+"project_6": {
+  "title": "Vizita e përfaqësuesve të Kuvendit të Shqipërisë në EuroElektra.",
+  "date": "Maj 2018",
+  "description": "Përfaqësues të GIZ Albania dhe Kuvendit të Shqipërisë janë interesuar të mësojnë më shumë rreth situatës aktuale në tregun fotovoltaik dhe performancës së kompanisë në këtë drejtim."
+},
+"project_7": {
+  "title": "Vizita e Agjencisë Ndërkombëtare për Energjitë e Rinovueshme (IRENA)",
+  "date": "7 Dhjetor 2017",
+  "description": "Në kuadër të monitorimit të kushteve aktuale të tregut për Evropën Jugperëndimore, Agjencia Ndërkombëtare për Energjitë e Rinovueshme vizitoi ambientet e EuroElektrës për t'u njohur më nga afër me sektorin fotovoltaik, si kompania e vetme në tregun shqiptar që ka implementuar disa impiante fotovoltaike me fuqi të ndryshme për biznese dhe familje."
+},
+"project_8": {
+  "title": "Panairi dhe Forumi i Energjisë 2017 - Edicioni i Parë",
+  "date": "14–16 Nëntor 2017",
+  "description": "Më 14 dhe 16 Nëntor u zhvillua edicioni i parë i Expo-Forumit të dedikuar për sektorin e energjisë në Shqipëri. Fokusi kryesor i këtij aktiviteti ishte Energjia e Rinovueshme dhe Efiçenca e Energjisë. Aktiviteti u mbajt në ambientet e ExpoCity Albania në bashkëpunim me Ministrinë e Infrastrukturës dhe Energjisë dhe me mbështetjen e EuroElektra si sponsor zyrtar. Gjatë tre ditëve të forumit u prezantuan ide projektesh për furnizim, teknologji, transmetim, sisteme, pajisje, shërbime, konsulencë, projekte, ekonomi dhe financim energjetik."
+}
+},
+"heroProjects": {
+  "title": "PROJEKTET",
+  "breadcrumb": "PROJEKTET"
+},
+"heroEvents": {
+  "title": "EVENTE",
+  "breadcrumb": "EVENTE"
+},
+"abouts": {
+  "title": "Rreth Nesh",
+  "content": "EuroElektra Sh.p.k është një kompani lider shqiptare e specializuar në zgjidhje energjetike, inxhinieri elektrike dhe infrastrukturë të qëndrueshme. E njohur për profesionalizmin dhe përsosmërinë teknike, EuroElektra ofron projekte me cilësi të lartë—nga impiante fotovoltaike në shkallë të gjerë deri te instalime elektrike komplekse—gjithmonë me fokus në sigurinë, saktësinë dhe vlerën afatgjatë.\n\nInovacioni qëndron në zemër të qasjes së kompanisë. Duke integruar teknologji të avancuara si sistemet fotovoltaike moderne dhe menaxhimin inteligjent të energjisë, EuroElektra siguron efikasitet, qëndrueshmëri dhe përshtatshmëri ndaj sfidave të së ardhmes.\n\nFuqia e kompanisë vjen edhe nga njerëzit e saj. Inxhinierë, dizajnerë dhe teknikë punojnë në një ambient bashkëpunues të bazuar në besim, duke nxitur rezultate dhe zhvillim.\n\nNga një prani e fortë kombëtare, EuroElektra po zgjerohet globalisht, duke kontribuar në kalimin botëror drejt energjisë së pastër dhe infrastrukturës inteligjente.\n\nTë udhëhequr nga njerëzit. Të fuqizuar nga inovacioni. Duke ndërtuar një të ardhme të qëndrueshme."
+},
+"heroSectors": {
+  "title": "SEKTORËT",
+  "breadcrumb": "SEKTORËT"
+},
+"sidebarSectors": {
+  "title": "SEKTORËT"
+},
+"companyValues": {
+    "title": "Vlerat e Kompanisë",
+    "values": [
+      {
+        "title": "Transparenca",
+        "desc": "Ne ofrojmë informacione të sakta dhe të plota që palët e interesuara të marrin vendime autonome, duke njohur interesat e tyre."
+      },
+      {
+        "title": "Përgjegjësia për Produktin Standard",
+        "desc": "Garantojmë që produktet/shërbimet tona përmbushin standardet e sigurisë dhe janë të certifikuara nga BE."
+      },
+      {
+        "title": "Respekti për Dinjitetin dhe Integritetin",
+        "desc": "Respektojmë të drejtat themelore të njeriut dhe ofrojmë mundësi të barabarta për të gjithë."
+      },
+      {
+        "title": "Përgjegjësia Sociale",
+        "desc": "Bashkëpunojmë dhe kontribuojmë me komunitetin ku jetojmë dhe punojmë."
+      },
+      {
+        "title": "Shpërndarja e Njohurive",
+        "desc": "Stafi ynë ndan ekspertizën me të rinjtë për të përputhur aftësitë e tyre me tregun e punës."
+      }
+    ]
+  },
+  "strategicObjectives": {
+    "title": "Objektivat Strategjike",
+    "points": [
+      "Zgjerimi i portofolit me produkte inovative dhe miqësore me mjedisin si distributor ekskluziv në Shqipëri dhe tregje ndërkombëtare.",
+      "Rritja e partneriteteve me kompani evropiane dhe globale për cilësi të lartë të shërbimeve.",
+      "Zhvillimi i rrjetit të shpërndarjes për mbulim kombëtar dhe rajonal.",
+      "Nxitja e përdorimit të energjisë alternative përmes ndërgjegjësimit dhe adoptimit kombëtar/internacional."
+    ]
+  },
+  "electricalProducts": {
+  "title": "Produkte Elektrike",
+  "description": "Produktet tona elektrike ofrojnë cilësi të lartë, qëndrueshmëri, efikasitet energjie dhe zgjidhje miqësore me mjedisin — në përputhje me misionin e EuroElektra për të fuqizuar të ardhmen përmes inovacionit dhe sistemeve të zgjuara të energjisë."
+},
+"electrical": {
+  "title": "Produkte Elektrike",
+  "categories": [
+    "Produkte Elektrike",
+    "Automatizim Sigurie",
+    "Sallon Ndriçimi",
+    "Efiçencë Energjetike",
+    "Energji e Rinovueshme",
+    "Ndërtesa Inteligjente"
+  ],
+  "sectors": [
+    { "title": "Rezidencial", "image": "/img/rr1.jpg" },
+    { "title": "Industriale", "image": "/img/48366947_2077107672345759_7039099863660756992_o.JPG" },
+    { "title": "Infrastrukturë IT", "image": "/img/Euroelektra_S7P-23.jpg" }
+  ]
+},
+"energyEfficiencyHero": {
+  "title": "Efiçenca e Energjisë",
+  "description": "Produktet tona për Efiçencën e Energjisë ofrojnë cilësi të lartë, qëndrueshmëri, kursim energjie dhe zgjidhje miqësore me mjedisin — në përputhje me misionin e EuroElektra për të fuqizuar të ardhmen përmes inovacionit dhe sistemeve inteligjente të energjisë."
+},
+  "sectorsSidebar": {
+    "title": "SEKTORËT",
+    "items": [
+      "Produkte Elektrike",
+      "Automatizimi i Sigurisë",
+      "Salla e Ekspozimit të Ndriçimit",
+      "Efiçenca e Energjisë",
+      "Energjia e Rinovueshme",
+      "Ndërtesë Inteligjente"
+    ]
+  },
+  "sectorsContent": {
+    "climateComfort": {
+      "title": "Komoditeti i klimës",
+      "intro": "Temperatura që dëshironi, kurdoherë që e dëshironi",
+      "paragraph1": "Menaxhim i plotë i klimës për çdo lloj ndërtese, i përshtatshëm për çdo mjedis dhe i kontrollueshëm lokalisht ose në mënyrë qëndrore nga një pikë e vetme, apo edhe në distancë. Shumë zgjidhje të mundshme për ngrohje dhe ftohje me sisteme me dy ose katër tubacione, ngrohje në dysheme dhe radiatorë, fan-coil dhe sisteme split/multisplit.",
+      "paragraph2": "Funksioni Ecometer tregon vlerat e konsumit nëpërmjet një treguesi miqësor për përdoruesin me një shkallë gradimi dhe jep sinjal kur temperatura e komoditetit tejkalohet duke ndriçuar një ikonë, duke nxitur kështu vetëdijen për energjinë."
+    },
+    "smartManagement": {
+      "title": "Menaxhim i zgjuar",
+      "intro": "Kontroll i integruar i klimës në sistemin e automatizimit By-me",
+      "paragraph1": "Duke qenë se sistemi është i integruar në sistemin e automatizimit të ndërtesës, tani është e mundur menaxhimi i plotë i energjisë: nga monitorimi i niveleve të konsumit deri te kontrolli i sistemit fotovoltaik.",
+      "paragraph2": "Energjia dhe ndërtesa menaxhohen plotësisht duke përdorur ekranet me prekje, të cilat lejojnë monitorim të vazhdueshëm të vlerave në intervale kohore (orë, ditë, javë, etj.) dhe sipas llojit të matjes."
+    }
+  },
+  "lightingHero": {
+  "title": "Salla e Ekspozitës së Ndriçimit",
+  "description": "Produktet në sallën tonë të ndriçimit ofrojnë cilësi të lartë, qëndrueshmëri, efikasitet energjetik dhe zgjidhje miqësore me mjedisin — në përputhje me misionin e EuroElektra për të fuqizuar të ardhmen përmes inovacionit dhe sistemeve të mençura të energjisë."
+},
+  "sectorsPage": {
+    "title": "Produkte Elektrike",
+    "categories": {
+      "electrical": "Produkte Elektrike",
+      "security": "Automatizim i Sigurisë",
+      "lighting": "Sallë Ekspozimi për Ndriçim",
+      "efficiency": "Efiçencë Energjetike",
+      "renewable": "Energji e Rinovueshme",
+      "smart": "Ndërtesa Inteligjente"
+    },
+    "grid": {
+      "interior": "Brendshme",
+      "exterior": "Jashtme"
+    }
+  },
+   "heroRenewable": {
+    "title": "Energjia e Rinovueshme",
+    "description": "Produktet tona të Energjisë së Rinovueshme ofrojnë cilësi të lartë, qëndrueshmëri, efikasitet energjetik dhe zgjidhje miqësore me mjedisin — në përputhje me misionin e EuroElektra për të fuqizuar të ardhmen përmes inovacionit dhe sistemeve të zgjuara të energjisë."
+  },
+  "sectorsPage": {
+    "sidebarTitle": "Produkte Elektrike",
+    "categories": [
+      "Produkte Elektrike",
+      "Automatizim i Sigurisë",
+      "Sallë Ekspozimi Ndriçimi",
+      "Efiçencë e Energjisë",
+      "Energji e Rinovueshme",
+      "Ndërtesë Inteligjente"
+    ],
+    "items": [
+      { "title": "Panele fotovoltaike" },
+      { "title": "Inverter fotovoltaik" },
+      { "title": "Bateri" },
+      { "title": "Aksesorë të tjerë" }
+    ]
+  },
+  "electricalProductsHero": {
+  "title": "Produkte Elektrike",
+  "description": "Produktet tona Elektrike ofrojnë cilësi të lartë, qëndrueshmëri, efikasitet energjetik dhe zgjidhje miqësore me mjedisin — në përputhje me misionin e EuroElektra për të fuqizuar të ardhmen përmes inovacionit dhe sistemeve inteligjente të energjisë."
+},
+  "sectors": {
+    "sidebarTitle": "Produkt Elektrik",
+    "categories": [
+      "Produkte Elektrike",
+      "Automatizimi i Sigurisë",
+      "Sallë Ekspozimi Ndriçimi",
+      "Efiçenca e Energjisë",
+      "Energjia e Rinovueshme",
+      "Ndërtesa Inteligjente"
+    ],
+    "products": [
+      { "title": "Automatizimi i dyerve", "image": "/img/IMG_8411 (1).jpg" },
+      { "title": "Sistem Parkimi", "image": "/img/ccbs1.JPG" },
+      { "title": "Sistem CCTV", "image": "/img/IMG_8380.jpg" },
+      { "title": "Sistem Alarm / Zjarr", "image": "/img/FIRE-DETECTION.JPG" },
+      { "title": "Sisteme Kontrolli Aksesi", "image": "/img/IMG_2079.JPG" },
+      { "title": "Interkomë Audio dhe Video", "image": "/img/ccbc (2).JPG" }
+    ]
+  },
+  "smartBuildingHero": {
+    "title": "Ndërtesë Inteligjente",
+    "description": "Produktet tona të Ndërtesave Inteligjente ofrojnë cilësi të lartë, qëndrueshmëri dhe zgjidhje miqësore me mjedisin — në përputhje me misionin e EuroElektra për të fuqizuar të ardhmen përmes inovacionit dhe sistemeve të energjisë inteligjente."
+  },
+  "sidebarTitle": "Sektorët",
+  "sidebarSectors": [
+    "Produkte Elektrike",
+    "Automatizim Sigurie",
+    "Salloni i Ndriçimit",
+    "Efiçenca e Energjisë",
+    "Energjia e Rinovueshme",
+    "Ndërtesë Inteligjente"
+  ],
+  "sections": [
+    {
+      "title": "Kontrolli i shtëpisë",
+      "paragraphs": [
+        "Me By-me çdo dhomë i përgjigjet dëshirave tuaja: në çdo kohë, për çdo rast apo nevojë.",
+        "Thjesht prek ekranin me prekje Multimedia dhe për disa çaste, për çdo dhomë të shtëpisë, mund të ngarkoni një nga 32 kombinimet e ndryshme të temperaturës, ndriçimit dhe rehatisë, të konfiguruara sipas nevojave të përditshme, rasteve të veçanta apo kënaqësisë personale."
+      ],
+      "image": "/img/80006c2b-b6b9-4576-bfd7-f747909b6e60 (1).PNG"
+    },
+    {
+      "title": "Me aplikacionin By-web mund të menaxhoni dhe shikoni funksionet kryesore të sistemit nga smartphone juaj.",
+      "paragraphs": [
+        "Me kontrollin në distancë të shtëpisë edhe nga smartphone, tablet ose PC, mund të kontrolloni gjithmonë shtëpinë tuaj.",
+        "Nga smartphone-i, mund të shikoni dhe menaxhoni funksionet kryesore të sistemit, duke përfshirë automatizimin, skenaret, kontrollin e temperaturës, sistemin kundër vjedhjes dhe alarmet teknike."
+      ],
+      "image": "/img/0fa7ef15-8e80-43bd-9988-79969ab636d2.PNG"
+    },
+    {
+      "title": "Asgjë nuk ju shpëton, e gjithë shtëpia është vetëm një prekje intuitive larg.",
+      "paragraphs": [
+        "Shikoni kamerat, përgjigjuni sistemit të interfonit, kontrolloni ndriçimin, pajisjet e automatizuara dhe ngarkesat, aktivizoni skenaret dhe menaxhoni sistemin e zërit.",
+        "Thjesht zgjidhni dhomat e ndryshme të shtëpisë dhe kontrolloni të gjitha funksionet, nga një pikë e vetme."
+      ],
+      "image": "/img/01143bdb-c9bf-441a-8500-f6f9e5954944.PNG"
+    }
+  ],
+  "sectors": {
+    "electrical_products": "Produkte Elektrike",
+    "security_automation": "Siguri dhe Automatizim",
+    "lighting_showroom": "Showroom Ndriçimi",
+    "energy_efficiency": "Efiçencë Energjie",
+    "renewable_energy": "Energjia e Rinovueshme",
+    "smart_building": "Ndërtesa Inteligjente"
+  },
+  "securityAutomation": {
+    "title": "Automatizim i Sigurisë",
+    "description": "Zgjidhjet tona të Automatizimit të Sigurisë ofrojnë sisteme të mbrojtjes inteligjente, të besueshme dhe të pandërprera që rrisin sigurinë, optimizojnë kontrollin dhe integrohen në mënyrë të përsosur me infrastrukturën e zgjuar — duke mbështetur misionin e EuroElektra për të fuqizuar të ardhmen përmes inovacionit dhe sistemeve inteligjente të energjisë."
+  },
+  "sidebar": {
+    "title": "Produkt Elektrik",
+    "items": [
+      "Produkte Elektrike",
+      "Automatizim i Sigurisë",
+      "Sallë Ekspozimi Ndriçimi",
+      "Efiçencë Energjetike",
+      "Energjia e Rinovueshme",
+      "Ndërtesë Inteligjente"
+    ]
+  },
+  "grid": {
+    "items": [
+      { "title": "Automatizim për dyer", "image": "/img/IMG_8411 (1).jpg" },
+      { "title": "Sistem Parkimi", "image": "/img/ccbs1.JPG" },
+      { "title": "Sistem CCTV", "image": "/img/IMG_8380.jpg" },
+      { "title": "Sistem Alarmi / Zjarri", "image": "/img/FIRE-DETECTION.JPG" },
+      { "title": "Sisteme të Kontrollit të Aksesit", "image": "/img/IMG_2079.JPG" },
+      { "title": "Interkom Audio dhe Video", "image": "/img/ccbc (2).JPG" }
+    ]
+  },
+  "chat": {
+  "bot_greeting": "Përshëndetje, me se mund t’ju ndihmojmë? Stafi jonë do t’ju përgjigjet së shpejti!",
+  "bot_reply": "Faleminderit për mesazhin. Ekipi ynë është jashtë linje 💤 Do t'ju kontaktojmë sa më shpejt që të mundemi 🙂",
+  "placeholder": "Shkruani një mesazh...",
+  "powered_by": "Mundësuar nga",
+  "company": "EuroElektra",
+  "send_us_msg": "Na dërgoni një mesazh",
+  "happy_to_answer": "Të lumtur t’ju përgjigjemi më vonë"
+},
+"blogs": {
+  "project_1": {
+    "title": "A funksionojnë panelet diellore në dimër?",
+    "date": "28 Shkurt 2020 • Nga EuroElektra Sh.p.k • 0 Komente • 14,710 Shikime",
+    "description": "Energjia diellore funksionon duke kapur energjinë e diellit dhe gjatë dimrit, panelet vazhdojnë të gjenerojnë energji elektrike.",
+    "readMore": "Lexo më shumë"
+  },
+  "project_2": {
+    "title": "Shqipëria dhe zhvillimi i vonuar i tregut fotovoltaik",
+    "date": "09 Prill 2019 • Nga EuroElektra Sh.p.k • 0 Komente • 10,837 Shikime"
+    
+  },
+  "project_3": {
+    "title": "Teknologjia që siguron efikasitetin më të lartë të paneleve fotovoltaike vjen në tregun shqiptar!",
+    "date": "30 Janar 2019 • Nga EuroElektra Sh.p.k • 0 Komente • 10,319 Shikime",
+    "description": "Një teknologji e re fotovoltaike me efikasitet të lartë tashmë është e disponueshme në Shqipëri, duke garantuar performancë të përmirësuar edhe në kushte të vështira."
+  },
+  "project_4": {
+  "title": "Kur shija e “Restorant Rapsodia” prek inovacionet në teknologjinë diellore!",
+  "date": "30 Janar 2019 • Nga EuroElektra Sh.p.k • 0 Komente • 8,110 Shikime",
+  "description": "Kur shija e “Restorant Rapsodia” prek inovacionet në teknologjinë diellore…"
+},
+"project_5": {
+  "title": "Përfitimet për biznesin nga zbatimi i teknologjive fotovoltaike.",
+  "date": "30 Janar 2019 • Nga EuroElektra Sh.p.k • 0 Komente • 11,044 Shikime",
+  "description": "Intervistë me z. Elton Çekrezi, CEO i EuroElektra Sh.p.k"
+}
+ },
+  "blogCat": {
+    "title": "Kategoritë e Blogut",
+    "categories": [
+    "Produkte Elektrike",
+    "Automatizim Sigurie",
+    "Sallon Ndriçimi",
+    "Efiçencë Energjetike",
+    "Energji e Rinovueshme",
+    "Ndërtesa Inteligjente"
+  ],
+  "sectors": [
+    { "title": "Rezidencial", "image": "/img/rr1.jpg" },
+    { "title": "Industrial", "image": "/img/48366947_2077107672345759_7039099863660756992_o.JPG" },
+    { "title": "Infrastrukturë IT", "image": "/img/Euroelektra_S7P-23.jpg" }
+  ]
+  },
+   "heroBlog": {
+    "title": "Blogu",
+    "breadcrumb": "Blogu",
+    "euroelektra":"Blogu / Filtro bloget sipas etiketës: euroelektra",
+    "sunpower": "Blog / Filtro bloget sipas etiketës: sunpower",
+    "solarpanels": "Blog / Filtro bloget sipas etiketës: panele diellore",
+    "solarenergy": "Blog / Filtro bloget sipas etiketës: energji diellore",
+    "winter": "Blog / Filtro bloget sipas etiketës: dimër",
+    "renewableenergy": "Blog / Filtro bloget sipas etiketës: energji e rinovueshme",
+    "solarcompany": "Blog / Filtro bloget sipas etiketës: kompani diellore",
+    "photovoltaicsector": "Blog / Filtro artikujt sipas etiketës: sektori fotovoltaik",
+    "photovoltaicpanels": "Blog / Filtro artikujt sipas etiketës: panelet fotovoltaike",
+    "photovoltaicmarket": "Blog / Filtro artikujt sipas etiketës: tregu fotovoltaik",
+    "albaniaenerygysector": "Blog / Filtro artikujt sipas etiketës: sektori energjetik në Shqipëri"
+    
+  },
+  "heroBlog1": {
+  "title": "Blogu",
+  "breadcrumb": "Blogu / A funksionojnë panelet diellore në dimër?"
+},
+"heroBlog2": {
+  "title": "Blogu",
+  "breadcrumb": "Blogu / Shqipëria dhe Zhvillimi i Vonuar i Tregut Fotovoltaik"
+},
+"heroBlog3": {
+  "title": "Blogu",
+  "breadcrumb": "Blogu / Teknologjia që siguron efikasitetin më të lartë të paneleve fotovoltaike vjen në tregun shqiptar!"
+},
+"heroBlog4": {
+  "title": "Blogu",
+  "breadcrumb": "Blogu / Kur shija e “Restorant Rapsodia” prek inovacionet e teknologjisë diellore!"
+},
+"heroBlog5": {
+  "title": "Blogu",
+  "breadcrumb": "Blogu / Përfitimet për Biznesin nga Zbatimi i Teknologjive Fotovoltaike."
+},
+"blog1": {
+  "project_1": {
+    "title": "A funksionojnë panelet diellore në dimër?",
+    "title1": "Energjia diellore funksionon duke kapur energjinë e diellit dhe gjatë dimrit, panelet vazhdojnë të prodhojnë energji elektrike.",
+    "description1": "Prodhimi i energjisë gjatë muajve të dimrit nuk është aq efektiv, pasi panelet prodhojnë më pak se kapaciteti i tyre normal. Orët e shkurtra të ditës, temperaturat e ulëta, shirat, bora etj., janë faktorë që ndikojnë në uljen e prodhimit të energjisë elektrike gjatë dimrit, por përsëri mjaftueshëm për të përmbushur nevojat tuaja.",
+    "description1_2": "Sistemet diellore SunPower janë projektuar për efikasitet maksimal, që do të thotë se mund të prodhojnë më shumë energji edhe në kushte me dritë të ulët. Duke përdorur xham cilësor dhe anti-reflektiv, panelet SunPower kapin dritën nga të gjitha këndet, duke thithur më shumë rreze dielli sesa panelet konvencionale.",
+    "title2": "HEQJA E BORËS NGA PANELET DIELLORE",
+    "description2": "Nëse sasia e borës mbulon plotësisht sipërfaqen e paneleve, ato nuk do të funksionojnë siç duhet për të prodhuar energji. Prandaj është e rëndësishme që bora të pastrohet për të siguruar funksionimin e sistemit.",
+    "description2_2": "Gjithashtu, duhet të kemi parasysh që panelet zakonisht instalohen në drejtim jugor ose jugperëndimor, për ekspozim maksimal ndaj diellit. Kjo ndihmon që bora të shkrijë më shpejt dhe panelet të vazhdojnë të funksionojnë.",
+    "description2_3": "Nëse ka shumë borë, heqja manuale mund të jetë zgjidhja më e mirë.",
+    "description2_4": "Në varësi të lartësisë dhe pjerrësisë së çatisë suaj, sigurohuni që procesi të jetë i sigurt për ju—në të kundërt, kontaktoni profesionistë për të hequr borën.",
+    "title3": "PANELET SUNPOWER PËRBALLOJNË MOT TË VËSHTIRË",
+    "description3": "Nga stuhitë deri te reshjet e borës, dimri mund të sjellë kushte të vështira që janë sfiduese për prodhimin e energjisë. SunPower ka përmirësuar teknologjinë e saj për mbi 30 vite për t’iu përshtatur këtyre kushteve.",
+    "title4": "PSE SUNPOWER?",
+    "description4": "Panelet SunPower janë testuar për qëndrueshmëri në kushte ekstreme si borë, temperatura të ulëta dhe erëra deri në 145 km/h. Këto teste e dallojnë teknologjinë SunPower nga panelet e zakonshme. Panelet kërkojnë pak mirëmbajtje dhe punojnë gjatë gjithë vitit pa defekte.",
+    "description4_2": "Kjo është një nga arsyet pse teknologjia SunPower u përzgjodh për misionin kërkimor të NASA-s në Groenlandë.",
+    "by": "Nga: EuroElektra sh.p.k",
+    "source": "Informacioni i burimit: SunPower"
+
+  }
+},
+  "blog1Meta": {
+    "postedBy": "Publikuar nga:",
+    "company": "EuroElektra Sh.p.k",
+    "category": "Në:",
+    "categoryName": "Energjia e Rinovueshme",
+    "date": "Më:",
+    "published": "E premte, 28 shkurt 2020",
+    "comment": "Komente:",
+    "hit": "Shikime:",
+    "by":"nga"
+  },
+
+"social": {
+  "likeThis": "Pëlqeje këtë",        
+  "post": "✗ Posto",                  
+  "like": "Pëlqe",                    
+  "likesInfo": {
+    "text": "2 persona e pëlqejnë këtë.",
+    "signup": "Regjistrohu",
+    "see": "për të parë çfarë pëlqejnë miqtë tuaj."
+  }
+},
+"tags": {
+  "tagsLabel": "Etiketat:",
+  "tag_euroelektra": "euroelektra",
+  "tag_sunpower": "SunPower",
+  "tag_solar_panels": "Panele Diellore",
+  "tag_solar_energy": "Energjia Diellore",
+  "tag_winter": "Dimër",
+  "tag_renewable_energy": "Energjia e Rinovueshme",
+  "tag_solar_company": "Kompani Diellore"
+},
+  "related": {
+  "categoryTitle": "Në të njëjtën kategori",
+  "tagsTitle": "Të ngjashme sipas etiketimeve",
+  "albania": "Shqipëria dhe zhvillimi i vonuar i tregut fotovoltaik",
+  "business": "Përfitimet e biznesit nga zbatimi i teknologjive fotovoltaike.",
+  "when": "Kur shija e 'Restorantit Rapsodia' prek inovacionet e teknologjisë diellore!",
+  "the": "Teknologjia që siguron efikasitetin më të lartë të paneleve fotovoltaike vjen në tregun shqiptar!",
+  "do": "A funksionojnë panelet diellore në dimër?",
+  "albaniaover": "Shqipëria dhe zhvillimi i vonuar i tregut fotovoltaik"
+  },
+  "comments": {
+  "title": "Komente",
+  "subtitle": "Lini komentin tuaj",
+  "name": "Emri i plotë",
+  "namePlaceholder": "Shkruani emrin tuaj të plotë",
+  "email": "Email",
+  "emailPlaceholder": "Shkruani email-in tuaj",
+  "comment": "Komenti",
+  "commentPlaceholder": "Shkruani komentin tuaj",
+  "captcha": "Kodi CAPTCHA",
+  "submit": "Dërgo"
+},
+"blog2": {
+  "project_1": {
+    "title": "Shqipëria dhe zhvillimi i vonuar i tregut fotovoltaik",
+    "title1": "Tiranë, 08 Prill 2019",
+    "description1": "Aktualisht, gjurma ekologjike e Shqipërisë në zhvillimin e kapaciteteve për prodhimin e energjisë nga burimet diellore është pothuajse e papërfillshme në krahasim me vendet fqinje, të cilat, pavarësisht zhvillimit të ndryshëm ekonomik, kanë treguar kujdes për arritjen e objektivit 2020 të Komisionit Evropian për rritjen e përqindjes së energjisë nga burimet e rinovueshme. Edhe pse Shqipëria ka një objektiv të vendosur ndër më të lartët në rajon për këtë çështje, hapat e ndërmarra nuk mund të konsiderohen të mjaftueshëm. Shqipëria është i vetmi vend në Ballkanin Jugperëndimor që nuk ka miratuar tarifën Feed-In për energjinë fotovoltaike për të hapur rrugën për shkëmbimin e energjisë në rrjetin e net-metering.",
+    "description1_2": "Sektori energjetik shqiptar ka një potencial real për zhvillim të qëndrueshëm, por mungesa e diversifikimit të burimeve krijon varësi nga importet. Planet afatmesme ose afatgjata për menaxhimin e burimeve dhe nxitjen e energjive të reja do të krijonin pavarësi dhe zhvillim të qëndrueshëm për vendin.",
+    "description1_3": "Vlen të theksohet se prodhimi i energjisë elektrike në Shqipëri varet vetëm nga energjia hidrike. Kjo varësi nga një burim i vetëm, i ndjeshëm ndaj ndryshimeve klimatike, rrezikon sigurinë e brendshme të vendit.",
+    "description2": "Duke parë sasinë e rrezatimit diellor dhe orët mesatare vjetore me diell, Shqipëria ka një potencial shumë të lartë për prodhimin e energjisë elektrike nga dielli, duke reduktuar varësinë nga importi dhe energjia hidrike.",
+    "description2_2": "Fluktuacionet e konsumit të energjisë gjatë ditës dhe natës janë të ndryshme për familjarët dhe bizneset. Në kohët kur ka konsum të ulët, krijohet një tepricë që mund të injektohet në rrjet dhe të përdoret nga konsumatori më i afërt, duke shmangur humbjet. Prodhuesi do të kompensohet duke i zbritur nga fatura konsumin në muajt me prodhim të ulët për shkak të kushteve atmosferike.",
+    "description2_3": "Që nga viti 2017 është deklaruar se do të miratohej procedura lehtësuese për shkëmbimin e energjisë në rrjet brenda një viti nga hyrja në fuqi e ligjit, por kjo nuk është realizuar dhe nuk ka pasur arsye të qarta për vonesën.",
+    "description2_4": "Një nga arsyet është pretendimi i Operatorit të Shpërndarjes së Energjisë Elektrike (OSHEE) se rrjeti aktual nuk është i gatshëm për lidhjen e impianteve fotovoltaike për vetëkonsum.",
+    "description2_5": "Ky proces i vonuar për dy vite e ka shtyrë Z. Elton Çekrezi, Drejtor Ekzekutiv i EuroElektra, të ndërmarrë nismën për të mbledhur grupin e interesit për energjinë diellore nga të gjitha kompanitë që operojnë në tregun fotovoltaik në Shqipëri, me transparencë të plotë.",
+    "description3": "Ky grup interesi, përfaqësuar nga Z. Anduel Çekrezi, jurist i EuroElektra, më 8 Shkurt 2019, ka kërkuar zyrtarisht një takim me Ministren e Infrastrukturës dhe Energjisë, Znj. Belinda Balluku, për miratimin e udhëzimeve për projektet e vogla të energjisë së rinovueshme.",
+    "description3_2": "Kërkesa u mirëprit nga Ministria, dhe më 21 Mars u mbajt interpelancë me Ministren Balluku dhe drejtues të OSHEE. Grupi paraqiti argumente teknike që kundërshtojnë pretendimet e OSHEE dhe mbështesin faktin se sistemet fotovoltaike mund të integrohen në rrjetin ekzistues pa nevojë për zgjerim kapaciteti.",
+    "description4": "Gjatë interpelancës, Ministrja Balluku dha urdhër për krijimin e një grupi pune me pjesëmarrjen e Ministrisë së Energjisë, OSHEE, ERE, OST dhe përfaqësues të grupit të interesit.",
+    "description4_2": "Më 03 Prill 2019, Ministrja firmosi krijimin e grupit të punës për hartimin e metodologjisë dhe udhëzimeve sipas ligjit 7/2017, neni 15 për 'skemën e matjes neto', me 9 anëtarë: 2 nga Ministria e Energjisë, 2 nga OSHEE, 1 nga ERE, 1 nga OST dhe 3 nga grupi i interesit përfaqësuar nga Z. Anduel Çekrezi.",
+    "description4_3": "Takimi i parë do të zhvillohet më 10 Prill për të diskutuar draftin e propozuar nga Ministria, draft që duhet të përfundojë deri më 01 Maj 2019.",
+    "description4_4": "Grupi mori mbështetje të drejtpërdrejtë nga Z. Shalsi, Ministër i Shtetit për Mbrojtjen e Sipërmarrjes, Z. Nikolin Jaka, President i Dhomës së Tregtisë dhe Industrisë Tiranë dhe nga të gjitha grupet mediatike shqiptare.",
+    "description4_5": "Grupi i interesit do të vazhdojë të informojë publikun mbi ecurinë e procesit, zhvillimet e metodologjisë dhe udhëzimeve, me qëllimin kryesor zhvillimin ekonomik të sektorit të energjisë fotovoltaike në Shqipëri.",
+    "source": "Informacion Burimi: EuroElektra Sh.p.k"
+  }
+},
+"tags2": {
+  "tagsLabel": "Etiketat:",
+  "tag_euroelektra": "euroelektra",
+  "tag_sunpower": "sektori fotovoltaik",
+  "tag_solar_panels": "panelet fotovoltaike",
+  "tag_solarpanels": "panelet diellore",
+  "tag_solar_energy": "Energjia Diellore",
+  "tag_winter": "tregu fotovoltaik",
+  "tag_renewable_energy": "sektori i energjisë në Shqipëri",
+  "tag_solar_company": "energjia e rinovueshme"
+},
+"related2": {
+  "categoryTitle": "NË TË NJËJTËN KATEGORI",
+  "tagsTitle": "TË NGJASHME SIPAS ETIKETAVE",
+  "doWinter": "A funksionojnë panelet diellore në dimër?",
+  "businessBenefits": "Përfitimet e bizneseve nga zbatimi i teknologjive fotovoltaike.",
+  "rapsodia": "Kur shija e “Rapsodia Restaurant” takohet me inovacionet e teknologjisë diellore!",
+  "highEfficiency": "Teknologjia që siguron efikasitetin më të lartë të paneleve fotovoltaike vjen në tregun shqiptar!",
+  "dosolar": "A funksionojnë panelet diellore në dimër?",
+  "albaniaDelayed": "Shqipëria dhe zhvillimi i vonuar i tregut fotovoltaik"
+},
+
+"blog3": {
+  "project_1": {
+    "title": "Teknologjia që siguron efikasitetin më të lartë të paneleve fotovoltaike vjen në tregun shqiptar!",
+    "description1": "E njohur si një nga vendet me cilësinë më të lartë për zbatimin e sektorit fotovoltaik në Evropë, Shqipëria pritet të hyjë në fazat konkrete të realizimit të projekteve madhore siç janë instalimi i parqeve fotovoltaike me kapacitete deri në 2MWp.",
+    "description1_2": "Praktikat ndërkombëtare në fushën e instalimit të parqeve diellore kanë treguar se përdorimi i produkteve cilësore ka rritur efikasitetin e prodhimit për panel në afat të gjatë, si dhe ka mundësuar përdorimin e më pak hapësire fizike për instalimin e paneleve fotovoltaike. Përmirësimet në parametrat teknikë të paneleve diellore kanë qenë në përpjesëtim të drejtë me çmimet e tyre, të cilat janë ulur ndjeshëm gjatë 8 viteve të fundit.",
+    "description1_3": "Këto teknologji që rrisin ndjeshëm efikasitetin e prodhimit të energjisë diellore janë prezantuar për herë të parë në Shqipëri përmes një bashkëpunimi midis EuroElektra dhe SunPower, gjigandit amerikan të prodhimit të paneleve fotovoltaike. Panelet diellore SunPower, krahasuar me sistemet e disponueshme, aktualisht kanë performancën më të lartë dhe garancinë më të gjatë (25 vjet).",
+    "description1_4": "“Përfundimi i marrëveshjes së bashkëpunimit me SunPower është me të vërtetë një lajm për sektorin fotovoltaik në rajon, edhe pse niveli i ndërgjegjësimit publik për këtë fakt ka qenë i ulët. Për pjesën më të madhe të 10 viteve të fundit, elementi që ka bërë diferencën mes prodhuesve globalë të teknologjive fotovoltaike ka qenë maksimizimi i efikasitetit të prodhimit në aspektin e kostove. SunPower ka arritur një nivel efikasiteti prej 19%, me çdo panel që arrin 390Wp. Kjo rritje e efikasitetit të prodhimit për një panel bën të mundur që një park fotovoltaik 2MWp të instalohet me rreth 2000 panele më pak sesa nevojitej më parë në standardin 15-16%. Kontejnerët e parë me panele SunPower kanë mbërritur në depot e EuroElektra-s për t’u implementuar në një nga projektet që do të nisë së shpejti. Jemi të bindur që publiku shqiptar do të thotë \"Po\" për një investim që ul kostot e faturave të energjisë, mbulon nevojat e konsumit dhe mbi të gjitha ka ndikim mjedisor.” – shton z. Elton Cekrezi, CEO i EuroElektra."
+  }
+},
+"related3": {
+  "categoryTitle": "NË TË NJËJTËN KATEGORI",
+  "tagsTitle": "TË NGJASHME SIPAS ETIKETAVE",
+  "do": "A funksionojnë panelet diellore në dimër?",
+  "albania": "Shqipëria për zhvillimin e vonuar të tregut fotovoltaik",
+  "business": "Përfitimet për biznesin nga zbatimi i teknologjive fotovoltaike.",
+  "when": "Kur shija e “Restorantit Rapsodia” prek inovacionet e teknologjisë diellore!"
+},
+"blog4": {
+  "project_1": {
+    "title": "Kur shija e “Rapsodia Restaurant” prek inovacionet e teknologjisë diellore!",
+    "description1": "Kur shija e “Rapsodia Restaurant” prek inovacionet e teknologjisë diellore…",
+    "description1_2": "Zgjedhja për të minimizuar kostot për biznesin tuaj duke përdorur burime alternative energjie si energjia diellore është një zgjidhje e vlefshme për të lehtësuar barrën e shpenzimeve. Alfred Marku, pronari dhe shefi kryesor i kuzhinës së restorantit Rapsodia në Lezhë, ndan të njëjtin mendim. Pranë restorantit, Alfredi ka ndërtuar edhe një baxho për përpunimin e qumështit për të çuar më tej idenë e tij për \"ushqim bio me zero kilometra\". Në kushte normale, kjo do të rriste kostot e faturave të energjisë, por jo në rastin e Rapsodisë. Në bashkëpunim me EuroElektra, kompania e specializuar në projektimin dhe implementimin e impianteve fotovoltaike, është implementuar baxhoja e parë në Shqipëri që përdor energji të rinovueshme për të prodhuar produktet e saj. Sipërfaqja prej 300 m² e fermës së qumështit është e mbuluar me një “mantel” të teknologjisë së gjelbër që gjeneron rreth 50 kWp fuqi dhe parashikon një kthim investimi që nuk e kalon 7 vjet.",
+    "description1_3": "\"Gjithmonë ka mënyra për të bashkëvepruar me natyrën dhe një prej tyre është ndërthurja e asaj që vërtet kemi si ‘dhuratë’, si ditët me diell dhe toka pjellore, me atë që mund të bëjmë: të prodhojmë energji të pastër dhe produkte bio. Jam i lumtur që së bashku me EuroElektra kemi mundur të kthejmë baxhonë e Rapsodisë në hapësirën e parë rekreative në Shqipëri që gjeneron energji diellore për të prodhuar produkte që do të pasurojnë shijen e gatimeve në restorantin tonë\", – thotë z. Marku.",
+    "description1_4": "Përfundimi i marrëveshjes së bashkëpunimit me SunPower është me të vërtetë një lajm për sektorin fotovoltaik në rajon, edhe pse niveli i ndërgjegjësimit publik për këtë fakt ka qenë i ulët. Gjatë dekadës së fundit, elementi që ka bërë diferencën midis prodhuesve globalë të teknologjive fotovoltaike ka qenë maksimizimi i efikasitetit të prodhimit në lidhje me kostot. SunPower ka arritur një nivel efikasiteti prej 19%, me secilin panel që arrin 390Wp. Kjo rritje në efikasitetin e prodhimit bën të mundur që për një park fotovoltaik prej 2MWp të instalohen rreth 2000 panele më pak krahasuar me standardin e mëparshëm prej 15-16%. Kontejnerët e parë me panelet SunPower kanë mbërritur në magazinat e EuroElektra për t’u implementuar në një nga projektet që do të nisë së shpejti. Ne jemi të bindur që publiku shqiptar do të thotë “Po” një investimi që ul kostot e faturave të energjisë, mbulon nevojat për konsum dhe mbi të gjitha ka ndikim pozitiv mjedisor\", – shton z. Elton Cekrezi, CEO i EuroElektra."
+  }
+},
+"related4": {
+  "categoryTitle": "NË TË NJËJTËN KATEGORI",
+  "tagsTitle": "TË LIDHURA NGA ETIKETAT",
+  "do": "A funksionojnë panelet diellore në dimër?",
+  "albania": "Shqipëria mbi zhvillimin e vonuar të tregut fotovoltaik",
+  "business": "Përfitimet për biznesin nga zbatimi i teknologjive fotovoltaike.",
+  "the": "Teknologjia që siguron efikasitetin më të lartë të paneleve fotovoltaike vjen në tregun shqiptar!"
+},
+"blog5": {
+  "project_1": {
+    "title": "Përfitimet e bizneseve nga zbatimi i teknologjive fotovoltaike.",
+    "title1": "Intervistë me z. Elton Çekrezi, CEO i EuroElektra Sh.p.k",
+    "description1": "Çdo biznes që sot paguan 14 lekë/kWh për energjinë nga Operatori i Shpërndarjes së Energjisë Elektrike mund të reduktojë ndjeshëm faturën nëse përdor energjinë diellore. Drejtuesi i EuroElektra, Elton Çekrezi, thotë se në përgjithësi ulja do të luhatej mes 6-8 lekë. Kjo do të reflektohej në një faturë energjie shumë më ekonomike.",
+    "description1_2": "Sipas Çekrezit, kthimi i investimit kërkon 5-7 vjet. Sigurisht, nëse energjia ofrohet me një çmim më të lirë prej 9.5 lekë si për konsumatorët familjarë, impiantet kanë një kthim më të gjatë, por në fund është e realizueshme duke marrë parasysh se jeta e tyre funksionale kalon 25 vite.",
+    "title2": "Më shumë se një vit pas miratimit të ligjit për burimet e rinovueshme, si e shihni situatën e tregut, sigurisht më shumë të orientuar drejt fotovoltaikëve?",
+    "description2_2": "Pas miratimit të ligjit, u thye barriera e parë e skepticizmit që lidhet me çdo gjë të re në treg. Tregu fotovoltaik është ende i pazhvilluar në Shqipëri dhe kuptohet me vështirësi. Bizneset ende shprehin skepticizëm për përfitimet, por dëshira për informim është rritur, gjë që për mua është zhvillim pozitiv.",
+    "description2_3": "Vërej se menjëherë pas miratimit të ligjit, pati një fluks aplikimesh në institucione, ndonëse disa dokumentacione janë përgatitur në mënyrë vetjake dhe jo të studiuara siç duhet, pasi përvoja në këtë aspekt në Shqipëri është minimale.",
+    "description2_4": "Dua të shtoj se kuadri ligjor është i hapur për çdo grup interesi: nga konsumatorët e thjeshtë, bizneset që duan të reduktojnë faturat, deri tek ata që duan të investojnë në energjinë diellore si qëllim biznesi.",
+    "description2_5": "Ligji përcakton që nëse dikush merr leje dhe nuk përmbush afatet për arsye të ndryshme: financiare, teknike apo teknologjike, atëherë leja pezullohet automatikisht. Kjo nxit investime të vërteta, ndryshe nga çfarë ndodhi me HEC-et.",
+    "title3": "Cilat profile biznesi shfaqin më shumë interes për këtë investim?",
+    "description3_2": "Me rritjen e informacionit, mënyra se si funksionon një investim i tillë po bëhet më e qartë. Bizneset e para që kanë treguar më shumë interes janë industritë e tekstilit dhe këpucëve, agropërpunimi dhe turizmi, që kanë jo vetëm mundësi financiare, por edhe analizë teknike mbi përfitimin ekonomik.",
+    "description3_3": "Nga ana tjetër, bizneset që duan të prodhojnë dhe shesin energji janë ato të mëdha me kapital të mjaftueshëm për të mbuluar garancinë prej 20% të investimit. Ky interes zakonisht lind nga bashkimet e kompanive në projekte të përbashkëta.",
+    "description3_4": "Sot, Shqipëria është gjithnjë e më shumë e vetëdijshme për potencialin e energjisë diellore si një balancues i mirë ndaj hidroenergjisë. Zhvillimi i të dyjave do të shmangte importet e larta, veçanërisht në periudhat e thatësirës.",
+    "description3_5": "Hapja e bursës së energjisë është një tjetër faktor që favorizon investitorët, duke u mundësuar përfitime nga konkurrenca.",
+    "description3_6": "Mendoj se dinamika do të ndryshojë sapo të përfundojnë disa hapa si 'net metering' dhe metodologjia. Nëse realizohen, zhvillimet do të jenë të dukshme për të gjithë.",
+    "description3_7": "Qytetarët dhe investitorët duhet të investojnë në produkte të sigurta, të kontrolluara dhe me marka të besueshme, pasi flasim për investime afatgjata. Nëse investohet në produkte 'pa emër', rreziku është i madh që investimi të dështojë.",
+    "title4": "Sa i rrezikuar është tregu shqiptar nga produktet jo cilësore?",
+    "description4_2": "Siç përmenda më herët, në tregun europian ka produkte të mbetura me defekte të serisë që përbëjnë rrezik. Futja e tyre në Shqipëri do të sillte një skenar të dështuar si me HEC-et. Trendi global është drejt produkteve më efikase dhe ROI është elementi kyç.",
+    "title5": "Cilës kategori biznesi do t’i rekomandonit investimin në impiante fotovoltaike?",
+    "description5_2": "Do t’ia rekomandoja çdo biznesi që paguan 14 lekë pa TVSH, sepse llogaria është e thjeshtë. Me një faturë vjetore prej 1.2 milionë lekësh, për 5 vite bëhen 6 milionë. Me investim në energji diellore, fatura ulet ndjeshëm dhe energjia bëhet “falas” pas 5-7 vjetësh.",
+    "title6": "A është e realizueshme vendosja e paneleve për çdo biznes që paguan 14 lekë?",
+    "description6_2": "Ka përfitime për çdo kategori, por 14 është më përfaqësuese. Përdorimi i energjisë nga panele diellore ul tarifën me 6-8 lekë/kWh. Për kategorinë që paguan 9 lekë, kthimi i investimit është 8-9 vjet.",
+    "title7": "Çfarë duhet bërë më mirë për të nxitur këtë sektor?",
+    "description7_2": "Kur kuadri ligjor është i plotë, duhet të krijohen partneritete me palët e interesuara: bankat, kompanitë konsulente, investitorët dhe ofruesit e produkteve.",
+    "description7_3": "Bashkëpunimi do të krijonte efekte zinxhirore në realizimin e projekteve më të mira me financim të garantuar dhe ekspertizë ndërkombëtare. Kjo do të ishte hapi më i rëndësishëm për sektorin."
+  }
+},
+"related5": {
+  "categoryTitle": "NË TË NJËJTËN KATEGORI",
+  "tagsTitle": "TË NGJASHME SIPAS ETIKETAVE",
+  "doSolar": "A funksionojnë panelet diellore në dimër?",
+  "albaniaDelayed": "Shqipëria dhe zhvillimi i vonuar i tregut fotovoltaik",
+  "rapsodiaTaste": "Kur shija e “Rapsodia Restaurant” takon inovacionet e teknologjisë diellore…",
+  "highEfficiency": "Teknologjia që siguron efikasitetin më të lartë të paneleve fotovoltaike vjen në tregun shqiptar!"
+}
+
+
+
+
+
+
+
+
+}
+
+    

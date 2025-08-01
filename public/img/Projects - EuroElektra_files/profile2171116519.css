@@ -1,0 +1,120 @@
+/*-----------------------*/
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** CHECKOUT BY STEP */
+/**************** Home 2 *****************/
+/* HEADER */
+.index #header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 101;
+  background-color: transparent;
+}
+@media (max-width: 990px) {
+  .index #header {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+.index #header .navbar-toggle {
+  color: white;
+}
+.index #header.navbar-fixed-top {
+  background-color: #525151;
+}
+.index #header.navbar-fixed-top.hiddenTopbar .coheader-container {
+  background-color: #525151;
+}
+@media (max-width: 320px) {
+  .index #header {
+    position: static;
+    background-color: #525151;
+  }
+}
+
+#header {
+  background-color: #525151;
+}
+
+.navbar-fixed-top {
+  background-color: #525151;
+}
+.navbar-fixed-top.hiddenTopbar .coheader-container {
+  background-color: #525151;
+}
+
+#topbar {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#topbar .container {
+  background-color: transparent;
+}
+#topbar .links li a {
+  color: white;
+}
+#topbar .links li a:hover {
+  color: #52b4f9;
+}
+#topbar .links.popup-content li a {
+  color: #444444;
+}
+#topbar .links.popup-content li a:hover {
+  color: #52b4f9;
+}
+#topbar .popup-over .popup-title {
+  color: white;
+}
+#topbar .popup-over .popup-title:hover {
+  color: #52b4f9;
+}
+#topbar .popup-over .popup-title a {
+  color: white;
+}
+#topbar .popup-over .popup-title a:hover {
+  color: #52b4f9;
+}
+
+#header-main {
+  background-color: transparent;
+}
+#header-main .container {
+  background-color: transparent;
+}
+
+#leo-megamenu .navbar-nav > li > a {
+  color: white;
+}
+#leo-megamenu .navbar-nav > li > a .caret {
+  color: white;
+}
+
+.btn-search {
+  color: white;
+}
+.btn-search:hover {
+  color: #52b4f9;
+}
+
+#cart .title-cart {
+  color: white;
+}
+#cart .title-cart:hover {
+  color: #52b4f9;
+}
+
+.navbar-fixed-top {
+  position: fixed !important;
+}
