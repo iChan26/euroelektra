@@ -301,7 +301,7 @@ useEffect(() => {
         {/* Image */}
         <div className="flex-shrink-0 w-full md:w-[300px] flex justify-center items-center">
           <img
-            src="/img/6d76b52a-3acb-4936-b16c-8c98a174a814.PNG"
+            src="/img/6d76b52a-3acb-4936-b16c-8c98a174a814.png"
             alt="Climate comfort"
             className="rounded-md border border-gray-300 object-contain"
           />
@@ -313,7 +313,7 @@ useEffect(() => {
         {/* Image */}
         <div className="flex-shrink-0 w-full md:w-[300px] flex justify-center items-center order-1 md:order-none">
           <img
-            src="/img/98216c1a-7a8b-4ee9-874d-64bc6808a222.PNG"
+            src="/img/98216c1a-7a8b-4ee9-874d-64bc6808a222.png"
             alt="Smart management"
             className="rounded-md border border-gray-300 object-contain"
           />
