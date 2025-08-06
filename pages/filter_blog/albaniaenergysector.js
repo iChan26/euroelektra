@@ -97,7 +97,7 @@ const blogs = [
   
   {
     key: "project_2",
-    media: [{ src: "/img/albania-over.JPG" }],
+    media: [{ src: "/img/albania-over.jpg" }],
     categories: ["Photovoltaic Plant"],
     link: "/blog/blog2",
     readMoreLink: "/blog/blog2#details",

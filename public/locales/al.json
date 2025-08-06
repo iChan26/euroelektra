@@ -517,11 +517,6 @@
     "Efiçencë Energjetike",
     "Energji e Rinovueshme",
     "Ndërtesa Inteligjente"
-  ],
-  "sectors": [
-    { "title": "Rezidencial", "image": "/img/rr1.jpg" },
-    { "title": "Industriale", "image": "/img/48366947_2077107672345759_7039099863660756992_o.JPG" },
-    { "title": "Infrastrukturë IT", "image": "/img/Euroelektra_S7P-23.jpg" }
   ]
 },
 "energyEfficiencyHero": {
@@ -530,6 +525,14 @@
 },
   "sectorsSidebar": {
     "title": "SEKTORËT",
+    "electrical_products": "Produkte Elektrike",
+    "energy_efficiency": "Efiçencë Energjetike",
+    "lighting_showroom": "Sallë Ekspozimi Ndriçimi",
+    "renewable_energy": "Energjia e Rinovueshme",
+    "security_automation": "Automatizim i Sigurisë",
+    "smart_building": "Ndërtesë Inteligjente",
+    "interior": "Brendshme",
+      "exterior": "Jashtme",
     "items": [
       "Produkte Elektrike",
       "Automatizimi i Sigurisë",
@@ -539,13 +542,13 @@
       "Ndërtesë Inteligjente"
     ]
   },
-  "sectorsContent": {
-    "climateComfort": {
-      "title": "Komoditeti i klimës",
-      "intro": "Temperatura që dëshironi, kurdoherë që e dëshironi",
-      "paragraph1": "Menaxhim i plotë i klimës për çdo lloj ndërtese, i përshtatshëm për çdo mjedis dhe i kontrollueshëm lokalisht ose në mënyrë qëndrore nga një pikë e vetme, apo edhe në distancë. Shumë zgjidhje të mundshme për ngrohje dhe ftohje me sisteme me dy ose katër tubacione, ngrohje në dysheme dhe radiatorë, fan-coil dhe sisteme split/multisplit.",
-      "paragraph2": "Funksioni Ecometer tregon vlerat e konsumit nëpërmjet një treguesi miqësor për përdoruesin me një shkallë gradimi dhe jep sinjal kur temperatura e komoditetit tejkalohet duke ndriçuar një ikonë, duke nxitur kështu vetëdijen për energjinë."
-    },
+ "sectorsContent": {
+  "climateComfort": {
+    "title": "Komoditeti i klimës",
+    "intro": "Temperatura që dëshironi, kurdo që ta dëshironi",
+    "paragraph1": "Menaxhim i plotë i klimës për çdo lloj ndërtese, i përshtatshëm për çdo ambient dhe i kontrollueshëm në mënyrë lokale dhe qendrore nga një pikë e vetme, ose edhe në distancë. Zgjidhje të ndryshme për ngrohje dhe ftohje me sisteme me dy ose katër tuba, ngrohje nën dysheme dhe radiatorë, fan-coils dhe sisteme split/multisplit.",
+    "paragraph2": "Funksioni Ecometer tregon vlerat e konsumit nëpërmjet një treguesi të lehtë për t’u kuptuar me një shkallë të gradës, dhe paralajmëron kur temperatura e komoditetit tejkalohet duke ndriçuar një ikonë, duke nxitur kështu një vetëdije më të madhe për energjinë."
+  },
     "smartManagement": {
       "title": "Menaxhim i zgjuar",
       "intro": "Kontroll i integruar i klimës në sistemin e automatizimit By-me",
@@ -586,12 +589,13 @@
       "Energji e Rinovueshme",
       "Ndërtesë Inteligjente"
     ],
-    "items": [
-      { "title": "Panele fotovoltaike" },
-      { "title": "Inverter fotovoltaik" },
-      { "title": "Bateri" },
-      { "title": "Aksesorë të tjerë" }
-    ]
+   "items": {
+      "photovoltaicpanels": "Panele fotovoltaike",
+      "photovoltaicinverter": "Inverter fotovoltaik",
+      "Battery": "Bateri",
+      "other": "Aksesorë të tjerë"
+    }
+
   },
   "electricalProductsHero": {
   "title": "Produkte Elektrike",
@@ -621,6 +625,7 @@
     "description": "Produktet tona të Ndërtesave Inteligjente ofrojnë cilësi të lartë, qëndrueshmëri dhe zgjidhje miqësore me mjedisin — në përputhje me misionin e EuroElektra për të fuqizuar të ardhmen përmes inovacionit dhe sistemeve të energjisë inteligjente."
   },
   "sidebarTitle": "Sektorët",
+  "renewable_energy": "Energji e rinovueshme",
   "sidebarSectors": [
     "Produkte Elektrike",
     "Automatizim Sigurie",
@@ -678,14 +683,38 @@
       "Ndërtesë Inteligjente"
     ]
   },
-  "grid": {
+   "grid": {
     "items": [
-      { "title": "Automatizim për dyer", "image": "/img/IMG_8411 (1).jpg" },
-      { "title": "Sistem Parkimi", "image": "/img/ccbs1.JPG" },
-      { "title": "Sistem CCTV", "image": "/img/IMG_8380.jpg" },
-      { "title": "Sistem Alarmi / Zjarri", "image": "/img/FIRE-DETECTION.JPG" },
-      { "title": "Sisteme të Kontrollit të Aksesit", "image": "/img/IMG_2079.JPG" },
-      { "title": "Interkom Audio dhe Video", "image": "/img/ccbc (2).JPG" }
+      {
+        "title": "Automatizim për dyer",
+        "image": "/img/IMG_8411 (1).jpg",
+        "href": "/sectors_submenu/securityautomation/automationfordoors"
+      },
+      {
+        "title": "Sistem Parkimi",
+        "image": "/img/ccbs1.JPG",
+        "href": "/sectors_submenu/securityautomation/parkingsystems"
+      },
+      {
+        "title": "Sistem CCTV",
+        "image": "/img/IMG_8380.jpg",
+        "href": "/sectors_submenu/securityautomation/cctv-system"
+      },
+      {
+        "title": "Sistem Alarm / Zjarrfikës",
+        "image": "/img/FIRE-DETECTION.JPG",
+        "href": "/sectors_submenu/securityautomation/alarmfiresystems"
+      },
+      {
+        "title": "Sisteme Kontrolli Aksesi",
+        "image": "/img/IMG_2079.JPG",
+        "href": "/sectors_submenu/securityautomation/accesscontrolsystems"
+      },
+      {
+        "title": "Interkom Audio dhe Video",
+        "image": "/img/ccbc (2).JPG",
+        "href": "/sectors_submenu/securityautomation/audioandvideointercoms"
+      }
     ]
   },
   "chat": {
@@ -966,13 +995,139 @@
   "albaniaDelayed": "Shqipëria dhe zhvillimi i vonuar i tregut fotovoltaik",
   "rapsodiaTaste": "Kur shija e “Rapsodia Restaurant” takon inovacionet e teknologjisë diellore…",
   "highEfficiency": "Teknologjia që siguron efikasitetin më të lartë të paneleve fotovoltaike vjen në tregun shqiptar!"
+},
+"electrical_product": {
+  "Residential": "Rezidencial",
+  "Industrial": "Industriale",
+  "IT_Infrastructure": "Infrastrukturë IT"
+},
+"electricalproduct_residential": {
+  "title": "Produkte Elektrike",
+  "breadcrumb": "/Produkte Elektrike / Rezidenciale",
+  "electrical_residential": "Rezidenciale"
+},
+"residential": {
+  "EIKON_4D": "EIKON 4D",
+  "ARKE": "ARKE",
+  "PLANA": "PLANA"
+},
+
+"electricalproduct_IT_infrastructure": {
+  "title": "Industriale",
+  "breadcrumb": "/Produkte Elektrike / Industriale",
+  "electrical_products": "Produkte Elektrike"
+},
+"IT_industrial": {
+  "Rack": "Raft",
+  "VOIP_Systems": "Sisteme VOIP",
+  "Access_point": "Pikë Aksesi",
+  "Data_Center": "Qendër të Dhënash"
+},
+"electricalproduct_industrial": {
+  "title": "Produkte Elektrike",
+  "breadcrumb": "/Produkte Elektrike/ Industriale",
+  "electrical_industrial": "Industriale"
+},
+"industrial": {
+  "motor": "Nisësit e motorëve dhe komponentët mbrojtës",
+  "complete": "Butona kontrolli të plotë",
+  "plc": "PLC"
+},
+"interior_product": {
+  "title": "Sallë Ekspozite Ndriçimi",
+  "breadcrumb": "/Sallë Ekspozite Ndriçimi / E Brendshme",
+  "category_interior": "E Brendshme"
+},
+"interior": {
+  "gold": "Gold Novalux",
+  "spyglass": "Novalux Spyglass",
+  "linearbay": "Linearbay Novalux"
+},
+"exterior_product": {
+    "title": "Dritat në Showroom",
+    "breadcrumb": "/Showroom i Dritave / Exterior",
+    "category_exterior": "E Jashtme"
+  },
+"exterior": {
+  "ground": "Tokë pro Novalux",
+  "screen": "Ekran Novalux",
+  "stone": "Aplikë Guri"
+},
+"renewableenergy_product": {
+  "title": "Energjia e Rinovueshme",
+  "breadcrumb": "/Energjia e Rinovueshme / Panelet Fotovoltaike",
+  "category_photovoltaic": "Panelet Fotovoltaike"
+},
+"photovoltaicpanels_product": {
+  "sunpower": "SunPower P19 405Wp",
+  "Peimar": "Panele Fotovoltaike Peimar",
+  "AXITEC": "Panele Fotovoltaike AXITEC",
+  "QCELLS": "QCELLS - Q.PEAK DUO-G5"
+},
+"renewableenergy_photovoltaicinverter": {
+  "title": "Inverter Fotovoltaik",
+  "breadcrumb": "/Energjia e Rinovueshme/Inverter Fotovoltaik",
+  "category_photovoltaic": "Inverter Fotovoltaik",
+  "breadcrumb1": "/Energji e Rinovueshme / Bateri",
+  "category_batery": "Bateri",
+  "breadcrumb2": "Energjia e Rinovueshme / Aksesorë të Tjerë",
+  "category_other": "Aksesorë të Tjerë"
+  
+
+
+},
+"photovoltaicinverter_product": {
+  "FroniusEco": "Fronius Eco",
+  "FroniusGalvo": "Fronius Galvo",
+  "FroniusSymo": "Fronius Symo",
+  "SMASunnyBoy": "SMA Sunny Boy",
+  "SMASunnyTripower": "SMA Sunny Tripower",
+  "SMASunnyHighpower": "SMA Sunny Highpower",
+  "FroniusPrimo": "Fronius Primo"
+},
+"battery_product": {
+  "Froniussolarbattery": "Bateri diellore Fronius",
+  "SunnyBoyStorage": "Magazinim Sunny Boy"
+},
+"Automation_for_Doors": {
+  "title": "Automatizim për Dyert",
+  "breadcrumb": "Automatizim për Dyert / Automatizim për Dyert",
+  "category_automation": "Automatizim për Dyert"
+},
+"securityautomation": {
+  "title": "Automatizim i Sigurisë",
+  "breadcrumb": "Automatizim i Sigurisë / Automatizim për Dyer",
+  "category_automation": "Automatizim për Dyer"
+},
+"automationfordoors": {
+  "Swingdoors": "Dyer rrotulluese",
+  "Slidingdoors": "Dyer rrëshqitëse",
+  "Garagedoorautomation": "Automatizimi i derës së garazhit",
+  "Automateddoorsystems": "Sisteme të dyerve të automatizuara",
+  "Trafficbarriers": "Pengesa trafiku",
+  "Trafficbollard": "Shtylla trafiku"
+},
+"residential_product": {
+  "title": "Rezidencial",
+  "breadcrumb": "/ Rezidencial / Dyqan"
+},
+"store":{
+   "product_detail": "Detajet e Produktit",
+  "related_products": "Produkte të Ngjashme",
+  "condition": "Gjendja",
+  "new_product": "Produkt i ri",
+  "subtitle": "EIKON 4D luksi dhe teknologji",
+  "description": "Zbuloni Eikon, teknologjinë dhe dizajnin për ata që duan të shndërrojnë ndriçuesin në një element të vërtetë të dizajnit të brendshëm."
+},
+"motorsstarters": {
+  "title": "Industriale",
+  "breadcrumb": "Industriale / Motorët nisës dhe komponentët e mbrojtjes",
+  "category_motor": "Motorët nisës dhe komponentët e mbrojtjes",
+  "ControlD": "Relè kontrolli Tesys D",
+ "ControlK": "Relè kontrolli Tesys K",
+ "breadcrumb1":"Industriale / Negozio Motori"
+
 }
-
-
-
-
-
-
 
 
 }

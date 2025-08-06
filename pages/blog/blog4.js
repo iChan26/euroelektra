@@ -96,7 +96,7 @@ const blog4 = [
   {
     key: "project_1",
     media: [
-      { src: "/img/when-the-taste.JPG" },
+      { src: "/img/when-the-taste.jpg" },
 
     ],
     categories: ["Photovoltaic Plant"],

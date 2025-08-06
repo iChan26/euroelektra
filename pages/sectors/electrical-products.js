@@ -1,4 +1,5 @@
 "use client";
+import ReloadLink from '../../components/ReloadLink';
 import { useState, useEffect, useRef, } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -254,7 +255,10 @@ useEffect(() => {
       </h2>
       <ul className="space-y-4">
         {(translations.electrical?.categories || []).map((item, idx) => (
-          <li key={idx} className="flex justify-between items-center text-sm text-[#1C1C1C]">
+          <li
+            key={idx}
+            className="flex justify-between items-center text-sm text-[#1C1C1C]"
+          >
             <div className="flex items-center gap-2">
               <span className="text-lg">&rsaquo;</span>
               <span>{item}</span>
@@ -268,24 +272,46 @@ useEffect(() => {
       </ul>
     </aside>
 
-    {/* Grid with Images */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-      {(translations.electrical?.sectors || []).map((sector, idx) => (
-        <div
-          key={idx}
-          className="border border-gray-300 p-4 flex flex-col items-center justify-center text-center"
-        >
-          <img
-            src={sector.image}
-            alt={sector.title}
-            className="w-24 h-24 object-cover mb-4 rounded"
-          />
-          <p className="text-sm font-medium text-[#4F4F4F]">{sector.title}</p>
-        </div>
-      ))}
-    </div>
+      {/* Grid with Images */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+        {[
+          {
+            title: "Residential",
+            label: translations.electrical_product?.Residential || "Residential",
+            href: "/sectors_submenu/electricalproduct/residential",
+            image: "/img/rr1.jpg",
+          },
+          {
+            title: "Industrial",
+            label: translations.electrical_product?.Industrial || "Industrial",
+            href: "/sectors_submenu/electricalproduct/industrial",
+            image: "/img/48366947_2077107672345759_7039099863660756992_o.JPG",
+          },
+          {
+            title: "IT Infrastructure",
+            label: translations.electricalproduct_IT_infrastructure?.electrical_products || "IT Infrastructure",
+            href: "/sectors_submenu/electricalproduct/itinfrastructure",
+            image: "/img/Euroelektra_S7P-23.jpg",
+          },
+        ].map((sector, idx) => (
+          <ReloadLink
+            key={idx}
+            href={sector.href}
+            className="border border-gray-200 rounded-lg p-4 flex flex-col items-center justify-center text-center bg-white shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300"
+          >
+            <img
+              src={sector.image}
+              alt={sector.label}
+              className="w-24 h-24 object-cover mb-4 rounded"
+            />
+            <p className="text-sm font-medium text-[#4F4F4F]">{sector.label}</p>
+          </ReloadLink>
+        ))}
+      </div>
+
   </div>
 </section>
+
 
 
  

@@ -96,7 +96,7 @@ const blog1 = [
   {
     key: "project_1",
     media: [
-      { src: "/img/DO-SOLAR.JPG" },
+      { src: "/img/DO-SOLAR.jpg" },
 
     ],
     categories: ["Photovoltaic Plant"],
@@ -371,62 +371,62 @@ useEffect(() => {
             </div>
 
           {/* Social Interaction Footer */}
-<div className="flex items-center flex-wrap text-sm text-[#4F4F4F] mt-10 border-t border-gray-200 pt-4 gap-4">
-  {/* Left Side: Action Buttons */}
-  <div className="flex items-center gap-2">
-    <button className="text-[#555] font-semibold hover:underline">
-      {translations?.social?.likeThis || "Like This"}
-    </button>
-    <button className="bg-black text-white text-xs px-3 py-1 rounded-full">
-      {translations?.social?.post || "✗ Post"}
-    </button>
-    <button className="bg-[#1877F2] text-white text-xs px-3 py-1 rounded flex items-center gap-1">
-      <i className="fa fa-thumbs-up" />
-      {translations?.social?.like || "Like"}
-    </button>
-  </div>
+          <div className="flex items-center flex-wrap text-sm text-[#4F4F4F] mt-10 border-t border-gray-200 pt-4 gap-4">
+            {/* Left Side: Action Buttons */}
+            <div className="flex items-center gap-2">
+              <button className="text-[#555] font-semibold hover:underline">
+                {translations?.social?.likeThis || "Like This"}
+              </button>
+              <button className="bg-black text-white text-xs px-3 py-1 rounded-full">
+                {translations?.social?.post || "✗ Post"}
+              </button>
+              <button className="bg-[#1877F2] text-white text-xs px-3 py-1 rounded flex items-center gap-1">
+                <i className="fa fa-thumbs-up" />
+                {translations?.social?.like || "Like"}
+              </button>
+            </div>
 
-  {/* Right Side: Info */}
-  <div className="text-xs text-[#555] whitespace-nowrap">
-    {translations?.social?.likesInfo?.text || "2 people like this."}{" "}
-    <a href="#" className="text-blue-600 hover:underline">
-      {translations?.social?.likesInfo?.signup || "Sign Up"}
-    </a>{" "}
-    {translations?.social?.likesInfo?.see || "to see what your friends like."}
-  </div>
-</div>
+            {/* Right Side: Info */}
+            <div className="text-xs text-[#555] whitespace-nowrap">
+              {translations?.social?.likesInfo?.text || "2 people like this."}{" "}
+              <a href="#" className="text-blue-600 hover:underline">
+                {translations?.social?.likesInfo?.signup || "Sign Up"}
+              </a>{" "}
+              {translations?.social?.likesInfo?.see || "to see what your friends like."}
+            </div>
+          </div>
 
 
-{/* TAGS Section */}
-{/* TAGS Section */}
-<div className="mt-6 flex items-start flex-wrap gap-2 text-sm">
-  {/* Translated Label */}
-  <span className="text-[#888] mr-2 font-medium">
-    {translations.tags?.tagsLabel || "Tags:"}
-  </span>
+              {/* TAGS Section */}
+              {/* TAGS Section */}
+              <div className="mt-6 flex items-start flex-wrap gap-2 text-sm">
+                {/* Translated Label */}
+                <span className="text-[#888] mr-2 font-medium">
+                  {translations.tags?.tagsLabel || "Tags:"}
+                </span>
 
-  {/* Dynamic Tags with Translated Labels */}
-  {[
-    { key: "euroelektra", label: translations.tags?.tag_euroelektra || "euroelektra", href: "/filter_blog/euroelektra" },
-    { key: "sunpower", label: translations.tags?.tag_sunpower || "sunpower", href: "/filter_blog/sunpower" },
-    { key: "solar-panels", label: translations.tags?.tag_solar_panels || "solar panels", href: "/filter_blog/solarpanels" },
-    { key: "solar-energy", label: translations.tags?.tag_solar_energy || "solar energy", href: "/filter_blog/solarenergy"},
-    { key: "winter", label: translations.tags?.tag_winter || "winter" , href: "/filter_blog/winter"},
-    { key: "renewable-energy", label: translations.tags?.tag_renewable_energy || "renewable energy", href: "/filter_blog/renewableenergy" },
-    { key: "solar-company", label: translations.tags?.tag_solar_company || "solar company", href: "/filter_blog/solarcompany" },
-  ].map((tag, index) => {
-    const link = tag.href || `/tags/${tag.key}`;
-    return (
-      <a
-        key={index}
-        href={link}
-        className="bg-[#555] text-white px-3 py-1 rounded font-semibold text-xs hover:bg-[#333] transition-colors"
-      >
-        {tag.label}
-      </a>
-    );
-  })}
-</div>
+                {/* Dynamic Tags with Translated Labels */}
+                {[
+                  { key: "euroelektra", label: translations.tags?.tag_euroelektra || "euroelektra", href: "/filter_blog/euroelektra" },
+                  { key: "sunpower", label: translations.tags?.tag_sunpower || "sunpower", href: "/filter_blog/sunpower" },
+                  { key: "solar-panels", label: translations.tags?.tag_solar_panels || "solar panels", href: "/filter_blog/solarpanels" },
+                  { key: "solar-energy", label: translations.tags?.tag_solar_energy || "solar energy", href: "/filter_blog/solarenergy"},
+                  { key: "winter", label: translations.tags?.tag_winter || "winter" , href: "/filter_blog/winter"},
+                  { key: "renewable-energy", label: translations.tags?.tag_renewable_energy || "renewable energy", href: "/filter_blog/renewableenergy" },
+                  { key: "solar-company", label: translations.tags?.tag_solar_company || "solar company", href: "/filter_blog/solarcompany" },
+                ].map((tag, index) => {
+                  const link = tag.href || `/tags/${tag.key}`;
+                  return (
+                    <a
+                      key={index}
+                      href={link}
+                      className="bg-[#555] text-white px-3 py-1 rounded font-semibold text-xs hover:bg-[#333] transition-colors"
+                    >
+                      {tag.label}
+                    </a>
+                  );
+                })}
+              </div>
 
 
 

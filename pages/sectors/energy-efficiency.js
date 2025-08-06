@@ -250,7 +250,7 @@ useEffect(() => {
     {/* Sidebar Navigation */}
     <aside className="space-y-4">
       <h2 className="text-[#1C1C1C] font-semibold text-lg">
-        {translations.sectorsSidebar?.title || "SECTORS"}
+        {translations.sectorsSidebar?.energy_efficiency || "Energy Efficiency"}
       </h2>
       <ul className="space-y-2 text-[#1C1C1C] text-sm">
         {(translations.sectorsSidebar?.items || [

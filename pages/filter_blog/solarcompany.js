@@ -96,7 +96,7 @@ const categories = useMemo(() => {
 const blogs = [
   {
     key: "project_1",
-    media: [{ src: "/img/DO-SOLAR.JPG" }],
+    media: [{ src: "/img/DO-SOLAR.jpg" }],
     categories: ["Photovoltaic Plant"],
     link: "/blog/blog1", // ✅ must start with `/` (public route)
     readMoreLink: "/blog/blog1#details", // ✅ anchor to section inside the blog

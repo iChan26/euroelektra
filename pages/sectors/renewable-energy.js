@@ -1,4 +1,5 @@
 "use client";
+import ReloadLink from '../../components/ReloadLink';
 import { useState, useEffect, useRef, } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -244,13 +245,14 @@ useEffect(() => {
 
   </div>
 </section>
+
 <section className="py-10 px-6 bg-white">
   <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[250px_1fr] gap-10">
     
     {/* Sidebar */}
     <aside>
       <h2 className="text-lg font-semibold text-[#1C1C1C] mb-4">
-        {translations.sectorsPage?.sidebarTitle}
+        {translations.sectorsSidebar?.renewable_energy}
       </h2>
       <ul className="space-y-4">
         {translations.sectorsPage?.categories?.map((item, idx) => (
@@ -268,30 +270,55 @@ useEffect(() => {
       </ul>
     </aside>
 
-    {/* Grid with Images */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-      {translations.sectorsPage?.items?.map((sector, idx) => (
-        <div
-          key={idx}
-          className="border border-gray-300 p-4 flex flex-col items-center justify-center text-center shadow hover:shadow-md transition"
-        >
-          <img
-            src={
-              sector.image ||
-              [ // fallback hardcoded image sequence if translations don’t provide images
-                "/img/korce1.JPG",
-                "/img/IMG_8487.JPG",
-                "/img/images (1).JPG",
-                "/img/fm11.JPG"
-              ][idx]
-            }
-            alt={sector.title}
-            className="w-24 h-24 object-cover mb-4 rounded"
-          />
-          <p className="text-sm font-medium text-[#4F4F4F]">{sector.title}</p>
+    
+        {/* Grid with Images */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+          {[
+            {
+              title: "Photovoltaic Panels",
+              label: translations.sectorsPage?.items?.photovoltaicpanels || "Photovoltaic Panels",
+              href: "/sectors_submenu/renewableenergy/photovoltaic_panels",
+              image: "/img/korce1.jpg",
+            },
+            {
+              title: "Photovoltaic Inverter",
+              label: translations.sectorsPage?.items?.photovoltaicinverter || "Photovoltaic Inverter",
+              href: "/sectors_submenu/renewableenergy/photovoltaic_inverter",
+              image: "/img/IMG_8487.jpg",
+            },
+            {
+              title: "Battery",
+              label: translations.sectorsPage?.items?.Battery || "Battery",
+              href: "/sectors_submenu/renewableenergy/battery",
+              image: "/img/images (1).jpg",
+            },
+            {
+              title: "Other Accessories",
+              label: translations.sectorsPage?.items?.other || "Other Accessories",
+              href: "/sectors_submenu/renewableenergy/otheraccessories",
+              image: "/img/fm11.jpg",
+            },
+          ].map((sector, idx) => (
+            <ReloadLink
+              key={idx}
+              href={sector.href}
+              className="border border-gray-200 rounded-lg p-4 flex flex-col items-center justify-center text-center bg-white shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300"
+            >
+              <img
+                src={sector.image}
+                alt={sector.title}
+                className="w-24 h-24 object-cover mb-4 rounded"
+              />
+              <p className="text-sm font-medium text-[#4F4F4F]">
+                {sector.label}
+              </p>
+            </ReloadLink>
+          ))}
         </div>
-      ))}
-    </div>
+
+
+
+  
   </div>
 </section>
 

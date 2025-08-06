@@ -96,35 +96,35 @@ const categories = useMemo(() => {
 const blogs = [
   {
     key: "project_1",
-    media: [{ src: "/img/DO-SOLAR.JPG" }],
+    media: [{ src: "/img/DO-SOLAR.jpg" }],
     categories: ["Photovoltaic Plant"],
     link: "/blog/blog1", // ✅ must start with `/` (public route)
     readMoreLink: "/blog/blog1#details", // ✅ anchor to section inside the blog
   },
   {
     key: "project_2",
-    media: [{ src: "/img/albania-over.JPG" }],
+    media: [{ src: "/img/albania-over.jpg" }],
     categories: ["Photovoltaic Plant"],
     link: "/blog/blog2",
     readMoreLink: "/blog/blog2#details",
   },
   {
     key: "project_3",
-    media: [{ src: "/img/the-technology.JPG" }],
+    media: [{ src: "/img/the-technology.jpg" }],
     categories: ["Photovoltaic Plant"],
     link: "/blog/blog3",
     readMoreLink: "/blog/blog3#details",
   },
   {
     key: "project_4",
-    media: [{ src: "/img/when-the-taste.JPG" }],
+    media: [{ src: "/img/when-the-taste.jpg" }],
     categories: ["Photovoltaic Plant"],
     link: "/blog/blog4",
     readMoreLink: "/blog/blog4#details",
   },
   {
     key: "project_5",
-    media: [{ src: "/img/business-benefits.JPG" }],
+    media: [{ src: "/img/business-benefits.jpg" }],
     categories: ["Photovoltaic Plant"],
     link: "/blog/blog5",
     readMoreLink: "/blog/blog5#details",

@@ -1,4 +1,5 @@
 "use client";
+import ReloadLink from '../components/ReloadLink'; // adjust path if needed
 import { useState, useEffect, useRef, } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -305,30 +306,62 @@ useEffect(() => {
       </div>
 
       {/* Grid of Sector Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-        {[
-          { key: "electrical_products", image: "/img/images.jpg" },
-          { key: "security_automation", image: "/img/Security-Automation_blog.png" },
-          { key: "lighting_showroom", image: "/img/20171213_111130-1030x579.jpg" },
-          { key: "energy_efficiency", image: "/img/korce1.jpg" },
-          { key: "renewable_energy", image: "/img/b-solar panels-winter.jpg" },
-          { key: "smart_building", image: "/img/CCBS3.jpg" },
-        ].map((sector, idx) => (
-          <div
-            key={idx}
-            className="border border-gray-200 bg-[#F5F7FA] hover:shadow-md transition-shadow rounded-lg p-5 flex flex-col items-center text-center group"
-          >
-            <img
-              src={sector.image}
-              alt={translations.sectors?.[sector.key] || sector.key}
-              className="w-24 h-24 object-cover mb-4 rounded-full group-hover:scale-105 transition-transform"
-            />
-            <p className="text-sm font-semibold text-[#4F4F4F] group-hover:text-[#005E9E] transition-colors">
-              {translations.sectors?.[sector.key] || sector.key}
-            </p>
-          </div>
-        ))}
-      </div>
+     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+  {[
+    {
+      key: "electrical_products",
+      label: translations.sectors?.electrical_products || "Electrical Products",
+      href: "/sectors/electrical-products",
+      image: "/img/images.jpg"
+    },
+    {
+      key: "security_automation",
+      label: translations.sectors?.security_automation || "Security Automation",
+      href: "/sectors/energy-efficiency",
+      image: "/img/Security-Automation_blog.png"
+    },
+    {
+      key: "lighting_showroom",
+      label: translations.sectors?.lighting_showroom || "Lighting Showroom",
+      href: "/sectors/lighting-showroom",
+      image: "/img/20171213_111130-1030x579.jpg"
+    },
+    {
+      key: "energy_efficiency",
+      label: translations.sectors?.energy_efficiency || "Energy Efficiency",
+      href: "/sectors/energy-efficiency",
+      image: "/img/korce1.jpg"
+    },
+    {
+      key: "renewable_energy",
+      label: translations.sectors?.renewable_energy || "Renewable Energy",
+      href: "/sectors/renewable-energy",
+      image: "/img/b-solar panels-winter.jpg"
+    },
+    {
+      key: "smart_building",
+      label: translations.sectors?.smart_building || "Smart Building",
+      href: "/sectors/smart-building",
+      image: "/img/CCBS3.jpg"
+    }
+  ].map((sector, idx) => (
+    <ReloadLink
+      key={sector.key}
+      href={sector.href}
+      className="border border-gray-200 bg-[#F5F7FA] hover:shadow-md transition-shadow rounded-lg p-5 flex flex-col items-center text-center group"
+    >
+      <img
+        src={sector.image}
+        alt={sector.label}
+        className="w-24 h-24 object-cover mb-4 rounded-full group-hover:scale-105 transition-transform"
+      />
+      <p className="text-sm font-semibold text-[#4F4F4F] group-hover:text-[#005E9E] transition-colors">
+        {sector.label}
+      </p>
+    </ReloadLink>
+  ))}
+</div>
+
     </div>
   </div>
 </section>

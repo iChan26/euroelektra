@@ -96,7 +96,7 @@ const blog5 = [
   {
     key: "project_1",
     media: [
-      { src: "/img/business-benefits.JPG" },
+      { src: "/img/business-benefits.jpg" },
 
     ],
     categories: ["Photovoltaic Plant"],

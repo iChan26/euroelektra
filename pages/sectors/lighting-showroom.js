@@ -1,4 +1,5 @@
 "use client";
+import ReloadLink from '../../components/ReloadLink'; // ✅ adjust path based on your folder 
 import { useState, useEffect, useRef, } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -252,61 +253,72 @@ useEffect(() => {
     {/* Sidebar */}
     <aside>
       <h2 className="text-lg font-semibold text-[#1C1C1C] mb-4">
-        {translations.sectorsPage?.title?.[language] || "Electrical Product"}
+        {translations.sectorsSidebar?.lighting_showroom || "Lighting Showroom"}
       </h2>
 
-      <ul className="space-y-4">
-        {[
-          { key: "electrical" },
-          { key: "security" },
-          { key: "lighting" },
-          { key: "efficiency" },
-          { key: "renewable" },
-          { key: "smart" }
-        ].map((item, idx) => (
-          <li key={idx} className="flex justify-between items-center text-sm text-[#1C1C1C]">
-            <div className="flex items-center gap-2">
-              <span className="text-lg">&rsaquo;</span>
-              <span>{translations.sectorsPage?.categories?.[item.key] || item.key}</span>
-            </div>
-            <div className="flex items-center gap-1 text-white text-xs bg-[#888] rounded-full px-2 py-0.5">
-              <span>0</span>
-              <button className="text-xs font-bold leading-none">+</button>
-            </div>
-          </li>
+      <ul className="space-y-2 text-[#1C1C1C] text-sm">
+        {Array.isArray(translations?.sidebarSectors) &&
+          translations.sidebarSectors.map((sector, idx) => (
+            <li key={idx} className="flex justify-between items-center group">
+              <div className="flex items-center gap-2">
+                <span className="text-lg">&rsaquo;</span>
+                <span>{sector}</span>
+              </div>
+              <div className="flex items-center gap-1 bg-[#888] text-white text-xs rounded-full px-2 py-0.5">
+                <span>0</span>
+                <button className="font-bold leading-none">+</button>
+              </div>
+            </li>
         ))}
       </ul>
     </aside>
 
-    {/* Grid with Images */}
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-      {[
-        {
-          key: "interior",
-          image: "/img/event4.PNG"
-        },
-        {
-          key: "exterior",
-          image: "/img/HAKO2.JPG"
-        }
-      ].map((sector, idx) => (
-        <div
-          key={idx}
-          className="border border-gray-300 p-4 flex flex-col items-center justify-center text-center"
-        >
-          <img
-            src={sector.image}
-            alt={sector.key}
-            className="w-24 h-24 object-cover mb-4 rounded"
-          />
-          <p className="text-sm font-medium text-[#4F4F4F]">
-            {translations.sectorsPage?.grid?.[sector.key] || sector.key}
-          </p>
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
+
+
+          {/* Grid with Images */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+            {[
+              {
+                key: "interior",
+                label: translations.sectorsSidebar?.interior || "Interior",
+                image: "/img/event4.png",
+                href: "/sectors_submenu/lightingshowroom/interior",
+              },
+              {
+                key: "exterior",
+                label: translations.sectorsSidebar?.exterior || "Exterior",
+                image: "/img/HAKO2.jpg",
+                href: "/sectors_submenu/lightingshowroom/exterior",
+              }
+            ].map((sector, idx) => {
+              const cardContent = (
+                <div
+                  className="border border-gray-300 p-4 flex flex-col items-center justify-center text-center bg-white rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300"
+                >
+                  <img
+                    src={sector.image}
+                    alt={sector.key}
+                    className="w-24 h-24 object-cover mb-4 rounded"
+                  />
+                  <p className="text-sm font-medium text-[#4F4F4F]">
+                    {sector.label}
+                  </p>
+                </div>
+              );
+
+              return sector.href ? (
+                <ReloadLink key={idx} href={sector.href}>
+                  {cardContent}
+                </ReloadLink>
+              ) : (
+                <div key={idx}>{cardContent}</div>
+              );
+            })}
+          </div>
+
+          </div>
+        </section>
+
 
 
 

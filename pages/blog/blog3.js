@@ -96,7 +96,7 @@ const blog3 = [
   {
     key: "project_1",
     media: [
-      { src: "/img/the-technology.JPG" },
+      { src: "/img/the-technology.jpg" },
 
     ],
     categories: ["Photovoltaic Plant"],

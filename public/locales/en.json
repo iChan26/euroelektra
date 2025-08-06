@@ -524,11 +524,6 @@
     "Energy Efficiency",
     "Renewable Energy",
     "Smart Building"
-  ],
-  "sectors": [
-    { "title": "Residential", "image": "/img/rr1.jpg" },
-    { "title": "Industrial", "image": "/img/48366947_2077107672345759_7039099863660756992_o.JPG" },
-    { "title": "IT Infrastructure", "image": "/img/Euroelektra_S7P-23.jpg" }
   ]
 },
 "energyEfficiencyHero": {
@@ -537,6 +532,14 @@
 },
 "sectorsSidebar": {
   "title": "SECTORS",
+  "electrical_products": "Electrical Products",
+  "energy_efficiency": "Energy Efficiency",
+  "lighting_showroom":"Lighting Showroom",
+  "renewable_energy": "Renewable Energy",
+  "security_automation":"Security Automation",
+  "smart_building":"Smart Building",
+  "interior": "Interior",
+  "exterior": "Exterior",
   "items": [
     "Electrical Products",
     "Security Automation",
@@ -550,14 +553,14 @@
   "climateComfort": {
     "title": "Climate comfort",
     "intro": "The temperature you want, as and when you want it",
-    "paragraph1": "Complete climate management for any type of building, suited to any environment...",
-    "paragraph2": "The Ecometer function shows the consumption values..."
+    "paragraph1": "Complete climate management for any type of building, suited to any environment and controllable locally and centrally from a single point, or also remotely. Many possible heating and cooling solutions with systems with two or four pipes, underfloor heating and radiators, fan-coils and split/multisplit systems.",
+    "paragraph2": "The Ecometer function shows the consumption values via a user-friendly indicator with a graded scale and warns when the comfort temperature is exceeded by lighting an icon, thus fostering greater energy awareness."
   },
   "smartManagement": {
     "title": "Smart management",
     "intro": "Integrated Climate control in the By-me home automation system",
-    "paragraph1": "As the system is integrated in the home automation systems...",
-    "paragraph2": "The energy and the building are fully managed using touch screens..."
+    "paragraph1": "As the system is integrated in the home automation systems, fully energy management is now possible: from monitoring the consumption levels to checking the photovoltaic system.",
+    "paragraph2": "The energy and the building are fully managed using touch screens with which all the values can also be constantly monitored both by periods - on an hourly, daily, weekly basis, etc. - and by type of size."
   }
 },
 "lightingHero": {
@@ -593,12 +596,12 @@
       "Renewable Energy",
       "Smart Building"
     ],
-    "items": [
-      { "title": "Photovoltaic panels" },
-      { "title": "Photovoltaic Inverter" },
-      { "title": "Battery" },
-      { "title": "Other accessories" }
-    ]
+    "items": {
+      "photovoltaicpanels": "Photovoltaic panels",
+      "photovoltaicinverter": "Photovoltaic Inverter",
+      "Battery": "Battery",
+      "other":"Other accessories"
+    }
   },
   "electricalProductsHero": {
   "title": "Electrical Products",
@@ -628,6 +631,7 @@
     "description": "Our Smart Building Product provides high quality, sustainability, Smart Building, and environmentally friendly solutions — aligning with EuroElektra's mission to power the future through innovation and smart energy systems."
   },
   "sidebarTitle": "Sectors",
+  "renewable_energy":"Renewable Energy",
   "sidebarSectors": [
     "Electrical Products",
     "Security Automation",
@@ -674,6 +678,7 @@
     "title": "Security Automation",
     "description": "Our Security Automation solutions offer intelligent, reliable, and seamless protection systems that enhance safety, optimize control, and integrate effortlessly with smart infrastructure — supporting EuroElektra's mission to power the future through innovation and smart energy systems."
   },
+
   "sidebar": {
     "title": "Electrical Product",
     "items": [
@@ -687,14 +692,39 @@
   },
   "grid": {
     "items": [
-      { "title": "Automation for doors", "image": "/img/IMG_8411 (1).jpg" },
-      { "title": "Parking System", "image": "/img/ccbs1.JPG" },
-      { "title": "CCTV System", "image": "/img/IMG_8380.jpg" },
-      { "title": "Alarm / Fire System", "image": "/img/FIRE-DETECTION.JPG" },
-      { "title": "Access Control Systems", "image": "/img/IMG_2079.JPG" },
-      { "title": "Audio and Video Intercoms", "image": "/img/ccbc (2).JPG" }
+      {
+        "title": "Automation for doors",
+        "image": "/img/IMG_8411 (1).jpg",
+        "href": "/sectors_submenu/securityautomation/automationfordoors"
+      },
+      {
+        "title": "Parking System",
+        "image": "/img/ccbs1.JPG",
+        "href": "/sectors_submenu/securityautomation/parkingsystems"
+      },
+      {
+        "title": "CCTV System",
+        "image": "/img/IMG_8380.jpg",
+        "href": "/sectors_submenu/securityautomation/cctv-system"
+      },
+      {
+        "title": "Alarm / Fire System",
+        "image": "/img/FIRE-DETECTION.JPG",
+        "href": "/sectors_submenu/securityautomation/alarmfiresystems"
+      },
+      {
+        "title": "Access Control Systems",
+        "image": "/img/IMG_2079.JPG",
+        "href": "/sectors_submenu/securityautomation/accesscontrolsystems"
+      },
+      {
+        "title": "Audio and Video Intercoms",
+        "image": "/img/ccbc (2).JPG",
+        "href": "/sectors_submenu/securityautomation/audioandvideointercoms"
+      }
     ]
   },
+
   "chat": {
   "bot_greeting": "Hello, how can we assist you? Our staff will respond to you shortly!",
   "bot_reply": "Thanks for the message. Our team is offline 💤 We will contact you back as soon as we can 🙂",
@@ -977,8 +1007,142 @@
   "albaniaDelayed": "Albania over the delayed development of the Photovoltaic Market",
   "rapsodiaTaste": "When the taste of “Rapsodia Restaurant” touches on solar technology innovations…",
   "highEfficiency": "The technology that ensures the highest efficiency of photovoltaic panels comes to the Albanian market!"
-} 
+},
+"electrical_product":{
+  "Residential":"Residential",
+  "Industrial":"Industrial",
+  "IT_Infrastructure": "IT Infrastructure"
 
+},
+"electricalproduct_residential":{
+  "title":"Electrical Products",
+  "breadcrumb":"/Electrical Products / Residential ",
+  "electrical_residential":"Residential"
+ 
+},
+"residential":{
+  "EIKON_4D":"EIKON 4D",
+  "ARKE": "ARKE",
+  "PLANA": "PLANA"
 
+},
 
+"electricalproduct_IT_infrastructure":{
+  "title":"IT Infrastructure",
+  "breadcrumb":"/Electrical Products / IT Infrastructure ",
+  "electrical_products":"IT Infrastructure"
+},
+"IT_industrial":{
+  "Rack":"Rack",
+  "VOIP_Systems": "VOIP Systems",
+  "Access_point": "Access point",
+  "Data_Center": "Data Center"
+},
+"electricalproduct_industrial":{
+  "title":"Electrical Products",
+  "breadcrumb":"/Electrical Products/ Industrial ",
+  "electrical_industrial":"Industrial"
+ 
+},
+"industrial":{
+  "motor":"Motor starters and Protection Components",
+  "complete": "Complete Control Buttons",
+  "plc": "PLC"
+},
+"interior_product":{
+  "title":"Lighting ShowRoom",
+  "breadcrumb":"/Lighting ShowRoom / Interior ",
+  "category_interior":"Interior"
+},
+"interior":{
+  "gold":"Gold Novalux",
+  "spyglass": "Novalux Spyglass",
+  "linearbay": "Linearbay Novalux"
+},
+"exterior_product":{
+  "title":"Lighting ShowRoom",
+  "breadcrumb":"/Lighting ShowRoom / Exterior ",
+  "category_exterior":"Exterior"
+},
+"exterior":{
+  "ground":"Ground pro Novalux",
+  "screen": "Screen Novalux",
+  "stone": "Stone Applique"
+},
+"renewableenergy_product":{
+  "title":"Renewable Energy",
+  "breadcrumb":"/Renewable Energy/ Photovoltaic Panels ",
+  "category_photovoltaic":"Photovoltaic Panels"
+
+},
+"photovoltaicpanels_product":{
+  "sunpower": "SunPower P19 405Wp",
+  "Peimar":"Peimar Photovoltaic Modules",
+  "AXITEC":"AXITEC Photovoltaic Modules",
+  "QCELLS":"QCELLS - Q.PEAK DUO-G5"
+},
+"renewableenergy_photovoltaicinverter":{
+  "title":"Renewable Energy",
+  "breadcrumb":"/Renewable Energy/Photovoltaic Inverter",
+  "category_photovoltaic":"Photovoltaic Inverter",
+  "breadcrumb1":"Renewable Energy / Battery",
+  "category_batery":"Battery",
+  "breadcrumb2":"Renewable Energy / Other Accessories",
+  "category_other":"Other Accessories"
+ 
+
+},
+"photovoltaicinverter_product":{
+  "FroniusEco": "Fronius Eco",
+  "FroniusGalvo":"Fronius Galvo",
+  "FroniusSymo":"Fronius Symo",
+  "SMASunnyBoy":"SMA Sunny Boy",
+  "SMASunnyTripower":"SMA Sunny Tripower",
+  "SMASunnyHighpower":"SMA Sunny Highpower",
+  "FroniusPrimo":"Fronius Primo"
+},
+"battery_product":{
+  "Froniussolarbattery": "Fronius solar battery",
+  "SunnyBoyStorage":"Sunny Boy Storage"
+},
+"securityautomation":{
+  "title":"Security Automation",
+  "breadcrumb":"Security Automation / Automation for Doors",
+  "category_automation":"Automation for Doors"
+
+},
+"automationfordoors":{
+  "Swingdoors": "Swing doors",
+  "Slidingdoors":"Sliding doors",
+  "Garagedoorautomation":"Garage door automation",
+  "Automateddoorsystems":"Automated doors ystems",
+  "Trafficbarriers":"Traffic barriers",
+  "Trafficbollard":"Traffic bollard"
+},
+"product":{
+  "title":"Residential",
+  "breadcrumb":"Residential / EIKON 4D"
+
+},
+"residential_product":{
+  "title":"Residential",
+  "breadcrumb": "/ Residential / Store"
+},
+"store":{
+  "product_detail": "Product Detail",
+  "related_products": "Related Products",
+  "condition": "Condition",
+  "new_product": "New product",
+  "subtitle": "EIKON 4D luxury and technology",
+  "description": "Discover Eikon, technology and design for those who want to make the lighting device into a real element of interior design."
+},
+"motorsstarters":{
+  "title":"Industrial",
+  "breadcrumb":"Industrial / Motor starters and Protection Components",
+  "category_motor":"Motor starters and Protection Components",
+  "ControlD":"Control Relay Tesys D",
+  "ControlK":"Control Relay Tesys K",
+  "breadcrumb1":"Industrial / Store Motor"
 }
+}
+

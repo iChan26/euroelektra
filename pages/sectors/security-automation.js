@@ -1,4 +1,5 @@
 "use client";
+import ReloadLink from '../../components/ReloadLink';
 import { useState, useEffect, useRef, } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -250,7 +251,7 @@ useEffect(() => {
     {/* Sidebar */}
     <aside>
       <h2 className="text-lg font-semibold text-[#1C1C1C] mb-4">
-        {translations.sidebar?.title}
+        {translations.sectorsSidebar?.security_automation}
       </h2>
       <ul className="space-y-4">
         {(translations.sidebar?.items || []).map((item, idx) => (
@@ -271,19 +272,19 @@ useEffect(() => {
     {/* Grid with Images */}
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
       {(translations.grid?.items || []).map((sector, idx) => (
-        <div
-          key={idx}
-          className="border border-gray-300 p-4 flex flex-col items-center justify-center text-center"
-        >
-          <img
-            src={sector.image}
-            alt={sector.title}
-            className="w-24 h-24 object-cover mb-4 rounded"
-          />
-          <p className="text-sm font-medium text-[#4F4F4F]">{sector.title}</p>
-        </div>
+        <ReloadLink href={sector.href} key={idx} className="block">
+          <div className="border border-gray-300 p-4 flex flex-col items-center justify-center text-center hover:shadow-lg transition">
+            <img
+              src={sector.image}
+              alt={sector.title}
+              className="w-24 h-24 object-cover mb-4 rounded"
+            />
+            <p className="text-sm font-medium text-[#4F4F4F]">{sector.title}</p>
+          </div>
+        </ReloadLink>
       ))}
     </div>
+
   </div>
 </section>
 
