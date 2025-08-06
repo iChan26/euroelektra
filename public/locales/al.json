@@ -692,28 +692,28 @@
       },
       {
         "title": "Sistem Parkimi",
-        "image": "/img/ccbs1.JPG",
-        "href": "/sectors_submenu/securityautomation/parkingsystems"
+        "image": "/img/ccbs1.jpg",
+         "href": "#"
       },
       {
         "title": "Sistem CCTV",
         "image": "/img/IMG_8380.jpg",
-        "href": "/sectors_submenu/securityautomation/cctv-system"
+        "href": "#"
       },
       {
         "title": "Sistem Alarm / Zjarrfikës",
-        "image": "/img/FIRE-DETECTION.JPG",
-        "href": "/sectors_submenu/securityautomation/alarmfiresystems"
+        "image": "/img/FIRE-DETECTION.jpg",
+         "href": "#"
       },
       {
         "title": "Sisteme Kontrolli Aksesi",
-        "image": "/img/IMG_2079.JPG",
-        "href": "/sectors_submenu/securityautomation/accesscontrolsystems"
+        "image": "/img/IMG_2079.jpg",
+         "href": "#"
       },
       {
         "title": "Interkom Audio dhe Video",
-        "image": "/img/ccbc (2).JPG",
-        "href": "/sectors_submenu/securityautomation/audioandvideointercoms"
+        "image": "/img/ccbc (2).jpg",
+         "href": "#"
       }
     ]
   },

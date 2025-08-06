@@ -699,28 +699,28 @@
       },
       {
         "title": "Parking System",
-        "image": "/img/ccbs1.JPG",
-        "href": "/sectors_submenu/securityautomation/parkingsystems"
+        "image": "/img/ccbs1.jpg",
+        "href": "#"
       },
       {
         "title": "CCTV System",
         "image": "/img/IMG_8380.jpg",
-        "href": "/sectors_submenu/securityautomation/cctv-system"
+         "href": "#"
       },
       {
         "title": "Alarm / Fire System",
-        "image": "/img/FIRE-DETECTION.JPG",
-        "href": "/sectors_submenu/securityautomation/alarmfiresystems"
+        "image": "/img/FIRE-DETECTION.jpg",
+         "href": "#"
       },
       {
         "title": "Access Control Systems",
-        "image": "/img/IMG_2079.JPG",
-        "href": "/sectors_submenu/securityautomation/accesscontrolsystems"
+        "image": "/img/IMG_2079.jpg",
+         "href": "#"
       },
       {
         "title": "Audio and Video Intercoms",
-        "image": "/img/ccbc (2).JPG",
-        "href": "/sectors_submenu/securityautomation/audioandvideointercoms"
+        "image": "/img/ccbc (2).jpg",
+         "href": "#"
       }
     ]
   },
