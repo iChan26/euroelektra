@@ -285,7 +285,7 @@ useEffect(() => {
             title: "Industrial",
             label: translations.electrical_product?.Industrial || "Industrial",
             href: "/sectors_submenu/electricalproduct/industrial",
-            image: "/img/48366947_2077107672345759_7039099863660756992_o.JPG",
+            image: "/img/48366947_2077107672345759_7039099863660756992_o.jpg",
           },
           {
             title: "IT Infrastructure",
