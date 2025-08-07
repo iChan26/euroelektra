@@ -543,7 +543,7 @@
           "label": "Automatizim për Dyer",
           "link": "/sectors_submenu/securityautomation/automationfordoors"
         },
-        { "label": "Sistemet e Parkimit", "link": "/sectors_submenu/securityautomation/automationfordoors"  }
+        { "label": "Sistemet e Parkimit", "link": "/sectors_submenu/securityautomation/parkingsystem"  }
       ]
     },
     {

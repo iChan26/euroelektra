@@ -547,7 +547,7 @@
         "link": "/sectors/security-automation",
         "children": [
           { "label": "Automation For Doors", "link": "/sectors_submenu/securityautomation/automationfordoors"  },
-          { "label": "Parking Systems", "link": "/sectors_submenu/securityautomation/automationfordoors"  }
+          { "label": "Parking Systems", "link": "/sectors_submenu/securityautomation/parkingsystem"  }
         ]
       },
       {

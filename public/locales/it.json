@@ -551,7 +551,7 @@
           "label": "Automazione per Porte",
           "link": "/sectors_submenu/securityautomation/automationfordoors"
         },
-       { "label": "Sistemi di Parcheggio", "link": "/sectors_submenu/securityautomation/automationfordoors"  }
+       { "label": "Sistemi di Parcheggio", "link": "/sectors_submenu/securityautomation/parkingsystem"  }
       ]
     },
     {
