@@ -518,12 +518,12 @@
 "electrical": {
   "title": "Prodotti Elettrici",
   "categories": [
-    "Prodotti Elettrici",
-    "Automazione di Sicurezza",
-    "Showroom Illuminazione",
-    "Efficienza Energetica",
-    "Energia Rinnovabile",
-    "Edificio Intelligente"
+    { "label": "Prodotti Elettrici", "link": "/sectors/electrical-products" },
+    { "label": "Automazione della Sicurezza", "link": "/sectors/security-automation" },
+    { "label": "Showroom di Illuminazione", "link": "/sectors/lighting-showroom" },
+    { "label": "Efficienza Energetica", "link": "/sectors/energy-efficiency" },
+    { "label": "Energia Rinnovabile", "link": "/sectors/renewable-energy" },
+    { "label": "Edificio Intelligente", "link": "/sectors/smart-building" }
   ]
 },
 "energyEfficiencyHero": {
@@ -531,25 +531,57 @@
   "description": "I nostri prodotti per l’efficienza energetica offrono alta qualità, sostenibilità, risparmio energetico e soluzioni ecologiche — in linea con la missione di EuroElektra di alimentare il futuro attraverso l’innovazione e sistemi energetici intelligenti."
 },
 
-  "sectorsSidebar": {
-    "title": "SETTORI",
-    "electrical_products": "Prodotti Elettrici",
-    "energy_efficiency": "Efficienza Energetica",
-    "lighting_showroom": "Showroom Illuminazione",
-    "renewable_energy": "Energia Rinnovabile",
-    "security_automation": "Automazione della Sicurezza",
-    "smart_building": "Edificio Intelligente",
-    "interior": "Interno",
-      "exterior": "Esterno",
-    "items": [
-      "Prodotti Elettrici",
-      "Automazione di Sicurezza",
-      "Showroom di Illuminazione",
-      "Efficienza Energetica",
-      "Energia Rinnovabile",
-      "Edificio Intelligente"
-    ]
-  },
+"sectorsSidebar": {
+  "title": "SETTORI",
+  "items": [
+    {
+      "label": "Prodotti Elettrici",
+      "link": "/sectors/electrical-products",
+      "children": [
+        { "label": "Residenziale", "link": "/sectors_submenu/electricalproduct/residential" },
+        { "label": "Industriale", "link": "/sectors_submenu/electricalproduct/industrial" },
+        { "label": "Infrastruttura IT", "link": "/sectors_submenu/electricalproduct/itinfrastructure" }
+      ]
+    },
+    {
+      "label": "Automazione della Sicurezza",
+      "link": "/sectors/security-automation",
+      "children": [
+        {
+          "label": "Automazione per Porte",
+          "link": "/sectors_submenu/securityautomation/automationfordoors"
+        },
+       { "label": "Sistemi di Parcheggio", "link": "/sectors_submenu/securityautomation/automationfordoors"  }
+      ]
+    },
+    {
+      "label": "Showroom Illuminazione",
+      "link": "/sectors/lighting-showroom",
+      "children": [
+        { "label": "Illuminazione Esterna", "link": "/sectors_submenu/lightingshowroom/exterior" },
+        { "label": "Illuminazione Interna", "link": "/sectors_submenu/lightingshowroom/interior" }
+      ]
+    },
+    {
+      "label": "Efficienza Energetica",
+      "link": "/sectors/energy-efficiency"
+    },
+    {
+      "label": "Energia Rinnovabile",
+      "link": "/sectors/renewable-energy",
+      "children": [
+        { "label": "Batteria", "link": "/sectors_submenu/renewableenergy/battery" },
+        { "label": "Altri Accessori", "link": "/sectors_submenu/renewableenergy/otheraccessories" },
+        { "label": "Inverter Fotovoltaico", "link": "/sectors_submenu/renewableenergy/photovoltaic_inverter" },
+        { "label": "Pannelli Fotovoltaici", "link": "/sectors_submenu/renewableenergy/photovoltaic_panels" }
+      ]
+    },
+    {
+      "label": "Edificio Intelligente",
+      "link": "/sectors/smart-building"
+    }
+  ]
+},
  "sectorsContent": {
   "climateComfort": {
     "title": "Comfort climatico",
@@ -1112,6 +1144,10 @@
   "Automateddoorsystems": "Sistemi di porte automatizzate",
   "Trafficbarriers": "Barriere stradali",
   "Trafficbollard": "Dissuasori di traffico"
+},
+"parkingsystem": {
+  "parkingvariant": "Variante del sistema di parcheggio",
+  "parkingeconomy": "Sistema di parcheggio economico"
 },
 "residential_product": {
   "title": "Residenziale",

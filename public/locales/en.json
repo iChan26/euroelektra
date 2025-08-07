@@ -518,37 +518,66 @@
 "electrical": {
   "title": "Electrical Products",
   "categories": [
-    "Electrical Products",
-    "Security Automation",
-    "Lighting Showroom",
-    "Energy Efficiency",
-    "Renewable Energy",
-    "Smart Building"
-  ]
+  { "label": "Electrical Products", "link": "/sectors/electrical-products" },
+  { "label": "Security Automation", "link": "/sectors/security-automation" },
+  { "label": "Lighting Showroom", "link": "/sectors/lighting-showroom" },
+  { "label": "Energy Efficiency", "link": "/sectors/energy-efficiency" },
+  { "label": "Renewable Energy", "link": "/sectors/renewable-energy" },
+  { "label": "Smart Building", "link": "/sectors/smart-building" }
+]
 },
 "energyEfficiencyHero": {
   "title": "Energy Efficiency",
   "description": "Our Energy Efficiency Product provide high quality, sustainability, energy efficiency, and environmentally friendly solutions — aligning with EuroElektra's mission to power the future through innovation and smart energy systems."
 },
 "sectorsSidebar": {
-  "title": "SECTORS",
-  "electrical_products": "Electrical Products",
-  "energy_efficiency": "Energy Efficiency",
-  "lighting_showroom":"Lighting Showroom",
-  "renewable_energy": "Renewable Energy",
-  "security_automation":"Security Automation",
-  "smart_building":"Smart Building",
-  "interior": "Interior",
-  "exterior": "Exterior",
-  "items": [
-    "Electrical Products",
-    "Security Automation",
-    "Lighting Showroom",
-    "Energy Efficiency",
-    "Renewable Energy",
-    "Smart Building"
-  ]
-},
+    "title": "SECTORS",
+    "items": [
+      {
+        "label": "Electrical Products",
+        "link": "/sectors/electrical-products",
+        "children": [
+          { "label": "Residential", "link": "/sectors_submenu/electricalproduct/residential" },
+          { "label": "Industrial", "link": "/sectors_submenu/electricalproduct/industrial" },
+          { "label": "IT Infrastructure", "link": "/sectors_submenu/electricalproduct/itinfrastructure" }
+        ]
+      },
+      {
+        "label": "Security Automation",
+        "link": "/sectors/security-automation",
+        "children": [
+          { "label": "Automation For Doors", "link": "/sectors_submenu/securityautomation/automationfordoors"  },
+          { "label": "Parking Systems", "link": "/sectors_submenu/securityautomation/automationfordoors"  }
+        ]
+      },
+      {
+        "label": "Lighting Showroom",
+        "link": "/sectors/lighting-showroom",
+        "children": [
+          { "label": "Exterior", "link": "/sectors_submenu/lightingshowroom/exterior" },
+          { "label": "Interior", "link": "/sectors_submenu/lightingshowroom/interior" }
+        ]
+      },
+      {
+        "label": "Energy Efficiency",
+        "link": "/sectors/energy-efficiency"
+      },
+      {
+        "label": "Renewable Energy",
+        "link": "/sectors/renewable-energy",
+        "children": [
+          { "label": "Battery", "link": "/sectors_submenu/renewableenergy/battery" },
+          { "label": "Other Accessories", "link": "/sectors_submenu/renewableenergy/otheraccessories" },
+          { "label": "Photovoltaic Inverter", "link": "/sectors_submenu/renewableenergy/photovoltaic_inverter" },
+          { "label": "Photovoltaic Panels", "link": "/sectors_submenu/renewableenergy/photovoltaic_panels" }
+        ]
+      },
+      {
+        "label": "Smart Building",
+        "link": "/sectors/smart-building"
+      }
+    ]
+  },
 "sectorsContent": {
   "climateComfort": {
     "title": "Climate comfort",
@@ -1108,8 +1137,9 @@
 "securityautomation":{
   "title":"Security Automation",
   "breadcrumb":"Security Automation / Automation for Doors",
-  "category_automation":"Automation for Doors"
-
+  "category_automation":"Automation for Doors",
+  "breadcrumb1":"Security Automation / Parking System",
+  "category_parkingsystem":"Parking systems"
 },
 "automationfordoors":{
   "Swingdoors": "Swing doors",
@@ -1118,6 +1148,10 @@
   "Automateddoorsystems":"Automated doors ystems",
   "Trafficbarriers":"Traffic barriers",
   "Trafficbollard":"Traffic bollard"
+},
+"parkingsystem":{
+  "parkingvariant":"Parking system Variant",
+  "parkingeconomy":"Parking system Economy"
 },
 "product":{
   "title":"Residential",

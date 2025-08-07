@@ -1,5 +1,4 @@
 "use client";
-import ReloadLink from '../../components/ReloadLink';
 import { useState, useEffect, useRef, } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -66,60 +65,6 @@ const categories = [
 
 const projects = [
   {
-    title: "Inauguration - Photovoltaic Plant 600 kWp'",
-    date: "18 October 2019",
-    description:"The Minister of Infrastructure and Energy, Mrs. Belinda Balluku visits the photovoltaic plant in Korça, realized by EuroElektra Sh.pk, at the company '2 AT Chemicals', getting acquainted closely with the photovoltaic investments and the positive effects that these investments bring.",
-    image: "/img/inagurimi_korce4.jpg",
-    categories: ['Photovoltaic Plant']
-  },
-  {
-    title: "Energy Expo & Forum 2019- 3rd Edition",
-    date: " 4-5 October 2019",
-    description: "Moments during the third edition of Energy Expo & Forum 2019, where our booth guests were representatives from the most prestigious photovoltaic companies such as SunPower, Alussystem. During the two days of the fair, the EuroElektra booth was joined by Mr. Eduard Shalsi, Minister of State for Enterprise Protection, Ministry of Infrastructure and Energy, Ms. Belinda Balluku as well as representatives from the US Embassy, ​​Economic and Commercial Officer Mr. Alex MacFarlane.",
-    image: "/img/IMG_0536.jpg",
-    categories: ['Photovoltaic Plant']
-  },
-  {
-    title: "Austrian Institute of Excellence",
-    date: "15 April 2019",
-    description: "Moments during training with the Austrian Institute, held at our company premises, where they discussed the latest Photovoltaic Power Plant developments and innovations.'", 
-    image: "/img/IMG_9715.jpg",
-    categories: ['Photovoltaic Plant']
-  },
-  {
-    title: "Energy Expo & Forum 2018- 2nd Edition",
-    date: "5-6 October 2018",
-    description: "For the second year in a row, EuroElektra participates in the energy fair 'Energy & Expo Forum 2018 'as one of the main supporters of this event bringing together all energy market players in an interactive environment. Participants in this edition will be representatives of some of the most prestigious companies in the world solar energy market such as: SunPower, SolarEdge, Alusistemi, Zucchetti Centro System etc. who will share with the Albanian public the latest photovoltaic technologies.",
-    image: "/img/IMG_8634.jpg",
-    categories: ['Photovoltaic Plant']
-  },
-  {
-    title: "Touch the Renewables revolution with EuroElektra”- Albanian Skills Week 2018",
-    date: "10 May 2018",
-    description: "In the framework of the “Albanian Skills Week 2018”, a series of training activities were held for technical and electrical vocational education students and electrical engineering students on the latest developments in the photovoltaic sector, as well as ways to install a photovoltaic system. During the event, EuroElektra demonstrated electrical connections between components of a photovoltaic system.",
-    image: "/img/IMG_7881.jpg",
-    categories: ['Photovoltaic Plant']
-  },
-  {
-    title: "Visit of the representatives of the Assembly of Albania to EuroElektra.",
-    date: "May 2018",
-    description:"Representatives of GIZ Albania and the Albanian Parliament are interested to find out more about the current situation in the photovoltaic market and the performance of the company in this regard.",
-    image: "/img/WhatsApp Image 2018-04-28 at 08.40.03.jpeg",
-    categories: ['Electric Vehicle Chargers']
-  },
-  {
-    title: "Visit of the International Renewable Energy Agency (IRENA)",
-    date: "7 December 2017",
-    description: "In the context of monitoring the current market conditions for Southwest Europe, the International Renewable Energy Agency has visited EuroElectra premises to become more familiar with its photovoltaic sector, as the only company in the Albanian market that has implemented several plants. photovoltaics with different power for business and family.",
-    image: "/img/IMG_5551.jpg",
-    categories: ['Photovoltaic Plant']
-  },
-  {
-    title: "Energy Expo & Forum 2017 - 1st Edition",
-    date: "14-16 November 2017",
-    description: "On the 14th and 16th of November, the first edition of the first Expo-Forum dedicated to the energy sector in Albania was launched. The main focus of this event was Renewable Energy and Energy Efficiency. The event was held at ExpoCity Albania premises in cooperation with the Ministry of Infrastructure and Energy and with the support of EuroElectra as the official sponsor of the event. During the three days of the forum, project ideas on supply, technology, transmission, systems, equipment, services, consultancy, projects, economics and energy finance were presented.",
-    image: "/img/23593434_964624207026120_8971282994926525004_o.jpg",
-    categories: ['Photovoltaic Plant']
   }
 ];
 
@@ -202,9 +147,8 @@ useEffect(() => {
   window.addEventListener("scroll", handleScroll);
   return () => window.removeEventListener("scroll", handleScroll);
 }, []);
-  return (
 
-    
+  return (
     <>
    <Head>
   <title>EuroElektra – Empowering Albania Since 2010</title>
@@ -225,7 +169,7 @@ useEffect(() => {
 
 
 {/* HERO */}
-<section className="relative min-h-screen flex items-center justify-center px-6 text-white bg-black overflow-hidden">
+<section className="relative min-h-screen flex items-center px-6 text-white bg-black overflow-hidden">
   {/* Video Background */}
   <video
     autoPlay
@@ -239,27 +183,28 @@ useEffect(() => {
   </video>
 
   {/* Dark Overlay */}
-  <div className="absolute inset-0 bg-black/70 z-10" />
+  <div className="absolute inset-0 bg-black/60 z-10" />
 
   {/* Hero Content */}
-  <div className="relative z-20 max-w-4xl text-center">
-    <h1 className="text-5xl sm:text-6xl font-extrabold uppercase mb-8">
-      {translations.electricalProducts?.title || "Electrical Products"}
+  <div className="relative z-20 max-w-5xl ml-8">
+    <h1 className="text-5xl sm:text-6xl font-bold uppercase leading-tight mb-4 animate-fade">
+       {translations.securityautomation?.title || "Loading..."}
     </h1>
-    <p className="text-lg sm:text-xl font-medium text-white max-w-3xl mx-auto">
-      {translations.electricalProducts?.description ||
-        "Our Electrical Product provide high quality, sustainability, energy efficiency, and environmentally friendly solutions — aligning with EuroElektra's mission to power the future through innovation and smart energy systems."}
-    </p>
+
+    <div className="w-24 h-1 bg-white mb-4" />
+
+   <p className="flex items-center gap-2 text-base sm:text-lg text-gray-200 animate-fade-in">
+  <FaHome className="text-[#ffffff]" />
+  / <span className="font-semibold text-[#58a3ff]">{translations.securityautomation?.breadcrumb1}</span>
+</p>
   </div>
 </section>
-
 <section className="py-10 px-6 bg-white">
-  <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10">
-    
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[250px_1fr] gap-10">
     {/* 🟦 SIDEBAR */}
     <aside className="w-full md:w-[250px] max-h-[415px] overflow-y-auto pr-2">
       <h2 className="text-lg font-semibold text-[#1C1C1C] mb-4">
-        {translations.electrical?.title || "Electrical Products"}
+        {translations.securityautomation?.category_parkingsystem || "Electrical Products"}
       </h2>
 
       <ul className="space-y-4">
@@ -274,9 +219,9 @@ useEffect(() => {
                 <div className="flex items-center gap-2">
                   <span className="text-lg">&rsaquo;</span>
                   <ReloadLink href={item.link}>
-                         <span className="cursor-pointer hover:text-blue-600">
-                             {item.label}
-                          </span>
+                    <span className="cursor-pointer hover:text-blue-600">
+                      {item.label}
+                    </span>
                   </ReloadLink>
                 </div>
 
@@ -304,11 +249,11 @@ useEffect(() => {
                   <ul className="ml-6 mt-1 space-y-1">
                     {item.children.map((child, cIdx) => (
                       <li key={cIdx}>
-                        <Link href={child.link}>
+                        <ReloadLink href={child.link}>
                           <span className="cursor-pointer hover:text-blue-600">
                             {child.label}
                           </span>
-                        </Link>
+                        </ReloadLink>
                       </li>
                     ))}
                   </ul>
@@ -320,50 +265,48 @@ useEffect(() => {
       </ul>
     </aside>
 
-    {/* 🟥 MAIN GRID CONTENT */}
-    <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-6">
-      {[
-        {
-          title: "Residential",
-          label: translations.electrical_product?.Residential || "Residential",
-          href: "/sectors_submenu/electricalproduct/residential",
-          image: "/img/rr1.jpg",
-        },
-        {
-          title: "Industrial",
-          label: translations.electrical_product?.Industrial || "Industrial",
-          href: "/sectors_submenu/electricalproduct/industrial",
-          image: "/img/48366947_2077107672345759_7039099863660756992_o.jpg",
-        },
-        {
-          title: "IT Infrastructure",
-          label:
-            translations.electricalproduct_IT_infrastructure?.electrical_products ||
-            "IT Infrastructure",
-          href: "/sectors_submenu/electricalproduct/itinfrastructure",
-          image: "/img/Euroelektra_S7P-23.jpg",
-        },
-      ].map((sector, idx) => (
-        <ReloadLink
-          key={idx}
-          href={sector.href}
-          className="border border-gray-200 rounded-lg p-4 flex flex-col items-center justify-center text-center bg-white shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300"
-        >
-          <img
-            src={sector.image}
-            alt={sector.label}
-            className="w-24 h-24 object-cover mb-4 rounded"
-          />
-          <p className="text-sm font-medium text-[#4F4F4F]">{sector.label}</p>
-        </ReloadLink>
-      ))}
-    </div>
+    {/* Grid with Images */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+          {[
+            {
+                key: "Parking system Variant",
+                label: translations.parkingsystem?.parkingvariant || "Parking system Variant",
+                image: "/img/ParkingVariant.avif",
+             
+            },
+            {
+                key: "Parking system Economy",
+                label: translations.parkingsystem?.parkingeconomy || "Parking system Economy",
+                image: "/img/ParkingEconomy.avif",
+             
+            }
+
+          ].map((sector, idx) => {
+            const cardContent = (
+              <div
+                className="border border-gray-300 p-4 flex flex-col items-center justify-center text-center bg-white rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300"
+              >
+                <img
+                  src={sector.image}
+                  alt={sector.key}
+                  className="w-24 h-24 object-cover mb-4 rounded"
+                />
+                <p className="text-sm font-medium text-[#4F4F4F]">
+                  {sector.label}
+                </p>
+              </div>
+            );
+
+            return sector.href ? (
+              <Link key={idx} href={sector.href}>{cardContent}</Link>
+            ) : (
+              <div key={idx}>{cardContent}</div>
+            );
+          })}
+        </div>
+
   </div>
 </section>
-
-
-
-
 
 
 

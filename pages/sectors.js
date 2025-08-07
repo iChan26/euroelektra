@@ -27,6 +27,11 @@ const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0 },
 };
+{/*for the dropdown*/}
+const [openItems, setOpenItems] = useState({});
+  const toggleDropdown = (index) => {
+    setOpenItems((prev) => ({ ...prev, [index]: !prev[index] }));
+  };
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
   const timelineData = [
@@ -210,6 +215,7 @@ useEffect(() => {
     href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap"
     rel="stylesheet"
   />
+  <link rel="icon" type="image/png" href="/svg/profile.png" />
 </Head>
 
 
@@ -255,33 +261,68 @@ useEffect(() => {
   <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[250px_1fr] gap-10">
     
     {/* Sidebar */}
-    <aside>
-      <h2 className="text-lg font-semibold text-[#1C1C1C] mb-4">
-        {translations.sidebarSectors?.title || "Sectors"}
-      </h2>
+  <aside>
+  <h2 className="text-lg font-semibold text-[#1C1C1C] mb-4">
+    {translations.sidebarSectors?.title || "Sectors"}
+  </h2>
 
-      <ul className="space-y-3">
-        {[
-          "electrical_products",
-          "security_automation",
-          "lighting_showroom",
-          "energy_efficiency",
-          "renewable_energy",
-          "smart_building",
-        ].map((key, idx) => (
-          <li key={idx} className="flex justify-between items-center text-sm text-[#1C1C1C] hover:text-[#005E9E] transition-colors">
+  <ul className="space-y-4">
+    {(translations.sectorsSidebar?.items || []).map((item, idx) => {
+      const hasChildren = Array.isArray(item.children) && item.children.length > 0;
+      const isOpen = openItems[idx];
+
+      return (
+        <li key={idx} className="space-y-1 text-sm text-[#1C1C1C]">
+          {/* Main Item Row */}
+          <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
-              <span className="text-lg text-[#0077C8]">&rsaquo;</span>
-              <span>{translations.sectors?.[key] || key}</span>
+              <span className="text-lg">&rsaquo;</span>
+              <ReloadLink href={item.link}>
+                <span className="cursor-pointer hover:text-blue-600">
+                  {item.label}
+                </span>
+              </ReloadLink>
             </div>
-            <div className="flex items-center gap-1 text-white bg-[#888] rounded-full px-2 py-0.5 text-xs">
-              <span>0</span>
-              <button className="font-bold leading-none">+</button>
+
+            <div className="flex items-center gap-1 text-white text-xs bg-[#888] rounded-full px-2 py-0.5">
+              <span>{hasChildren ? item.children.length : 0}</span>
+              {hasChildren && (
+                <button
+                  onClick={() => toggleDropdown(idx)}
+                  className="font-bold leading-none focus:outline-none"
+                >
+                  {isOpen ? '-' : '+'}
+                </button>
+              )}
             </div>
-          </li>
-        ))}
-      </ul>
-    </aside>
+          </div>
+
+          {/* Submenu */}
+          <div
+            className="transition-all duration-300 overflow-hidden"
+            style={{
+              maxHeight: isOpen ? `${item.children.length * 40}px` : "0px",
+            }}
+          >
+            {hasChildren && (
+              <ul className="ml-6 mt-1 space-y-1">
+                {item.children.map((child, cIdx) => (
+                  <li key={cIdx}>
+                    <ReloadLink href={child.link}>
+                      <span className="cursor-pointer hover:text-blue-600">
+                        {child.label}
+                      </span>
+                    </ReloadLink>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        </li>
+      );
+    })}
+  </ul>
+</aside>
 
     {/* Right Grid Column */}
     <div className="space-y-6">

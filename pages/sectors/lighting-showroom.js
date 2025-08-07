@@ -27,6 +27,11 @@ const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
   visible: { opacity: 1, y: 0 },
 };
+{/*for the dropdown*/}
+const [openItems, setOpenItems] = useState({});
+  const toggleDropdown = (index) => {
+    setOpenItems((prev) => ({ ...prev, [index]: !prev[index] }));
+  };
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
   const timelineData = [
@@ -212,6 +217,7 @@ useEffect(() => {
     href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap"
     rel="stylesheet"
   />
+  <link rel="icon" type="image/png" href="/svg/profile.png" />
 </Head>
 
 
@@ -248,28 +254,68 @@ useEffect(() => {
 </section>
 
 <section className="py-10 px-6 bg-white">
-  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[250px_1fr] gap-10">
-    
-    {/* Sidebar */}
-    <aside>
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-[250px_1fr] gap-10"> 
+    {/* 🟦 SIDEBAR */}
+    <aside className="w-full md:w-[250px] max-h-[415px] overflow-y-auto pr-2">
       <h2 className="text-lg font-semibold text-[#1C1C1C] mb-4">
-        {translations.sectorsSidebar?.lighting_showroom || "Lighting Showroom"}
+        {translations.lightingHero?.title || "Electrical Products"}
       </h2>
 
-      <ul className="space-y-2 text-[#1C1C1C] text-sm">
-        {Array.isArray(translations?.sidebarSectors) &&
-          translations.sidebarSectors.map((sector, idx) => (
-            <li key={idx} className="flex justify-between items-center group">
-              <div className="flex items-center gap-2">
-                <span className="text-lg">&rsaquo;</span>
-                <span>{sector}</span>
+      <ul className="space-y-4">
+        {(translations.sectorsSidebar?.items || []).map((item, idx) => {
+          const hasChildren = Array.isArray(item.children) && item.children.length > 0;
+          const isOpen = openItems[idx];
+
+          return (
+            <li key={idx} className="space-y-1 text-sm text-[#1C1C1C]">
+              {/* Main Item Row */}
+              <div className="flex justify-between items-center">
+                <div className="flex items-center gap-2">
+                  <span className="text-lg">&rsaquo;</span>
+                  <ReloadLink href={item.link}>
+                     <span className="cursor-pointer hover:text-blue-600">
+                         {item.label}
+                     </span>
+                  </ReloadLink>
+                </div>
+
+                <div className="flex items-center gap-1 text-white text-xs bg-[#888] rounded-full px-2 py-0.5">
+                  <span>{hasChildren ? item.children.length : 0}</span>
+                  {hasChildren && (
+                    <button
+                      onClick={() => toggleDropdown(idx)}
+                      className="font-bold leading-none focus:outline-none"
+                    >
+                      {isOpen ? '-' : '+'}
+                    </button>
+                  )}
+                </div>
               </div>
-              <div className="flex items-center gap-1 bg-[#888] text-white text-xs rounded-full px-2 py-0.5">
-                <span>0</span>
-                <button className="font-bold leading-none">+</button>
+
+              {/* Submenu */}
+              <div
+                className="transition-all duration-300 overflow-hidden"
+                style={{
+                  maxHeight: isOpen ? `${item.children.length * 40}px` : "0px",
+                }}
+              >
+                {hasChildren && (
+                  <ul className="ml-6 mt-1 space-y-1">
+                    {item.children.map((child, cIdx) => (
+                      <li key={cIdx}>
+                        <Link href={child.link}>
+                          <span className="cursor-pointer hover:text-blue-600">
+                            {child.label}
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             </li>
-        ))}
+          );
+        })}
       </ul>
     </aside>
 

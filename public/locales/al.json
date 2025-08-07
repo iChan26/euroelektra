@@ -511,37 +511,69 @@
 "electrical": {
   "title": "Produkte Elektrike",
   "categories": [
-    "Produkte Elektrike",
-    "Automatizim Sigurie",
-    "Sallon Ndriçimi",
-    "Efiçencë Energjetike",
-    "Energji e Rinovueshme",
-    "Ndërtesa Inteligjente"
+    { "label": "Produkte Elektrike", "link": "/sectors/electrical-products" },
+    { "label": "Automatizimi i Sigurisë", "link": "/sectors/security-automation" },
+    { "label": "Salla e Ndriçimit", "link": "/sectors/lighting-showroom" },
+    { "label": "Efiçenca e Energjisë", "link": "/sectors/energy-efficiency" },
+    { "label": "Energjia e Rinovueshme", "link": "/sectors/renewable-energy" },
+    { "label": "Ndërtesa Inteligjente", "link": "/sectors/smart-building" }
   ]
 },
 "energyEfficiencyHero": {
   "title": "Efiçenca e Energjisë",
   "description": "Produktet tona për Efiçencën e Energjisë ofrojnë cilësi të lartë, qëndrueshmëri, kursim energjie dhe zgjidhje miqësore me mjedisin — në përputhje me misionin e EuroElektra për të fuqizuar të ardhmen përmes inovacionit dhe sistemeve inteligjente të energjisë."
 },
-  "sectorsSidebar": {
-    "title": "SEKTORËT",
-    "electrical_products": "Produkte Elektrike",
-    "energy_efficiency": "Efiçencë Energjetike",
-    "lighting_showroom": "Sallë Ekspozimi Ndriçimi",
-    "renewable_energy": "Energjia e Rinovueshme",
-    "security_automation": "Automatizim i Sigurisë",
-    "smart_building": "Ndërtesë Inteligjente",
-    "interior": "Brendshme",
-      "exterior": "Jashtme",
-    "items": [
-      "Produkte Elektrike",
-      "Automatizimi i Sigurisë",
-      "Salla e Ekspozimit të Ndriçimit",
-      "Efiçenca e Energjisë",
-      "Energjia e Rinovueshme",
-      "Ndërtesë Inteligjente"
-    ]
-  },
+"sectorsSidebar": {
+  "title": "SEKTORËT",
+  "items": [
+    {
+      "label": "Produkte Elektrike",
+      "link": "/sectors/electrical-products",
+      "children": [
+        { "label": "Rezidencial", "link": "/sectors_submenu/electricalproduct/residential" },
+        { "label": "Industrial", "link": "/sectors_submenu/electricalproduct/industrial" },
+        { "label": "Infrastrukturë IT", "link": "/sectors_submenu/electricalproduct/itinfrastructure" }
+      ]
+    },
+    {
+      "label": "Automatizim Sigurie",
+      "link": "/sectors/security-automation",
+      "children": [
+        {
+          "label": "Automatizim për Dyer",
+          "link": "/sectors_submenu/securityautomation/automationfordoors"
+        },
+        { "label": "Sistemet e Parkimit", "link": "/sectors_submenu/securityautomation/automationfordoors"  }
+      ]
+    },
+    {
+      "label": "Ekspozitë Ndriçimi",
+      "link": "/sectors/lighting-showroom",
+      "children": [
+        { "label": "Ndriçim i Jashtëm", "link": "/sectors_submenu/lightingshowroom/exterior" },
+        { "label": "Ndriçim i Brendshëm", "link": "/sectors_submenu/lightingshowroom/interior" }
+      ]
+    },
+    {
+      "label": "Efiçencë Energjie",
+      "link": "/sectors/energy-efficiency"
+    },
+    {
+      "label": "Energjia e Rinovueshme",
+      "link": "/sectors/renewable-energy",
+      "children": [
+        { "label": "Bateri", "link": "/sectors_submenu/renewableenergy/battery" },
+        { "label": "Aksesorë të Tjerë", "link": "/sectors_submenu/renewableenergy/otheraccessories" },
+        { "label": "Inverter Fotovoltaik", "link": "/sectors_submenu/renewableenergy/photovoltaic_inverter" },
+        { "label": "Panele Fotovoltaike", "link": "/sectors_submenu/renewableenergy/photovoltaic_panels" }
+      ]
+    },
+    {
+      "label": "Ndërtesë Inteligjente",
+      "link": "/sectors/smart-building"
+    }
+  ]
+},
  "sectorsContent": {
   "climateComfort": {
     "title": "Komoditeti i klimës",
@@ -1106,6 +1138,10 @@
   "Automateddoorsystems": "Sisteme të dyerve të automatizuara",
   "Trafficbarriers": "Pengesa trafiku",
   "Trafficbollard": "Shtylla trafiku"
+},
+"parkingsystem": {
+  "parkingvariant": "Variant i sistemit të parkimit",
+  "parkingeconomy": "Sistemi ekonomik i parkimit"
 },
 "residential_product": {
   "title": "Rezidencial",
