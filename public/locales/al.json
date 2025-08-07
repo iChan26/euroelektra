@@ -1129,7 +1129,9 @@
 "securityautomation": {
   "title": "Automatizim i Sigurisë",
   "breadcrumb": "Automatizim i Sigurisë / Automatizim për Dyer",
-  "category_automation": "Automatizim për Dyer"
+  "category_automation": "Automatizim për Dyer",
+  "breadcrumb1": "Automatizimi i Sigurisë / Sistemi i Parkimit",
+  "category_parkingsystem": "Sistemet e parkimit"
 },
 "automationfordoors": {
   "Swingdoors": "Dyer rrotulluese",

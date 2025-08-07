@@ -1135,7 +1135,9 @@
 "securityautomation": {
   "title": "Automazione di Sicurezza",
   "breadcrumb": "Automazione di Sicurezza / Automazione per Porte",
-  "category_automation": "Automazione per Porte"
+  "category_automation": "Automazione per Porte",
+   "breadcrumb1": "Automazione della Sicurezza / Sistema di Parcheggio",
+  "category_parkingsystem": "Sistemi di parcheggio"
 },
 "automationfordoors": {
   "Swingdoors": "Porte a battente",

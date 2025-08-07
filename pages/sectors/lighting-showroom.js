@@ -258,7 +258,7 @@ useEffect(() => {
     {/* 🟦 SIDEBAR */}
     <aside className="w-full md:w-[250px] max-h-[415px] overflow-y-auto pr-2">
       <h2 className="text-lg font-semibold text-[#1C1C1C] mb-4">
-        {translations.lightingHero?.title || "Electrical Products"}
+        {translations.lightingHero?.title || "Lighting Showroom"}
       </h2>
 
       <ul className="space-y-4">
