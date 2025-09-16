@@ -514,13 +514,21 @@ const [searchTerm, setSearchTerm] = useState("");
   );
 }
 
+import { getTranslations, getProjects, getPosts } from "../lib/wordpress";
+
 export async function getStaticProps() {
-  const posts = await getPosts();
+  const translations = await getTranslations();
+  const projects = await getProjects();
+  const blog = await getPosts();
+
   return {
     props: {
-      posts,
+      translations: translations || {},
+      projects: projects || [],
+      blog: blog || [],
     },
-    revalidate: 10, // ISR refresh every 10s
+    revalidate: 60, // ISR: re-fetch every 60 seconds
   };
 }
+
 
