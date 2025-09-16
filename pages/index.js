@@ -20,7 +20,8 @@ import ReloadLink from '../components/ReloadLink';
 import { getPosts } from "../lib/api";
 
 
-export default function Home({ language, translations, changeLanguage, posts }) {
+export default function Home({ translations, projects, blog }) {
+
 
   
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -249,8 +250,9 @@ const [searchTerm, setSearchTerm] = useState("");
     <h2 className="text-3xl font-bold mb-6 text-[#1C1C1C]">{translations.projectsTitle}</h2>
      <p className="text-sm mb-4 text-[#4F4F4F]">{translations.projectsDescription}</p>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      {Array.isArray(translations.projects1) &&
-  translations.projects1.map((item, index) => (
+     {Array.isArray(projects) &&
+  projects.map((item, index) => (
+
     <div
       key={index}
       className="relative group h-[400px] overflow-hidden cursor-pointer bg-[#F5F7FA]"
@@ -428,7 +430,7 @@ const [searchTerm, setSearchTerm] = useState("");
 
 
     
-{posts?.length > 0 && (
+{blog?.length > 0 && (
   <section className="bg-[#F5F7FA] py-16 px-6 md:px-16">
     <div className="max-w-7xl mx-auto">
       <h2 className="text-3xl font-bold text-[#1C1C1C] mb-12">
@@ -436,7 +438,7 @@ const [searchTerm, setSearchTerm] = useState("");
       </h2>
 
       <div className="grid gap-12 md:grid-cols-3">
-        {posts.map((post) => (
+      {blog.map((post) => (
           <ReloadLink
             key={post.id}
             href={`/posts/${post.slug}`}
