@@ -17,8 +17,11 @@ import {
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules'
 import ReloadLink from '../components/ReloadLink';
+import { getPosts } from "../lib/api";
 
-export default function Home({ language, translations, changeLanguage }) {
+
+export default function Home({ language, translations, changeLanguage, posts }) {
+
   
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showHeader, setShowHeader] = useState(true);
@@ -425,49 +428,47 @@ const [searchTerm, setSearchTerm] = useState("");
 
 
     
-{translations.blog?.length > 0 && (
+{posts?.length > 0 && (
   <section className="bg-[#F5F7FA] py-16 px-6 md:px-16">
     <div className="max-w-7xl mx-auto">
       <h2 className="text-3xl font-bold text-[#1C1C1C] mb-12">
-        <span className="border-l-4 border-[#003B5C] pl-3">
-          {translations.blogTitle}
-        </span>
+        <span className="border-l-4 border-[#003B5C] pl-3">Latest Posts</span>
       </h2>
 
       <div className="grid gap-12 md:grid-cols-3">
-        {translations.blog.map((post, index) => {
-          const links = ["/blog/blog5", "/blog/blog4", "/blog/blog3"];
-          const link = links[index] || "#";
-
-          return (
-            <ReloadLink
-              key={index}
-              href={link}
-              className="block bg-white shadow-md hover:shadow-lg transition-shadow duration-300 rounded-md overflow-hidden"
-            >
+        {posts.map((post) => (
+          <ReloadLink
+            key={post.id}
+            href={`/posts/${post.slug}`}
+            className="block bg-white shadow-md hover:shadow-lg transition-shadow duration-300 rounded-md overflow-hidden"
+          >
+            {post.featured_media ? (
               <img
-                src={post.image}
-                alt={post.title}
+                src={post._embedded?.["wp:featuredmedia"]?.[0]?.source_url || ""}
+                alt={post.title.rendered}
                 className="w-full h-64 object-cover"
               />
-              <div className="p-6">
-                <h3 className="text-lg font-semibold text-[#1C1C1C] mb-2 leading-snug cursor-pointer hover:text-sky-500 transition-colors duration-200">
-                  {post.title}
-                </h3>
-                <p className="text-sm text-[#4F4F4F]">
-                  In :{" "}
-                  <span className="text-[#003B5C] font-medium">
-                    {post.category}
-                  </span>
-                </p>
+            ) : (
+              <div className="w-full h-64 bg-gray-200 flex items-center justify-center text-gray-500">
+                No Image
               </div>
-            </ReloadLink>
-          );
-        })}
+            )}
+            <div className="p-6">
+              <h3
+                className="text-lg font-semibold text-[#1C1C1C] mb-2 leading-snug cursor-pointer hover:text-sky-500 transition-colors duration-200"
+                dangerouslySetInnerHTML={{ __html: post.title.rendered }}
+              />
+              <p className="text-sm text-[#4F4F4F]">
+                {new Date(post.date).toLocaleDateString()}
+              </p>
+            </div>
+          </ReloadLink>
+        ))}
       </div>
     </div>
   </section>
 )}
+
 
   <section className="bg-[#fff] py-10 overflow-hidden">
   <div className="max-w-7xl mx-auto px-4">
@@ -511,5 +512,15 @@ const [searchTerm, setSearchTerm] = useState("");
 
     </>
   );
+}
+
+export async function getStaticProps() {
+  const posts = await getPosts();
+  return {
+    props: {
+      posts,
+    },
+    revalidate: 10, // ISR refresh every 10s
+  };
 }
 
