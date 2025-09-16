@@ -516,7 +516,8 @@ const [searchTerm, setSearchTerm] = useState("");
   );
 }
 
-import { getTranslations, getProjects, getPosts } from "../lib/wordpress";
+import { getPosts } from "../lib/wordpress";
+
 
 export async function getStaticProps() {
   const translations = await getTranslations();
