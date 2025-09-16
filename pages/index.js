@@ -17,7 +17,7 @@ import {
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules'
 import ReloadLink from '../components/ReloadLink';
-import { getPosts } from "../lib/api";
+
 
 
 export default function Home({ translations, projects, blog }) {
