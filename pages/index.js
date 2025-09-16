@@ -520,18 +520,15 @@ import { getPosts } from "../lib/wordpress";
 
 
 export async function getStaticProps() {
-  const translations = await getTranslations();
-  const projects = await getProjects();
   const blog = await getPosts();
 
   return {
     props: {
-      translations: translations || {},
-      projects: projects || [],
       blog: blog || [],
     },
-    revalidate: 60, // ISR: re-fetch every 60 seconds
+    revalidate: 60,
   };
 }
+
 
 
