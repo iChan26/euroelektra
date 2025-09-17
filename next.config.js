@@ -6,9 +6,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  output: 'export',          // 🔹 ensures Next.js creates static files
-  basePath: '/euroelektra',  // 🔹 makes app work under this subpath
-  assetPrefix: '/euroelektra/', // 🔹 ensures assets load correctly
+  basePath: '/euroelektra',   // app runs under this subpath
+  assetPrefix: '/euroelektra/', // makes sure static files load correctly
+  output: 'standalone', // required for running in Node.js hosting
 };
 
 module.exports = nextConfig;
